@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bitirme_mobile_app.Droid", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bitirme_mobile_app.iOS", "bitirme mobile app\bitirme_mobile_app.iOS\bitirme_mobile_app.iOS.csproj", "{2DA82A18-ADCC-4BB9-B0DA-06B44EC855D8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9CC74F6A-5A12-4750-8E67-1F4B2F185275}"
+	ProjectSection(SolutionItems) = preProject
+		UseCase.txt = UseCase.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

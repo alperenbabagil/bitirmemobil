@@ -1,0 +1,27 @@
+Main flow
+
+1-User opens app
+2.User rates movies
+3-User filters movies
+4-User send info
+5-User gets recomended movies
+
+Extensions
+
+1a- User not registered to system
+	1- User asked to sign-in
+		1a- Sign via g+
+		1b- Sign via facebook
+		1c- Sign via email
+1b- User registered to system
+	1- User asked for rating movies
+	2- Last recomendations showed
+
+2a- User selects movies from imdb top250
+2b- User searches movies and rates them
+
+4a- User not voted enough number of movies
+	1- User informed to rate enough movies
+
+
+		

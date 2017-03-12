@@ -4,8 +4,20 @@
              xmlns:local="clr-namespace:bitirme_mobile_app"
              x:Class="bitirme_mobile_app.MainPage">
 
-  <Label Text="Welcome to Xamarin Forms!"
-           VerticalOptions="Center"
+    <StackLayout>
+        <Label Text="text 1"
+
            HorizontalOptions="Center" />
+
+        <Label Text="text 2"
+
+           HorizontalOptions="Start" />
+
+        <Label x:Name="textimiz"
+
+           VerticalOptions="Center" />
+    </StackLayout>
+
+  
 
 </ContentPage>
