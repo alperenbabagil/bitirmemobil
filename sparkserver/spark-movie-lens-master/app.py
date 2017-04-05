@@ -2,6 +2,9 @@ from flask import Blueprint
 main = Blueprint('main', __name__)
  
 import json
+import requests
+import re
+
 from engine import RecommendationEngine
  
 import logging
@@ -21,8 +24,34 @@ def movie_ratings(user_id, movie_id):
     logger.debug("User %s rating requested for movie %s", user_id, movie_id)
     ratings = recommendation_engine.get_ratings_for_movie_ids(user_id, [movie_id])
     return json.dumps(ratings)
- 
- 
+
+
+@main.route("/getTop250Ids", methods=["POST"])
+def getTop250Ids():
+    top=get_top250()
+    print(top)
+    return json.dumps(top)
+
+
+@main.route("/getRecommendations", methods=["POST"])
+def getRecommendations():
+    iki=None
+    try:
+        #bir = request.form.keys()[0]
+        iki = str(request.data)
+        uc = request.data
+    except Exception as e:
+        print(e)
+    data = {}
+    data['Name'] = 'godfather'
+    data['Genres'] = ['Drama','Action']
+    data['ImdbImageUrl'] = None
+    data['Rating'] = 3.4
+
+    datas=[data,data]
+    json_data = json.dumps(datas)
+    return json_data
+
 @main.route("/<int:user_id>/ratings", methods = ["POST"])
 def add_ratings(user_id):
     # get the ratings from the Flask POST request object
@@ -38,7 +67,8 @@ def add_ratings(user_id):
     # create a list with the format required by the negine (user_id, movie_id, rating)
     ratings = map(lambda x: (user_id, int(x[0]), float(x[1])), ratings_list)
     # add them to the model using then engine API
-    recommendation_engine.add_ratings(ratings)
+
+    #recommendation_engine.add_ratings(ratings)
  
     return json.dumps(ratings)
 
@@ -49,9 +79,23 @@ def add_ratings(user_id):
 def create_app(spark_context,dd):
     global recommendation_engine
 
-    dataset_path = "D:\\bitirme\\bilal\\son\\MLlibSpark"
-    recommendation_engine = RecommendationEngine(spark_context, dataset_path)    
+    dataset_path = "F:\\bitirme\\bilal\\son\\MLlibSpark"
+    #recommendation_engine = RecommendationEngine(spark_context, dataset_path)
     
     app = Flask(__name__)
     app.register_blueprint(main)
     return app 
+
+def get_top250():
+    top250_url = "http://akas.imdb.com/chart/top"
+    r = requests.get(top250_url)
+    html = r.text.split("\n")
+    result = []
+    for line in html:
+        line = line.rstrip("\n")
+        m = re.search(r'data-titleid="tt(\d+?)">', line)
+        if m:
+            _id = m.group(1)
+            result.append(_id)
+    #
+    return result

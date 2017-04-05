@@ -1,9 +1,9 @@
 import os,sys
 
-os.environ["SPARK_HOME"] = "D:\\bitirme\\spark-2.0.1-bin-hadoop2.7"
+os.environ["SPARK_HOME"] = "F:\\bitirme\\spark-2.0.1-bin-hadoop2.7"
 
-sys.path.append("D:\\bitirme\\spark-2.0.1-bin-hadoop2.7\\python")
-sys.path.append("D:\\bitirme\\spark-2.0.1-bin-hadoop2.7\\python\\lib\\py4j-0.10.3-src.zip")
+sys.path.append("F:\\bitirme\\spark-2.0.1-bin-hadoop2.7\\python")
+sys.path.append("F:\\bitirme\\spark-2.0.1-bin-hadoop2.7\\python\\lib\\py4j-0.10.3-src.zip")
 
 
 try:
@@ -104,21 +104,21 @@ class RecommendationEngine:
     def __init__(self, sc,ss):
         """Init the recommendation engine given a Spark context and a dataset path
         """
-        dataset_path = "D:\\bitirme\\bilal\\son\\MLlibSpark"
+        dataset_path = "F:\\bitirme\\bilal\\son\\MLlibSpark"
         logger.info("Starting up the Recommendation Engine: ")
 
         self.sc = sc
 
         # Load ratings data for later use
         logger.info("Loading Ratings data...")
-        ratings_file_path = os.path.join(dataset_path, 'ratings.dat')
+        ratings_file_path = os.path.join(dataset_path, 'ratings.csv')
         ratings_raw_RDD = self.sc.textFile(ratings_file_path)
         ratings_raw_data_header = ratings_raw_RDD.take(1)[0]
         self.ratings_RDD = ratings_raw_RDD.filter(lambda line: line!=ratings_raw_data_header)\
             .map(lambda line: line.split("::")).map(lambda tokens: (int(tokens[0]),int(tokens[1]),float(tokens[2]))).cache()
         # Load movies data for later use
         logger.info("Loading Movies data...")
-        movies_file_path = os.path.join(dataset_path, 'movies.dat')
+        movies_file_path = os.path.join(dataset_path, 'movies.csv')
         movies_raw_RDD = self.sc.textFile(movies_file_path)
         movies_raw_data_header = movies_raw_RDD.take(1)[0]
         self.movies_RDD = movies_raw_RDD.filter(lambda line: line!=movies_raw_data_header)\
@@ -130,6 +130,6 @@ class RecommendationEngine:
         # Train the model
         self.rank = 8
         self.seed = int(5)
-        self.iterations = 10
+        self.iterations = 5
         self.regularization_parameter = 0.1
         self.__train_model() 

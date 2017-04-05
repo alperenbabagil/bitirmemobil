@@ -1,4 +1,5 @@
-﻿using System;
+﻿using bitirme_mobile_app.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,11 +10,13 @@ namespace bitirme_mobile_app
 {
     public partial class App : Application
     {
+        public static User CurrentUser { get; set; }
+
         public App()
         {
             InitializeComponent();
 
-            MainPage = new bitirme_mobile_app.MainPage();
+            MainPage = new NavigationPage(new bitirme_mobile_app.MainPage()); 
         }
 
         protected override void OnStart()

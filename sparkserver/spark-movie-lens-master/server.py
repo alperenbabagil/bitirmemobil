@@ -2,11 +2,13 @@ import time, sys, cherrypy, os
 from paste.translogger import TransLogger
 from app import create_app
 
+os.environ["SPARK_HOME"] = "F:\\bitirme\\spark-2.0.1-bin-hadoop2.7"
+# os.environ['JAVA_HOME']="C:\\Program Files (x86)\\Java\\jre1.8.0_121"
+os.environ['JAVA_HOME']="C:\\Program Files (x86)\\Java\\jdk1.7.0_55"
 
-os.environ["SPARK_HOME"] = "D:\\bitirme\\spark-2.0.1-bin-hadoop2.7"
+sys.path.append("F:\\bitirme\\spark-2.0.1-bin-hadoop2.7\\python")
+sys.path.append("F:\\bitirme\\spark-2.0.1-bin-hadoop2.7\\python\\lib\\py4j-0.10.3-src.zip")
 
-sys.path.append("D:\\bitirme\\spark-2.0.1-bin-hadoop2.7\\python")
-sys.path.append("D:\\bitirme\\spark-2.0.1-bin-hadoop2.7\\python\\lib\\py4j-0.10.3-src.zip")
 
 try:
     from pyspark import SparkContext
@@ -19,10 +21,18 @@ except ImportError as exx:
 
 
 def init_spark_context():
+    # sc = SparkContext('local')
+    # words = sc.parallelize(["scala", "java", "hadoop", "spark", "akka"])
+    # print(words.count())
+
     # load spark context
-    conf = SparkConf().setAppName("movie_recommendation-server")
+    try:
+        conf = SparkConf().setAppName("movie_recommendation-server").setExecutorEnv('spark.executor.memory','4g')
+        sc = SparkContext(conf=conf, pyFiles=['engine.py', 'app.py'])
+    except Exception as e:
+        print(e)
     # IMPORTANT: pass aditional Python modules to each worker
-    sc = SparkContext(conf=conf, pyFiles=['engine.py', 'app.py'])
+
  
     return sc
  
@@ -49,12 +59,15 @@ def run_server(app):
  
  
 if __name__ == "__main__":
+
     # Init spark context and load libraries
-    sc = init_spark_context()
+    #sc = init_spark_context()
+
     # dataset_path = os.path.join('datasets', 'ml-latest')
-    dataset_path = "D:\\bitirme\\bilal\\son\\MLlibSpark"
-    app = create_app(sc,None)
- 
+    dataset_path = "F:\\bitirme\\bilal\\son\\MLlibSpark"
+    #app = create_app(sc,None)
+    app = create_app(None,None)
+
     # start web server
     run_server(app)
 

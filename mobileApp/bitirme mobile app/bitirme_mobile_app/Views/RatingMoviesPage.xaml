@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:bitirme_mobile_app.Helpers;;assembly=bitirme_mobile_app"
+             x:Class="bitirme_mobile_app.Views.RatingMoviesPage">
+
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <local:StarRateSourceConverter x:Key="rateConverter"/>
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  
+  <StackLayout>
+    <SearchBar IsVisible="True">
+      
+    </SearchBar>
+    <ListView x:Name="RatingMovieListView" IsPullToRefreshEnabled="True" HasUnevenRows="True" CachingStrategy="RecycleElement">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <StackLayout Padding="10">
+              <AbsoluteLayout HorizontalOptions="Center" AbsoluteLayout.LayoutFlags="All" WidthRequest="300"  HeightRequest="400">
+                <ActivityIndicator  AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="ActivityIndicator" IsRunning="{Binding IsLoading}" IsVisible="{Binding Movie.IsLoading}" BindingContext="{x:Reference Name=img}"></ActivityIndicator>
+                <Image AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="img" Source="{Binding Movie.ImdbImageUrl}" WidthRequest="300"  HeightRequest="400" HorizontalOptions="CenterAndExpand"></Image>
+              </AbsoluteLayout>
+              <Label Font="30" Text="{Binding Movie.Name}"/>
+              <Label Font="16" Text="genres"/>
+              <Grid>
+                <Grid.RowDefinitions>
+                  <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                  <ColumnDefinition Width="*" />
+                  <ColumnDefinition Width="*" />
+                  <ColumnDefinition Width="*" />
+                  <ColumnDefinition Width="*" />
+                  <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+                <Image Source="{Binding Rating,Converter={StaticResource rateConverter},
+                      ConverterParameter=1}" Grid.Row="0" Grid.Column="0" WidthRequest="50" HeightRequest="50">
+                  <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Command="{Binding starTapCommand}"
+                        CommandParameter="1" />
+                  </Image.GestureRecognizers>
+                </Image>
+
+                <Image Source="{Binding Rating,Converter={StaticResource rateConverter},
+                      ConverterParameter=2}" Grid.Row="0" Grid.Column="1" WidthRequest="50" HeightRequest="50">
+                  <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Command="{Binding starTapCommand}"
+                        CommandParameter="2" />
+                  </Image.GestureRecognizers>
+                </Image>
+
+                <Image Source="{Binding Rating,Converter={StaticResource rateConverter},
+                      ConverterParameter=3}" Grid.Row="0" Grid.Column="2" WidthRequest="50" HeightRequest="50">
+                  <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Command="{Binding starTapCommand}"
+                        CommandParameter="3" />
+                  </Image.GestureRecognizers>
+                </Image>
+
+                <Image Source="{Binding Rating,Converter={StaticResource rateConverter},
+                      ConverterParameter=4}" Grid.Row="0" Grid.Column="3" WidthRequest="50" HeightRequest="50">
+                  <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Command="{Binding starTapCommand}"
+                        CommandParameter="4" />
+                  </Image.GestureRecognizers>
+                </Image>
+
+                <Image Source="{Binding Rating,Converter={StaticResource rateConverter},
+                      ConverterParameter=5}" Grid.Row="0" Grid.Column="4" WidthRequest="50" HeightRequest="50">
+                  <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Command="{Binding starTapCommand}"
+                        CommandParameter="5" />
+                  </Image.GestureRecognizers>
+                </Image>
+                
+                <!--<Image Source="{Binding starImgSource2}" Grid.Row="0" Grid.Column="1">
+                  <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Command="{Binding starTapCommand}"
+                        CommandParameter="2" />
+                  </Image.GestureRecognizers>
+                </Image>
+                <Image Source="{Binding starImgSource3}" Grid.Row="0" Grid.Column="2">
+                  <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Command="{Binding starTapCommand}"
+                        CommandParameter="3" />
+                  </Image.GestureRecognizers>
+                </Image>
+                <Image Source="{Binding starImgSource4}" Grid.Row="0" Grid.Column="3">
+                  <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Command="{Binding starTapCommand}"
+                        CommandParameter="4" />
+                  </Image.GestureRecognizers>
+                </Image>
+                <Image Source="{Binding starImgSource5}" Grid.Row="0" Grid.Column="4">
+                  <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Command="{Binding starTapCommand}"
+                        CommandParameter="5" />
+                  </Image.GestureRecognizers>
+                </Image>-->
+                
+              </Grid>
+            </StackLayout>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </StackLayout>
+</ContentPage>

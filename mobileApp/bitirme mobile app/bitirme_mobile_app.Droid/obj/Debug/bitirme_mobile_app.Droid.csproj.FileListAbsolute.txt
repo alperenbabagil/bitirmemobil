@@ -1,0 +1,490 @@
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.pdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.apk
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid-Signed.apk
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\FormsViewGroup.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PCLCrypto.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.BCrypt.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.Kernel32.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.NCrypt.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.Windows.Core.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Validation.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Compat.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Fragment.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Auth.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Core.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Platform.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.pdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\FormsViewGroup.pdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PCLCrypto.xml
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.BCrypt.xml
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.Kernel32.xml
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.NCrypt.xml
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.Windows.Core.xml
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Validation.xml
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Core.pdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Core.xml
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.csprojResolveAssemblyReference.cache
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Compat.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.RecyclerView.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Vector.Drawable.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.AppCompat.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Design.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.MediaRouter.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.CardView.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.UI.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.Utils.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Media.Compat.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Fragment.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v4.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.pdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\bin\bitirme_mobile_app.Droid.apk
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable\icon.png
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-hdpi\icon.png
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\layout\tabbar.xml
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\layout\toolbar.xml
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\values\styles.xml
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\R.cs.flag
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\uploadflags.txt
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.CustomTabs.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.CustomTabs.dll
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\FormsViewGroup.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Java.Interop.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Mono.Android.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\mscorlib.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Core.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Json.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Net.Http.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Numerics.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Runtime.Serialization.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Xml.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Xml.Linq.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\bitirme_mobile_app.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\bitirme_mobile_app.Droid.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Java.Interop.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Mono.Android.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\mscorlib.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Core.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Json.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Net.Http.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Numerics.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+D:\bitirme\mobile app\bitirme mobile app\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.pdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.apk
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid-Signed.apk
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\FormsViewGroup.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PCLCrypto.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.BCrypt.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.Kernel32.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.NCrypt.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.Windows.Core.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Validation.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Compat.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.CustomTabs.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Fragment.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Auth.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Core.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Platform.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.pdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\FormsViewGroup.pdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\FormsViewGroup.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PCLCrypto.xml
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.BCrypt.xml
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.Kernel32.xml
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.NCrypt.xml
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.Windows.Core.xml
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Validation.xml
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Core.pdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Core.xml
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.csprojResolveAssemblyReference.cache
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Compat.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.RecyclerView.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Vector.Drawable.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.AppCompat.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Design.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.MediaRouter.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.CardView.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.UI.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.Utils.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Media.Compat.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Fragment.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v4.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.CustomTabs.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.dll
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.pdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\bin\bitirme_mobile_app.Droid.apk
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable\icon.png
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-hdpi\icon.png
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\layout\tabbar.xml
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\layout\toolbar.xml
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\values\styles.xml
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\R.cs.flag
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\uploadflags.txt
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Java.Interop.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Mono.Android.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\mscorlib.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Core.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Json.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Net.Http.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Numerics.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Runtime.Serialization.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Xml.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Xml.Linq.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\bitirme_mobile_app.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\bitirme_mobile_app.Droid.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Java.Interop.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Mono.Android.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\mscorlib.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Core.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Json.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Net.Http.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Numerics.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+F:\bitirme\mobile app\bitirme mobile app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.dll.config
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.pdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.apk
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid-Signed.apk
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\FormsViewGroup.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PCLCrypto.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.BCrypt.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.Kernel32.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.NCrypt.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.Windows.Core.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Validation.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Compat.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.CustomTabs.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Fragment.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Auth.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Core.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Platform.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Newtonsoft.Json.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.pdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\FormsViewGroup.pdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\FormsViewGroup.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PCLCrypto.xml
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.BCrypt.xml
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.Kernel32.xml
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.NCrypt.xml
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.Windows.Core.xml
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Validation.xml
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Core.pdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Core.xml
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Newtonsoft.Json.xml
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.csprojResolveAssemblyReference.cache
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Compat.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.RecyclerView.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Vector.Drawable.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.AppCompat.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Design.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.MediaRouter.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.CardView.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.UI.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.Utils.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Media.Compat.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Fragment.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v4.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.CustomTabs.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.dll
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.pdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\bin\bitirme_mobile_app.Droid.apk
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable\icon.png
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-hdpi\icon.png
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\layout\tabbar.xml
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\layout\toolbar.xml
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\values\styles.xml
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\R.cs.flag
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\uploadflags.txt
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Java.Interop.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Mono.Android.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\mscorlib.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Core.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Json.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Net.Http.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Numerics.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Runtime.Serialization.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Xml.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Xml.Linq.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\bitirme_mobile_app.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\bitirme_mobile_app.Droid.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Java.Interop.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Mono.Android.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\mscorlib.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Core.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Json.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Net.Http.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Numerics.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Microsoft.CSharp.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Mono.CSharp.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Mono.CSharp.dll.mdb
+F:\bitirme\mobile_app\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.dll.mdb
+C:\Users\alperen\Desktop\bitirmeyeni\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.csprojResolveAssemblyReference.cache
+C:\Users\alperen\Desktop\bitirmeyeni\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Compat.dll
+C:\Users\alperen\Desktop\bitirmeyeni\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\alperen\Desktop\bitirmeyeni\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\alperen\Desktop\bitirmeyeni\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\alperen\Desktop\bitirmeyeni\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\alperen\Desktop\bitirmeyeni\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Design.dll
+C:\Users\alperen\Desktop\bitirmeyeni\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\alperen\Desktop\bitirmeyeni\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\alperen\Desktop\bitirmeyeni\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.UI.dll
+C:\Users\alperen\Desktop\bitirmeyeni\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\alperen\Desktop\bitirmeyeni\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Media.Compat.dll
+C:\Users\alperen\Desktop\bitirmeyeni\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Fragment.dll
+C:\Users\alperen\Desktop\bitirmeyeni\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v4.dll
+C:\Users\alperen\Desktop\bitirmeyeni\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.CustomTabs.dll
+C:\Users\alperen\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Compat.dll
+C:\Users\alperen\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\alperen\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\alperen\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\alperen\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\alperen\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Design.dll
+C:\Users\alperen\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\alperen\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\alperen\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.UI.dll
+C:\Users\alperen\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\alperen\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Media.Compat.dll
+C:\Users\alperen\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Fragment.dll
+C:\Users\alperen\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v4.dll
+C:\Users\alperen\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.CustomTabs.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.dll.config
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.pdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.apk
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid-Signed.apk
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\FormsViewGroup.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PCLCrypto.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.BCrypt.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.Kernel32.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.NCrypt.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.Windows.Core.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Validation.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Compat.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.CustomTabs.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Fragment.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Auth.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Core.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Newtonsoft.Json.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.pdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\FormsViewGroup.pdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\FormsViewGroup.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PCLCrypto.xml
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.BCrypt.xml
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.Kernel32.xml
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.NCrypt.xml
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\PInvoke.Windows.Core.xml
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Validation.xml
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Core.xml
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Newtonsoft.Json.xml
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.csprojResolveAssemblyReference.cache
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Compat.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Design.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.CardView.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.UI.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.Utils.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Media.Compat.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.Fragment.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.v4.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\XbdMerge\Xamarin.Android.Support.CustomTabs.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.dll
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.pdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\bin\bitirme_mobile_app.Droid.apk
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable\icon.png
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-hdpi\icon.png
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\layout\tabbar.xml
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\layout\toolbar.xml
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\values\styles.xml
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-hdpi\ic_star_border_black_24dp.png
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xhdpi\ic_star_border_black_24dp.png
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xxhdpi\ic_star_border_black_24dp.png
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-hdpi\ic_star_black_24dp.png
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xhdpi\ic_star_black_24dp.png
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xxhdpi\ic_star_black_24dp.png
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\R.cs.flag
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\uploadflags.txt
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Java.Interop.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Microsoft.CSharp.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Mono.Android.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\Mono.CSharp.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\mscorlib.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Core.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Json.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Net.Http.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Numerics.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Xml.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\bitirme_mobile_app.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\bitirme_mobile_app.Droid.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Mono.CSharp.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Json.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Numerics.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.dll.mdb
+C:\Source\bitirme_mobile_app\mobileApp\bitirme mobile app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.dll.mdb
