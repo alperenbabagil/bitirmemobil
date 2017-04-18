@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bitirme_mobile_app.Pages.SignUpPage">
+  <AbsoluteLayout>
+    <StackLayout>
+
+      <StackLayout>
+        <StackLayout Orientation="Horizontal">
+          <Label Text="Username:" WidthRequest="80" VerticalOptions="CenterAndExpand"/>
+          <Entry x:Name="UserName" FontSize="18" FontAttributes="Bold" WidthRequest="150" VerticalOptions="CenterAndExpand"></Entry>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+          <Label Text="Password:"  WidthRequest="80" VerticalOptions="CenterAndExpand"/>
+          <Entry x:Name="Password" IsPassword="True" WidthRequest="150" VerticalOptions="CenterAndExpand"></Entry>
+        </StackLayout>
+        <Button x:Name="signInButton" Text="signIn"></Button>
+      </StackLayout>
+
+    </StackLayout>
+
+  </AbsoluteLayout>
+
+</ContentPage>

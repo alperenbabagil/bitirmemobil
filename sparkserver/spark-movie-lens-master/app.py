@@ -32,6 +32,13 @@ def getTop250Ids():
     print(top)
     return json.dumps(top)
 
+@main.route("/login", methods=["POST"])
+def login():
+    content = request.get_json(silent=True)
+    print(content)
+    return "true"
+
+
 
 @main.route("/getRecommendations", methods=["POST"])
 def getRecommendations():

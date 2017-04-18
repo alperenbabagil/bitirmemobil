@@ -1,0 +1,58 @@
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\bitirme_mobile_app.dll.config
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\bitirme_mobile_app.dll
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\bitirme_mobile_app.pdb
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Com.OneSignal.Abstractions.dll
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Com.OneSignal.dll
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Newtonsoft.Json.dll
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\System.Net.Http.dll
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\System.Net.Http.Extensions.dll
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\System.Net.Http.Primitives.dll
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Newtonsoft.Json.xml
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\System.Net.Http.xml
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\System.Net.Http.Extensions.xml
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\System.Net.Http.Primitives.xml
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Xamarin.Forms.Core.pdb
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Xamarin.Forms.Platform.pdb
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Xamarin.Forms.Xaml.pdb
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\Debug\bitirme_mobile_app.csproj.App.config
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\Debug\bitirme_mobile_app.dll
+c:\users\alperen\documents\visual studio 2015\Projects\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\Debug\bitirme_mobile_app.pdb
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\Debug\bitirme_mobile_app.csproj.App.config
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\Debug\bitirme_mobile_app.csprojResolveAssemblyReference.cache
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\Debug\bitirme_mobile_app.dll
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\Debug\bitirme_mobile_app.pdb
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\bitirme_mobile_app.dll.config
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\bitirme_mobile_app.dll
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\bitirme_mobile_app.pdb
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Com.OneSignal.Abstractions.dll
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Com.OneSignal.dll
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Newtonsoft.Json.dll
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\System.Net.Http.dll
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\System.Net.Http.Extensions.dll
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\System.Net.Http.Primitives.dll
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Xamarin.Forms.Core.dll
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Newtonsoft.Json.xml
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\System.Net.Http.xml
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\System.Net.Http.Extensions.xml
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\System.Net.Http.Primitives.xml
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Xamarin.Forms.Core.xml
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\Debug\bitirme_mobile_app.Pages.MainPage.xaml.g.cs
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\Debug\bitirme_mobile_app.Pages.RatingMoviesPage.xaml.g.cs
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\Debug\bitirme_mobile_app.Pages.MDPage.xaml.g.cs
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\Debug\bitirme_mobile_app.Pages.MasterPage.xaml.g.cs
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\Debug\bitirme_mobile_app.Pages.DummyPage.xaml.g.cs
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\Debug\bitirme_mobile_app.Pages.LoginPage.xaml.g.cs
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\Debug\bitirme_mobile_app.Pages.SignUpPage.xaml.g.cs
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\Debug\bitirme_mobile_app.dll.mdb
+C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\bitirme_mobile_app.dll.mdb

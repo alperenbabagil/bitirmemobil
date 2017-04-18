@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bitirme_mobile_app.Pages.MainPage"
+             xmlns:local="clr-namespace:bitirme_mobile_app.Helpers;;assembly=bitirme_mobile_app"
+             >
+
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <local:NegateBooleanConverter x:Key="inverter"/>
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  
+  <StackLayout>
+    <Button Text="openRatePage" x:Name="openRatePage"></Button>
+    <Button Text="getRecommendations" x:Name="getRecommendationsBtn" />
+    <Button Text="getTop250" x:Name="getTop250"/>
+    <ListView x:Name="moviesListView" HasUnevenRows="True">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <StackLayout BackgroundColor="Green">
+              <AbsoluteLayout HorizontalOptions="Center" AbsoluteLayout.LayoutFlags="All" WidthRequest="300"  HeightRequest="400">
+                <ActivityIndicator  AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="ActivityIndicator" IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" BindingContext="{x:Reference Name=img}"></ActivityIndicator>
+                <Image AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="img" Source="{Binding ImdbImageUrl}" WidthRequest="300"  HeightRequest="400" HorizontalOptions="CenterAndExpand"></Image>
+              </AbsoluteLayout>
+
+              <!--<AbsoluteLayout HorizontalOptions="Center">
+                -->
+              <!--<ActivityIndicator  IsVisible="Image.IsLoading"  IsActive="True" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>-->
+              <!--
+                <Image Source="{Binding ImdbImageUrl}" AbsoluteLayout.LayoutBounds="0,0,1,1"></Image>
+              </AbsoluteLayout>-->
+              <Label Text="{Binding Name}"/>
+            </StackLayout>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </StackLayout>
+
+
+
+</ContentPage>
