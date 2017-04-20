@@ -24,6 +24,14 @@ namespace bitirme_mobile_app.Helpers
             else return false;
         }
 
+        public async Task<bool> signup(User user)
+        {
+            string jsonData = Newtonsoft.Json.JsonConvert.SerializeObject(user);
+            var resp = await postBaseFunc(jsonData, "sign_up");
+            if (resp == "true") return true;
+            else return false;
+        }
+
         public async Task<List<Movie>> getTopMovies()
         {
             try
@@ -185,16 +193,25 @@ namespace bitirme_mobile_app.Helpers
         {
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri(baseUrl + "/" + path);
-                if (App.CurrentUser != null) client.DefaultRequestHeaders.Add("userData", Newtonsoft.Json.JsonConvert.SerializeObject(App.CurrentUser));
-                StringContent content = null;
-                if (jsonData != null) content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-                HttpResponseMessage response = await client.PostAsync(client.BaseAddress, content);
-                var result = await response.Content.ReadAsStringAsync();
-                result = result.Replace("\\", "");
-                // result = result.Substring(1);
-                // result = result.Substring(0, result.Length - 1);
-                return result;
+                try
+                {
+                    client.BaseAddress = new Uri(baseUrl + "/" + path);
+                    if (App.CurrentUser != null) client.DefaultRequestHeaders.Add("userData", Newtonsoft.Json.JsonConvert.SerializeObject(App.CurrentUser));
+                    StringContent content = null;
+                    if (jsonData != null) content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+                    HttpResponseMessage response = await client.PostAsync(client.BaseAddress, content);
+                    var result = await response.Content.ReadAsStringAsync();
+                    result = result.Replace("\\", "");
+                    // result = result.Substring(1);
+                    // result = result.Substring(0, result.Length - 1);
+                    return result;
+                }
+                catch (Exception e)
+                {
+                    handleExceptions(e, "network error");
+                    return null;
+                }
+                
             }
         }
 

@@ -11,8 +11,8 @@
 namespace bitirme_mobile_app.Pages {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Source\\bitirme_mobile_app\\bitirme_mobile_app\\bitirme_mobile_app\\Pages\\LoginPag" +
-        "e.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Source\\bitirme\\bitirme_mobile_app\\bitirme_mobile_app\\bitirme_mobile_app\\Pages\\" +
+        "LoginPage.xaml")]
     public partial class LoginPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

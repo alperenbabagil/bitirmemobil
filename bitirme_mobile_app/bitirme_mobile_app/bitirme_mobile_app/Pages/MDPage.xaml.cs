@@ -12,6 +12,21 @@ namespace bitirme_mobile_app.Pages
     public partial class MDPage : MasterDetailPage
     {
 
+        private static MDPage _instance;
+
+        public static MDPage Instance
+        {
+            get
+            {
+                return _instance;
+            }
+
+            set
+            {
+                _instance = value;
+            }
+        }
+
         protected override void OnAppearing() //page on the screen
         {
             base.OnAppearing();
@@ -19,6 +34,8 @@ namespace bitirme_mobile_app.Pages
 
         public MDPage()
         {
+            _instance = this;
+
             InitializeComponent();
             
             Detail = new DummyPage();
@@ -33,6 +50,13 @@ namespace bitirme_mobile_app.Pages
                 Detail = new NavigationPage(new LoginPage());
                 Master = new DummyPage() { Title = "Master" };
             }
+        }
+
+        public async Task<bool> OpenMainPage()
+        {
+            await Detail.Navigation.PopToRootAsync();
+            Detail = new NavigationPage(new MainPage());
+            return true;
         }
     }
 }

@@ -8,13 +8,13 @@
       <StackLayout>
         <StackLayout Orientation="Horizontal">
           <Label Text="Username:" WidthRequest="80" VerticalOptions="CenterAndExpand"/>
-          <Entry x:Name="UserName" FontSize="18" FontAttributes="Bold" WidthRequest="150" VerticalOptions="CenterAndExpand"></Entry>
+          <Entry x:Name="UserName" Text="{Binding Name,Mode=TwoWay}" FontSize="18" FontAttributes="Bold" WidthRequest="150" VerticalOptions="CenterAndExpand"></Entry>
         </StackLayout>
         <StackLayout Orientation="Horizontal">
           <Label Text="Password:"  WidthRequest="80" VerticalOptions="CenterAndExpand"/>
-          <Entry x:Name="Password" IsPassword="True" WidthRequest="150" VerticalOptions="CenterAndExpand"></Entry>
+          <Entry x:Name="Password" Text="{Binding Password,Mode=TwoWay}" IsPassword="True" WidthRequest="150" VerticalOptions="CenterAndExpand"></Entry>
         </StackLayout>
-        <Button x:Name="signInButton" Text="signIn"></Button>
+        <Button x:Name="signUpButton" Text="signUp" Command="{Binding sendSignupRequestCommand}"></Button>
       </StackLayout>
 
     </StackLayout>

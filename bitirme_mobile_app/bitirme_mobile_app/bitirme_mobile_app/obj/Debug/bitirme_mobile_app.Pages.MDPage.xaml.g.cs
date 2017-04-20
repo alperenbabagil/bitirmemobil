@@ -11,8 +11,8 @@
 namespace bitirme_mobile_app.Pages {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Source\\bitirme_mobile_app\\bitirme_mobile_app\\bitirme_mobile_app\\Pages\\MDPage.x" +
-        "aml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Source\\bitirme\\bitirme_mobile_app\\bitirme_mobile_app\\bitirme_mobile_app\\Pages\\" +
+        "MDPage.xaml")]
     public partial class MDPage : global::Xamarin.Forms.MasterDetailPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

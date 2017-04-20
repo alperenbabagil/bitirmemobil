@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="bitirme_mobile_app.Pages.MainPage"
              xmlns:local="clr-namespace:bitirme_mobile_app.Helpers;;assembly=bitirme_mobile_app"
@@ -10,8 +10,20 @@
       <local:NegateBooleanConverter x:Key="inverter"/>
     </ResourceDictionary>
   </ContentPage.Resources>
+
+    <TabbedPage.Children>
+      <ContentPage Title=" Recommended movies" IsVisible="False">
+        
+      </ContentPage>
+      <ContentPage Title="{Binding RatedMovies.Count, StringFormat='Rated movies ({0})'}">
+        
+      </ContentPage>
+    </TabbedPage.Children>
+
+
+
   
-  <StackLayout>
+  <!--<StackLayout>
     <Button Text="openRatePage" x:Name="openRatePage"></Button>
     <Button Text="getRecommendations" x:Name="getRecommendationsBtn" />
     <Button Text="getTop250" x:Name="getTop250"/>
@@ -25,20 +37,20 @@
                 <Image AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="img" Source="{Binding ImdbImageUrl}" WidthRequest="300"  HeightRequest="400" HorizontalOptions="CenterAndExpand"></Image>
               </AbsoluteLayout>
 
-              <!--<AbsoluteLayout HorizontalOptions="Center">
-                -->
-              <!--<ActivityIndicator  IsVisible="Image.IsLoading"  IsActive="True" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>-->
-              <!--
+              --><!--<AbsoluteLayout HorizontalOptions="Center">
+                --><!--
+              --><!--<ActivityIndicator  IsVisible="Image.IsLoading"  IsActive="True" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>--><!--
+              --><!--
                 <Image Source="{Binding ImdbImageUrl}" AbsoluteLayout.LayoutBounds="0,0,1,1"></Image>
-              </AbsoluteLayout>-->
+              </AbsoluteLayout>--><!--
               <Label Text="{Binding Name}"/>
             </StackLayout>
           </ViewCell>
         </DataTemplate>
       </ListView.ItemTemplate>
     </ListView>
-  </StackLayout>
+  </StackLayout>-->
 
 
 
-</ContentPage>
+</TabbedPage>

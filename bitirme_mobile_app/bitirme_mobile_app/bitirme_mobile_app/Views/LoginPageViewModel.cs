@@ -1,4 +1,5 @@
 ﻿using bitirme_mobile_app.Helpers;
+using bitirme_mobile_app.Pages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -51,6 +52,7 @@ namespace bitirme_mobile_app.Views
         {
             _page = page;
             sendLoginRequestCommand = new Command(sendLoginRequest);
+            openSignupPageCommand = new Command(openSignUpPage);
         }
 
         private async void sendLoginRequest()
@@ -61,6 +63,7 @@ namespace bitirme_mobile_app.Views
             if (isLoggedIn)
             {
                 await _page.DisplayAlert("Info", "Logged In", null , "Ok");
+                await _page.Navigation.PopToRootAsync();
             }
             else
             {
@@ -69,10 +72,9 @@ namespace bitirme_mobile_app.Views
             
         }
 
-        bool listviewRefreshFunc()
+        private void openSignUpPage()
         {
-            IsBusy = false;
-            return false;
+            _page.Navigation.PushAsync(new SignUpPage());
         }
 
         private string getDeviceId()

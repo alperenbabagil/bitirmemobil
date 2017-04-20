@@ -1,4 +1,5 @@
-﻿using System;
+﻿using bitirme_mobile_app.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,7 @@ namespace bitirme_mobile_app.Pages
         public SignUpPage()
         {
             InitializeComponent();
+            BindingContext = new SignUpPageViewModel(this);
         }
     }
 }

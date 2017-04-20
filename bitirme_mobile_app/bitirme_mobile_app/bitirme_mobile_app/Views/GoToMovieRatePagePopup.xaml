@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             x:Class="bitirme_mobile_app.Views.GoToMovieRatePagePopup">
+  <!--Animations use example-->
+  <pages:PopupPage.Animation>
+    <animations:ScaleAnimation
+      PositionIn="Center"
+      PositionOut="Center"
+      ScaleIn="1.2"
+      ScaleOut="0.8"
+      DurationIn="400"
+      DurationOut="300"
+      EasingIn="SinOut"
+      EasingOut="SinIn"
+      HasBackgroundAnimation="True"/>
+  </pages:PopupPage.Animation>
+  <!-- Content -->
+  <StackLayout HeightRequest="200" Padding="10" BackgroundColor="White" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand">
+    <Label VerticalOptions="CenterAndExpand" Text="You did not get recommendations before" FontSize="20" HorizontalTextAlignment="Center"/>
+    <Button VerticalOptions="CenterAndExpand" x:Name="goToMovieRatePageButton" Text="Go to movie rate page"></Button>
+  </StackLayout>
+</pages:PopupPage>

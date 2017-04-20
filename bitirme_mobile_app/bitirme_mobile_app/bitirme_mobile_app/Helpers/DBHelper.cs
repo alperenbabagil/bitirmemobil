@@ -39,11 +39,12 @@ namespace bitirme_mobile_app.Helpers
         public static void addUser(User user)
         {
             App.Current.Properties["User"] = JsonConvert.SerializeObject(user);
+            Application.Current.SavePropertiesAsync();
         }
 
         public static User getUser()
         {
-            if(App.Current.Properties["User"]!=null)
+            if(App.Current.Properties.ContainsKey("User"))
                 return JsonConvert.DeserializeObject<User>(App.Current.Properties["User"] as string);
             return null;
         }
@@ -51,6 +52,16 @@ namespace bitirme_mobile_app.Helpers
         public static void removeUser(User user)
         {
             App.Current.Properties.Remove("User");
+        }
+
+        public static RecommendationSession getLastSession()
+        {
+            if (App.Current.Properties.ContainsKey("RecommendationSessionHolder"))
+            {
+                var holder = JsonConvert.DeserializeObject<RecommendationSessionHolder>(App.Current.Properties["RecommendationSessionHolder"] as string);
+                return holder.recommendationSessions.LastOrDefault();
+            }
+            return null;
         }
     }
 }
