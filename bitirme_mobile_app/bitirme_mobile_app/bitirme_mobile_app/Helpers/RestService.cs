@@ -1,5 +1,6 @@
 ﻿using bitirme_mobile_app.Helpers;
 using bitirme_mobile_app.Models;
+using bitirme_mobile_app.Views;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -31,6 +32,20 @@ namespace bitirme_mobile_app.Helpers
             if (resp == "true") return true;
             else return false;
         }
+
+        public async Task<string> sendRecommendationRequest(IList<MovieRateListViewItem> lvItems)
+        {
+            Dictionary<string, double> pairs = new Dictionary<string, double>();
+            foreach (var lvi in lvItems)
+            {
+                pairs[lvi.Movie.ImdbId] = lvi.Rating;
+            }
+            string jsonData = Newtonsoft.Json.JsonConvert.SerializeObject(pairs);
+            var resp = await postBaseFunc(jsonData, "recommendation_request");
+            return resp;
+        }
+
+
 
         public async Task<List<Movie>> getTopMovies()
         {
@@ -137,6 +152,7 @@ namespace bitirme_mobile_app.Helpers
                         var ratingDouble = Double.Parse(ratingString.Split('/')[0]);
                         Movie movie = new Movie()
                         {
+                            ImdbId = ids[i],
                             Name = (string)tmp.Title,
                             Genres = new List<string>(((string)tmp.Genre).Split(',')),
                             ImdbImageUrl = (string)tmp.Poster,

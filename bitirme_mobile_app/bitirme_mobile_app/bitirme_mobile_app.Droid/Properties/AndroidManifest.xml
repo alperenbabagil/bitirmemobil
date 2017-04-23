@@ -1,5 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.alperenbilal.bitirme">
 	<uses-sdk android:minSdkVersion="15" />
-	<application android:label="bitirme_mobile_app.Droid"></application>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<permission android:name="com.alperenbilal.bitirme.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+	<application android:label="Bitirme recommender">
+		<receiver android:name="com.onesignal.GcmBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+			<intent-filter>
+				<action android:name="com.google.android.c2dm.intent.RECEIVE" />
+				<category android:name="com.alperenbilal.bitirme" />
+			</intent-filter>
+		</receiver>
+	</application>
 </manifest>

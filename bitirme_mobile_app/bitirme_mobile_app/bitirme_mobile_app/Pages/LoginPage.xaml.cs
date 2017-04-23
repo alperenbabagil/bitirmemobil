@@ -9,6 +9,10 @@ using Xamarin.Forms;
 
 namespace bitirme_mobile_app.Pages
 {
+    /// <summary>
+    /// Log in for user. 
+    /// TODO: Will be implemented
+    /// </summary>
     public partial class LoginPage : ContentPage
     {
         public LoginPage()

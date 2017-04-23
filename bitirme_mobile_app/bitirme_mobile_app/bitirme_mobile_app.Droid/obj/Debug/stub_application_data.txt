@@ -1,2 +1,2 @@
 android.app.Application
-bitirme_mobile_app.Droid
+com.alperenbilal.bitirme

@@ -1,4 +1,5 @@
 ﻿using bitirme_mobile_app.Models;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace bitirme_mobile_app.Views
     {
         public Movie Movie { get; set; }
         //public bool IsImageLoading { get; set; }
+
         private int _rating;
 
         public int Rating {
@@ -28,15 +30,18 @@ namespace bitirme_mobile_app.Views
         }
 
 
-        public MovieRateListViewItem()
+        public MovieRateListViewItem(RateMoviePageViewModel rateMoviePageViewModel)
         {
             // configure the TapCommand with a method
             starTapCommand = new Command<string>((string rate) => 
             {
                 Rating = Int32.Parse(rate);
+                if(rateMoviePageViewModel!=null)
+                    rateMoviePageViewModel.onMovieStarClicked(this);
             });
         }
 
+        [JsonIgnore]
         public ICommand starTapCommand { get; private set; }
 
     }

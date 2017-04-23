@@ -13,15 +13,23 @@ namespace bitirme_mobile_app.Pages {
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Source\\bitirme\\bitirme_mobile_app\\bitirme_mobile_app\\bitirme_mobile_app\\Pages\\" +
         "RatingMoviesPage.xaml")]
-    public partial class RatingMoviesPage : global::Xamarin.Forms.ContentPage {
+    public partial class RatingMoviesPage : global::Xamarin.Forms.TabbedPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.ListView RatingMovieListView;
+        private global::Xamarin.Forms.ListView MoviesToRateListView;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ActivityIndicator sepetPageActivityIndicator;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ListView RatedMoviesListView;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(RatingMoviesPage));
-            RatingMovieListView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "RatingMovieListView");
+            MoviesToRateListView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "MoviesToRateListView");
+            sepetPageActivityIndicator = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ActivityIndicator>(this, "sepetPageActivityIndicator");
+            RatedMoviesListView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "RatedMoviesListView");
         }
     }
 }

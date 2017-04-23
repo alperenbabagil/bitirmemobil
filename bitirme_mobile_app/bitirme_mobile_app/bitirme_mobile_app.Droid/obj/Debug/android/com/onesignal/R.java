@@ -2620,25 +2620,27 @@ containing a value of this type.
         public static final int ic_speaker_group_dark=0x7f0200a7;
         public static final int ic_speaker_group_light=0x7f0200a8;
         public static final int ic_speaker_light=0x7f0200a9;
-        public static final int ic_tv_dark=0x7f0200aa;
-        public static final int ic_tv_light=0x7f0200ab;
-        public static final int icon=0x7f0200ac;
-        public static final int mr_dialog_material_background_dark=0x7f0200ad;
-        public static final int mr_dialog_material_background_light=0x7f0200ae;
-        public static final int mr_ic_audiotrack_light=0x7f0200af;
-        public static final int mr_ic_cast_dark=0x7f0200b0;
-        public static final int mr_ic_cast_light=0x7f0200b1;
-        public static final int mr_ic_close_dark=0x7f0200b2;
-        public static final int mr_ic_close_light=0x7f0200b3;
-        public static final int mr_ic_media_route_connecting_mono_dark=0x7f0200b4;
-        public static final int mr_ic_media_route_connecting_mono_light=0x7f0200b5;
-        public static final int mr_ic_media_route_mono_dark=0x7f0200b6;
-        public static final int mr_ic_media_route_mono_light=0x7f0200b7;
-        public static final int mr_ic_pause_dark=0x7f0200b8;
-        public static final int mr_ic_pause_light=0x7f0200b9;
-        public static final int mr_ic_play_dark=0x7f0200ba;
-        public static final int mr_ic_play_light=0x7f0200bb;
-        public static final int notification_template_icon_bg=0x7f0200bc;
+        public static final int ic_star_black_24dp=0x7f0200aa;
+        public static final int ic_star_border_black_24dp=0x7f0200ab;
+        public static final int ic_tv_dark=0x7f0200ac;
+        public static final int ic_tv_light=0x7f0200ad;
+        public static final int icon=0x7f0200ae;
+        public static final int mr_dialog_material_background_dark=0x7f0200af;
+        public static final int mr_dialog_material_background_light=0x7f0200b0;
+        public static final int mr_ic_audiotrack_light=0x7f0200b1;
+        public static final int mr_ic_cast_dark=0x7f0200b2;
+        public static final int mr_ic_cast_light=0x7f0200b3;
+        public static final int mr_ic_close_dark=0x7f0200b4;
+        public static final int mr_ic_close_light=0x7f0200b5;
+        public static final int mr_ic_media_route_connecting_mono_dark=0x7f0200b6;
+        public static final int mr_ic_media_route_connecting_mono_light=0x7f0200b7;
+        public static final int mr_ic_media_route_mono_dark=0x7f0200b8;
+        public static final int mr_ic_media_route_mono_light=0x7f0200b9;
+        public static final int mr_ic_pause_dark=0x7f0200ba;
+        public static final int mr_ic_pause_light=0x7f0200bb;
+        public static final int mr_ic_play_dark=0x7f0200bc;
+        public static final int mr_ic_play_light=0x7f0200bd;
+        public static final int notification_template_icon_bg=0x7f0200be;
     }
     public static final class id {
         public static final int action0=0x7f0b008d;
@@ -3425,33 +3427,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background bitirme_mobile_app.Droid:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit bitirme_mobile_app.Droid:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked bitirme_mobile_app.Droid:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd bitirme_mobile_app.Droid:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft bitirme_mobile_app.Droid:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight bitirme_mobile_app.Droid:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart bitirme_mobile_app.Droid:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout bitirme_mobile_app.Droid:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions bitirme_mobile_app.Droid:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider bitirme_mobile_app.Droid:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation bitirme_mobile_app.Droid:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height bitirme_mobile_app.Droid:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll bitirme_mobile_app.Droid:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator bitirme_mobile_app.Droid:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout bitirme_mobile_app.Droid:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon bitirme_mobile_app.Droid:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle bitirme_mobile_app.Droid:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding bitirme_mobile_app.Droid:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo bitirme_mobile_app.Droid:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode bitirme_mobile_app.Droid:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme bitirme_mobile_app.Droid:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding bitirme_mobile_app.Droid:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle bitirme_mobile_app.Droid:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle bitirme_mobile_app.Droid:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle bitirme_mobile_app.Droid:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title bitirme_mobile_app.Droid:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle bitirme_mobile_app.Droid:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.alperenbilal.bitirme:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.alperenbilal.bitirme:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.alperenbilal.bitirme:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.alperenbilal.bitirme:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.alperenbilal.bitirme:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.alperenbilal.bitirme:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.alperenbilal.bitirme:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.alperenbilal.bitirme:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.alperenbilal.bitirme:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.alperenbilal.bitirme:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.alperenbilal.bitirme:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.alperenbilal.bitirme:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.alperenbilal.bitirme:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.alperenbilal.bitirme:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.alperenbilal.bitirme:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.alperenbilal.bitirme:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.alperenbilal.bitirme:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.alperenbilal.bitirme:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.alperenbilal.bitirme:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.alperenbilal.bitirme:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.alperenbilal.bitirme:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.alperenbilal.bitirme:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.alperenbilal.bitirme:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.alperenbilal.bitirme:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.alperenbilal.bitirme:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.alperenbilal.bitirme:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.alperenbilal.bitirme:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -3491,17 +3493,17 @@ containing a value of this type.
             0x7f010043, 0x7f010044, 0x7f01007d
         };
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#background}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:background
+          @attr name com.alperenbilal.bitirme:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3509,11 +3511,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name bitirme_mobile_app.Droid:backgroundSplit
+          @attr name com.alperenbilal.bitirme:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3521,11 +3523,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name bitirme_mobile_app.Droid:backgroundStacked
+          @attr name com.alperenbilal.bitirme:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3537,11 +3539,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:contentInsetEnd
+          @attr name com.alperenbilal.bitirme:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3553,11 +3555,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:contentInsetLeft
+          @attr name com.alperenbilal.bitirme:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3569,11 +3571,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:contentInsetRight
+          @attr name com.alperenbilal.bitirme:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3585,21 +3587,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:contentInsetStart
+          @attr name com.alperenbilal.bitirme:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:customNavigationLayout
+          @attr name com.alperenbilal.bitirme:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3617,21 +3619,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name bitirme_mobile_app.Droid:displayOptions
+          @attr name com.alperenbilal.bitirme:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:divider
+          @attr name com.alperenbilal.bitirme:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3643,11 +3645,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:elevation
+          @attr name com.alperenbilal.bitirme:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#height}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3659,11 +3661,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:height
+          @attr name com.alperenbilal.bitirme:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3673,51 +3675,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:hideOnContentScroll
+          @attr name com.alperenbilal.bitirme:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:homeAsUpIndicator
+          @attr name com.alperenbilal.bitirme:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:homeLayout
+          @attr name com.alperenbilal.bitirme:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:icon
+          @attr name com.alperenbilal.bitirme:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:indeterminateProgressStyle
+          @attr name com.alperenbilal.bitirme:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3729,21 +3731,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:itemPadding
+          @attr name com.alperenbilal.bitirme:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:logo
+          @attr name com.alperenbilal.bitirme:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3757,21 +3759,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name bitirme_mobile_app.Droid:navigationMode
+          @attr name com.alperenbilal.bitirme:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:popupTheme
+          @attr name com.alperenbilal.bitirme:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3783,21 +3785,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:progressBarPadding
+          @attr name com.alperenbilal.bitirme:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:progressBarStyle
+          @attr name com.alperenbilal.bitirme:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3807,21 +3809,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:subtitle
+          @attr name com.alperenbilal.bitirme:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:subtitleTextStyle
+          @attr name com.alperenbilal.bitirme:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#title}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3831,17 +3833,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:title
+          @attr name com.alperenbilal.bitirme:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:titleTextStyle
+          @attr name com.alperenbilal.bitirme:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -3893,12 +3895,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background bitirme_mobile_app.Droid:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit bitirme_mobile_app.Droid:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout bitirme_mobile_app.Droid:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height bitirme_mobile_app.Droid:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle bitirme_mobile_app.Droid:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle bitirme_mobile_app.Droid:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.alperenbilal.bitirme:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.alperenbilal.bitirme:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.alperenbilal.bitirme:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.alperenbilal.bitirme:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.alperenbilal.bitirme:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.alperenbilal.bitirme:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -3912,17 +3914,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010037, 0x7f010045
         };
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#background}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:background
+          @attr name com.alperenbilal.bitirme:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3930,21 +3932,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name bitirme_mobile_app.Droid:backgroundSplit
+          @attr name com.alperenbilal.bitirme:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:closeItemLayout
+          @attr name com.alperenbilal.bitirme:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#height}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3956,27 +3958,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:height
+          @attr name com.alperenbilal.bitirme:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:subtitleTextStyle
+          @attr name com.alperenbilal.bitirme:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:titleTextStyle
+          @attr name com.alperenbilal.bitirme:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -3985,8 +3987,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable bitirme_mobile_app.Droid:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount bitirme_mobile_app.Droid:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.alperenbilal.bitirme:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.alperenbilal.bitirme:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -3995,17 +3997,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010046, 0x7f010047
         };
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:expandActivityOverflowButtonDrawable
+          @attr name com.alperenbilal.bitirme:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -4015,7 +4017,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:initialActivityCount
+          @attr name com.alperenbilal.bitirme:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -4025,11 +4027,11 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout bitirme_mobile_app.Droid:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout bitirme_mobile_app.Droid:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout bitirme_mobile_app.Droid:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout bitirme_mobile_app.Droid:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout bitirme_mobile_app.Droid:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.alperenbilal.bitirme:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout com.alperenbilal.bitirme:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout com.alperenbilal.bitirme:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.alperenbilal.bitirme:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.alperenbilal.bitirme:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -4049,53 +4051,53 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:buttonPanelSideLayout
+          @attr name com.alperenbilal.bitirme:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:listItemLayout
+          @attr name com.alperenbilal.bitirme:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:listLayout
+          @attr name com.alperenbilal.bitirme:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:multiChoiceItemLayout
+          @attr name com.alperenbilal.bitirme:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:singleChoiceItemLayout
+          @attr name com.alperenbilal.bitirme:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppBarLayout.
@@ -4105,8 +4107,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_elevation bitirme_mobile_app.Droid:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_expanded bitirme_mobile_app.Droid:expanded}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation com.alperenbilal.bitirme:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_expanded com.alperenbilal.bitirme:expanded}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_android_background
            @see #AppBarLayout_elevation
@@ -4122,7 +4124,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppBarLayout_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#elevation}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -4134,11 +4136,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:elevation
+          @attr name com.alperenbilal.bitirme:elevation
         */
         public static final int AppBarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#expanded}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#expanded}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -4148,7 +4150,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:expanded
+          @attr name com.alperenbilal.bitirme:expanded
         */
         public static final int AppBarLayout_expanded = 2;
         /** Attributes that can be used with a AppBarLayout_LayoutParams.
@@ -4157,8 +4159,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags bitirme_mobile_app.Droid:layout_scrollFlags}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator bitirme_mobile_app.Droid:layout_scrollInterpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags com.alperenbilal.bitirme:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator com.alperenbilal.bitirme:layout_scrollInterpolator}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_LayoutParams_layout_scrollFlags
            @see #AppBarLayout_LayoutParams_layout_scrollInterpolator
@@ -4167,7 +4169,7 @@ containing a value of this type.
             0x7f0100fb, 0x7f0100fc
         };
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
@@ -4183,17 +4185,17 @@ containing a value of this type.
 <tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
-          @attr name bitirme_mobile_app.Droid:layout_scrollFlags
+          @attr name com.alperenbilal.bitirme:layout_scrollFlags
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:layout_scrollInterpolator
+          @attr name com.alperenbilal.bitirme:layout_scrollInterpolator
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatImageView.
@@ -4203,7 +4205,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_srcCompat bitirme_mobile_app.Droid:srcCompat}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat com.alperenbilal.bitirme:srcCompat}</code></td><td></td></tr>
            </table>
            @see #AppCompatImageView_android_src
            @see #AppCompatImageView_srcCompat
@@ -4218,13 +4220,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#srcCompat}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#srcCompat}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:srcCompat
+          @attr name com.alperenbilal.bitirme:srcCompat
         */
         public static final int AppCompatImageView_srcCompat = 1;
         /** Attributes that can be used with a AppCompatTextView.
@@ -4234,7 +4236,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps bitirme_mobile_app.Droid:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.alperenbilal.bitirme:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
@@ -4249,14 +4251,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name bitirme_mobile_app.Droid:textAllCaps
+          @attr name com.alperenbilal.bitirme:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a AppCompatTheme.
@@ -4265,118 +4267,118 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarDivider bitirme_mobile_app.Droid:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground bitirme_mobile_app.Droid:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme bitirme_mobile_app.Droid:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSize bitirme_mobile_app.Droid:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle bitirme_mobile_app.Droid:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarStyle bitirme_mobile_app.Droid:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle bitirme_mobile_app.Droid:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle bitirme_mobile_app.Droid:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle bitirme_mobile_app.Droid:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTheme bitirme_mobile_app.Droid:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme bitirme_mobile_app.Droid:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle bitirme_mobile_app.Droid:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle bitirme_mobile_app.Droid:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance bitirme_mobile_app.Droid:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor bitirme_mobile_app.Droid:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeBackground bitirme_mobile_app.Droid:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle bitirme_mobile_app.Droid:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable bitirme_mobile_app.Droid:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable bitirme_mobile_app.Droid:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable bitirme_mobile_app.Droid:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable bitirme_mobile_app.Droid:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable bitirme_mobile_app.Droid:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle bitirme_mobile_app.Droid:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable bitirme_mobile_app.Droid:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable bitirme_mobile_app.Droid:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground bitirme_mobile_app.Droid:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeStyle bitirme_mobile_app.Droid:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable bitirme_mobile_app.Droid:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle bitirme_mobile_app.Droid:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle bitirme_mobile_app.Droid:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle bitirme_mobile_app.Droid:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle bitirme_mobile_app.Droid:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons bitirme_mobile_app.Droid:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle bitirme_mobile_app.Droid:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme bitirme_mobile_app.Droid:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.alperenbilal.bitirme:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.alperenbilal.bitirme:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.alperenbilal.bitirme:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize com.alperenbilal.bitirme:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.alperenbilal.bitirme:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.alperenbilal.bitirme:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.alperenbilal.bitirme:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.alperenbilal.bitirme:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.alperenbilal.bitirme:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.alperenbilal.bitirme:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.alperenbilal.bitirme:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.alperenbilal.bitirme:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.alperenbilal.bitirme:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.alperenbilal.bitirme:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.alperenbilal.bitirme:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.alperenbilal.bitirme:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.alperenbilal.bitirme:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.alperenbilal.bitirme:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.alperenbilal.bitirme:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.alperenbilal.bitirme:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.alperenbilal.bitirme:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.alperenbilal.bitirme:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.alperenbilal.bitirme:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.alperenbilal.bitirme:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.alperenbilal.bitirme:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.alperenbilal.bitirme:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.alperenbilal.bitirme:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.alperenbilal.bitirme:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.alperenbilal.bitirme:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.alperenbilal.bitirme:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.alperenbilal.bitirme:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.alperenbilal.bitirme:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.alperenbilal.bitirme:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.alperenbilal.bitirme:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.alperenbilal.bitirme:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle bitirme_mobile_app.Droid:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle bitirme_mobile_app.Droid:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle bitirme_mobile_app.Droid:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle bitirme_mobile_app.Droid:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle bitirme_mobile_app.Droid:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle bitirme_mobile_app.Droid:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle bitirme_mobile_app.Droid:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyle bitirme_mobile_app.Droid:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall bitirme_mobile_app.Droid:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkboxStyle bitirme_mobile_app.Droid:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle bitirme_mobile_app.Droid:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorAccent bitirme_mobile_app.Droid:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal bitirme_mobile_app.Droid:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlActivated bitirme_mobile_app.Droid:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight bitirme_mobile_app.Droid:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlNormal bitirme_mobile_app.Droid:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimary bitirme_mobile_app.Droid:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark bitirme_mobile_app.Droid:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal bitirme_mobile_app.Droid:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_controlBackground bitirme_mobile_app.Droid:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding bitirme_mobile_app.Droid:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogTheme bitirme_mobile_app.Droid:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal bitirme_mobile_app.Droid:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerVertical bitirme_mobile_app.Droid:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle bitirme_mobile_app.Droid:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight bitirme_mobile_app.Droid:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextBackground bitirme_mobile_app.Droid:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextColor bitirme_mobile_app.Droid:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextStyle bitirme_mobile_app.Droid:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator bitirme_mobile_app.Droid:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle bitirme_mobile_app.Droid:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator bitirme_mobile_app.Droid:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog bitirme_mobile_app.Droid:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle bitirme_mobile_app.Droid:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight bitirme_mobile_app.Droid:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge bitirme_mobile_app.Droid:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall bitirme_mobile_app.Droid:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft bitirme_mobile_app.Droid:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight bitirme_mobile_app.Droid:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelBackground bitirme_mobile_app.Droid:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme bitirme_mobile_app.Droid:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth bitirme_mobile_app.Droid:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle bitirme_mobile_app.Droid:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle bitirme_mobile_app.Droid:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle bitirme_mobile_app.Droid:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle bitirme_mobile_app.Droid:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator bitirme_mobile_app.Droid:ratingBarStyleIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall bitirme_mobile_app.Droid:ratingBarStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_searchViewStyle bitirme_mobile_app.Droid:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_seekBarStyle bitirme_mobile_app.Droid:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground bitirme_mobile_app.Droid:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless bitirme_mobile_app.Droid:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle bitirme_mobile_app.Droid:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerStyle bitirme_mobile_app.Droid:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_switchStyle bitirme_mobile_app.Droid:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu bitirme_mobile_app.Droid:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem bitirme_mobile_app.Droid:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall bitirme_mobile_app.Droid:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle bitirme_mobile_app.Droid:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle bitirme_mobile_app.Droid:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu bitirme_mobile_app.Droid:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem bitirme_mobile_app.Droid:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl bitirme_mobile_app.Droid:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle bitirme_mobile_app.Droid:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarStyle bitirme_mobile_app.Droid:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBar bitirme_mobile_app.Droid:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay bitirme_mobile_app.Droid:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay bitirme_mobile_app.Droid:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor bitirme_mobile_app.Droid:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor bitirme_mobile_app.Droid:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor bitirme_mobile_app.Droid:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor bitirme_mobile_app.Droid:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor bitirme_mobile_app.Droid:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor bitirme_mobile_app.Droid:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowNoTitle bitirme_mobile_app.Droid:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.alperenbilal.bitirme:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.alperenbilal.bitirme:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.alperenbilal.bitirme:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.alperenbilal.bitirme:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.alperenbilal.bitirme:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.alperenbilal.bitirme:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.alperenbilal.bitirme:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle com.alperenbilal.bitirme:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.alperenbilal.bitirme:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.alperenbilal.bitirme:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.alperenbilal.bitirme:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent com.alperenbilal.bitirme:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.alperenbilal.bitirme:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.alperenbilal.bitirme:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.alperenbilal.bitirme:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.alperenbilal.bitirme:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary com.alperenbilal.bitirme:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.alperenbilal.bitirme:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.alperenbilal.bitirme:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground com.alperenbilal.bitirme:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.alperenbilal.bitirme:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme com.alperenbilal.bitirme:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.alperenbilal.bitirme:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical com.alperenbilal.bitirme:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.alperenbilal.bitirme:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.alperenbilal.bitirme:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground com.alperenbilal.bitirme:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor com.alperenbilal.bitirme:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle com.alperenbilal.bitirme:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.alperenbilal.bitirme:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.alperenbilal.bitirme:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.alperenbilal.bitirme:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.alperenbilal.bitirme:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.alperenbilal.bitirme:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.alperenbilal.bitirme:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.alperenbilal.bitirme:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.alperenbilal.bitirme:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.alperenbilal.bitirme:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.alperenbilal.bitirme:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground com.alperenbilal.bitirme:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.alperenbilal.bitirme:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.alperenbilal.bitirme:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.alperenbilal.bitirme:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.alperenbilal.bitirme:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.alperenbilal.bitirme:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.alperenbilal.bitirme:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.alperenbilal.bitirme:ratingBarStyleIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.alperenbilal.bitirme:ratingBarStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.alperenbilal.bitirme:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.alperenbilal.bitirme:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.alperenbilal.bitirme:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.alperenbilal.bitirme:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.alperenbilal.bitirme:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.alperenbilal.bitirme:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle com.alperenbilal.bitirme:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.alperenbilal.bitirme:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.alperenbilal.bitirme:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.alperenbilal.bitirme:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.alperenbilal.bitirme:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.alperenbilal.bitirme:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.alperenbilal.bitirme:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.alperenbilal.bitirme:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.alperenbilal.bitirme:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.alperenbilal.bitirme:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.alperenbilal.bitirme:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar com.alperenbilal.bitirme:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.alperenbilal.bitirme:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.alperenbilal.bitirme:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.alperenbilal.bitirme:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.alperenbilal.bitirme:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.alperenbilal.bitirme:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.alperenbilal.bitirme:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.alperenbilal.bitirme:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.alperenbilal.bitirme:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.alperenbilal.bitirme:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #AppCompatTheme_actionBarDivider
            @see #AppCompatTheme_actionBarItemBackground
@@ -4522,37 +4524,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100b9, 0x7f0100ba, 0x7f0100bb, 0x7f0100bc
         };
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionBarDivider
+          @attr name com.alperenbilal.bitirme:actionBarDivider
         */
         public static final int AppCompatTheme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionBarItemBackground
+          @attr name com.alperenbilal.bitirme:actionBarItemBackground
         */
         public static final int AppCompatTheme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionBarPopupTheme
+          @attr name com.alperenbilal.bitirme:actionBarPopupTheme
         */
         public static final int AppCompatTheme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionBarSize}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4572,111 +4574,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name bitirme_mobile_app.Droid:actionBarSize
+          @attr name com.alperenbilal.bitirme:actionBarSize
         */
         public static final int AppCompatTheme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionBarSplitStyle
+          @attr name com.alperenbilal.bitirme:actionBarSplitStyle
         */
         public static final int AppCompatTheme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionBarStyle
+          @attr name com.alperenbilal.bitirme:actionBarStyle
         */
         public static final int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionBarTabBarStyle
+          @attr name com.alperenbilal.bitirme:actionBarTabBarStyle
         */
         public static final int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionBarTabStyle
+          @attr name com.alperenbilal.bitirme:actionBarTabStyle
         */
         public static final int AppCompatTheme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionBarTabTextStyle
+          @attr name com.alperenbilal.bitirme:actionBarTabTextStyle
         */
         public static final int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionBarTheme
+          @attr name com.alperenbilal.bitirme:actionBarTheme
         */
         public static final int AppCompatTheme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionBarWidgetTheme
+          @attr name com.alperenbilal.bitirme:actionBarWidgetTheme
         */
         public static final int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionButtonStyle
+          @attr name com.alperenbilal.bitirme:actionButtonStyle
         */
         public static final int AppCompatTheme_actionButtonStyle = 49;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionDropDownStyle
+          @attr name com.alperenbilal.bitirme:actionDropDownStyle
         */
         public static final int AppCompatTheme_actionDropDownStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionMenuTextAppearance
+          @attr name com.alperenbilal.bitirme:actionMenuTextAppearance
         */
         public static final int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4684,181 +4686,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionMenuTextColor
+          @attr name com.alperenbilal.bitirme:actionMenuTextColor
         */
         public static final int AppCompatTheme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionModeBackground
+          @attr name com.alperenbilal.bitirme:actionModeBackground
         */
         public static final int AppCompatTheme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionModeCloseButtonStyle
+          @attr name com.alperenbilal.bitirme:actionModeCloseButtonStyle
         */
         public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionModeCloseDrawable
+          @attr name com.alperenbilal.bitirme:actionModeCloseDrawable
         */
         public static final int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionModeCopyDrawable
+          @attr name com.alperenbilal.bitirme:actionModeCopyDrawable
         */
         public static final int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionModeCutDrawable
+          @attr name com.alperenbilal.bitirme:actionModeCutDrawable
         */
         public static final int AppCompatTheme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionModeFindDrawable
+          @attr name com.alperenbilal.bitirme:actionModeFindDrawable
         */
         public static final int AppCompatTheme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionModePasteDrawable
+          @attr name com.alperenbilal.bitirme:actionModePasteDrawable
         */
         public static final int AppCompatTheme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionModePopupWindowStyle
+          @attr name com.alperenbilal.bitirme:actionModePopupWindowStyle
         */
         public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionModeSelectAllDrawable
+          @attr name com.alperenbilal.bitirme:actionModeSelectAllDrawable
         */
         public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionModeShareDrawable
+          @attr name com.alperenbilal.bitirme:actionModeShareDrawable
         */
         public static final int AppCompatTheme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionModeSplitBackground
+          @attr name com.alperenbilal.bitirme:actionModeSplitBackground
         */
         public static final int AppCompatTheme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionModeStyle
+          @attr name com.alperenbilal.bitirme:actionModeStyle
         */
         public static final int AppCompatTheme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionModeWebSearchDrawable
+          @attr name com.alperenbilal.bitirme:actionModeWebSearchDrawable
         */
         public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionOverflowButtonStyle
+          @attr name com.alperenbilal.bitirme:actionOverflowButtonStyle
         */
         public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionOverflowMenuStyle
+          @attr name com.alperenbilal.bitirme:actionOverflowMenuStyle
         */
         public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:activityChooserViewStyle
+          @attr name com.alperenbilal.bitirme:activityChooserViewStyle
         */
         public static final int AppCompatTheme_activityChooserViewStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:alertDialogButtonGroupStyle
+          @attr name com.alperenbilal.bitirme:alertDialogButtonGroupStyle
         */
         public static final int AppCompatTheme_alertDialogButtonGroupStyle = 92;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4868,27 +4870,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:alertDialogCenterButtons
+          @attr name com.alperenbilal.bitirme:alertDialogCenterButtons
         */
         public static final int AppCompatTheme_alertDialogCenterButtons = 93;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:alertDialogStyle
+          @attr name com.alperenbilal.bitirme:alertDialogStyle
         */
         public static final int AppCompatTheme_alertDialogStyle = 91;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:alertDialogTheme
+          @attr name com.alperenbilal.bitirme:alertDialogTheme
         */
         public static final int AppCompatTheme_alertDialogTheme = 94;
         /**
@@ -4904,117 +4906,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:autoCompleteTextViewStyle
+          @attr name com.alperenbilal.bitirme:autoCompleteTextViewStyle
         */
         public static final int AppCompatTheme_autoCompleteTextViewStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:borderlessButtonStyle
+          @attr name com.alperenbilal.bitirme:borderlessButtonStyle
         */
         public static final int AppCompatTheme_borderlessButtonStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:buttonBarButtonStyle
+          @attr name com.alperenbilal.bitirme:buttonBarButtonStyle
         */
         public static final int AppCompatTheme_buttonBarButtonStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:buttonBarNegativeButtonStyle
+          @attr name com.alperenbilal.bitirme:buttonBarNegativeButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 97;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:buttonBarNeutralButtonStyle
+          @attr name com.alperenbilal.bitirme:buttonBarNeutralButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:buttonBarPositiveButtonStyle
+          @attr name com.alperenbilal.bitirme:buttonBarPositiveButtonStyle
         */
         public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 96;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:buttonBarStyle
+          @attr name com.alperenbilal.bitirme:buttonBarStyle
         */
         public static final int AppCompatTheme_buttonBarStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#buttonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:buttonStyle
+          @attr name com.alperenbilal.bitirme:buttonStyle
         */
         public static final int AppCompatTheme_buttonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:buttonStyleSmall
+          @attr name com.alperenbilal.bitirme:buttonStyleSmall
         */
         public static final int AppCompatTheme_buttonStyleSmall = 101;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:checkboxStyle
+          @attr name com.alperenbilal.bitirme:checkboxStyle
         */
         public static final int AppCompatTheme_checkboxStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:checkedTextViewStyle
+          @attr name com.alperenbilal.bitirme:checkedTextViewStyle
         */
         public static final int AppCompatTheme_checkedTextViewStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#colorAccent}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5025,11 +5027,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:colorAccent
+          @attr name com.alperenbilal.bitirme:colorAccent
         */
         public static final int AppCompatTheme_colorAccent = 84;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5040,11 +5042,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:colorButtonNormal
+          @attr name com.alperenbilal.bitirme:colorButtonNormal
         */
         public static final int AppCompatTheme_colorButtonNormal = 88;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5055,11 +5057,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:colorControlActivated
+          @attr name com.alperenbilal.bitirme:colorControlActivated
         */
         public static final int AppCompatTheme_colorControlActivated = 86;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5070,11 +5072,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:colorControlHighlight
+          @attr name com.alperenbilal.bitirme:colorControlHighlight
         */
         public static final int AppCompatTheme_colorControlHighlight = 87;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5085,11 +5087,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:colorControlNormal
+          @attr name com.alperenbilal.bitirme:colorControlNormal
         */
         public static final int AppCompatTheme_colorControlNormal = 85;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#colorPrimary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5100,11 +5102,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:colorPrimary
+          @attr name com.alperenbilal.bitirme:colorPrimary
         */
         public static final int AppCompatTheme_colorPrimary = 82;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5115,11 +5117,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:colorPrimaryDark
+          @attr name com.alperenbilal.bitirme:colorPrimaryDark
         */
         public static final int AppCompatTheme_colorPrimaryDark = 83;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5130,21 +5132,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:colorSwitchThumbNormal
+          @attr name com.alperenbilal.bitirme:colorSwitchThumbNormal
         */
         public static final int AppCompatTheme_colorSwitchThumbNormal = 89;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#controlBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:controlBackground
+          @attr name com.alperenbilal.bitirme:controlBackground
         */
         public static final int AppCompatTheme_controlBackground = 90;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5156,51 +5158,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:dialogPreferredPadding
+          @attr name com.alperenbilal.bitirme:dialogPreferredPadding
         */
         public static final int AppCompatTheme_dialogPreferredPadding = 43;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#dialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:dialogTheme
+          @attr name com.alperenbilal.bitirme:dialogTheme
         */
         public static final int AppCompatTheme_dialogTheme = 42;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:dividerHorizontal
+          @attr name com.alperenbilal.bitirme:dividerHorizontal
         */
         public static final int AppCompatTheme_dividerHorizontal = 56;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#dividerVertical}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:dividerVertical
+          @attr name com.alperenbilal.bitirme:dividerVertical
         */
         public static final int AppCompatTheme_dividerVertical = 55;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:dropDownListViewStyle
+          @attr name com.alperenbilal.bitirme:dropDownListViewStyle
         */
         public static final int AppCompatTheme_dropDownListViewStyle = 74;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5212,21 +5214,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:dropdownListPreferredItemHeight
+          @attr name com.alperenbilal.bitirme:dropdownListPreferredItemHeight
         */
         public static final int AppCompatTheme_dropdownListPreferredItemHeight = 46;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#editTextBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:editTextBackground
+          @attr name com.alperenbilal.bitirme:editTextBackground
         */
         public static final int AppCompatTheme_editTextBackground = 63;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#editTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5234,71 +5236,71 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name bitirme_mobile_app.Droid:editTextColor
+          @attr name com.alperenbilal.bitirme:editTextColor
         */
         public static final int AppCompatTheme_editTextColor = 62;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#editTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:editTextStyle
+          @attr name com.alperenbilal.bitirme:editTextStyle
         */
         public static final int AppCompatTheme_editTextStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:homeAsUpIndicator
+          @attr name com.alperenbilal.bitirme:homeAsUpIndicator
         */
         public static final int AppCompatTheme_homeAsUpIndicator = 48;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:imageButtonStyle
+          @attr name com.alperenbilal.bitirme:imageButtonStyle
         */
         public static final int AppCompatTheme_imageButtonStyle = 64;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:listChoiceBackgroundIndicator
+          @attr name com.alperenbilal.bitirme:listChoiceBackgroundIndicator
         */
         public static final int AppCompatTheme_listChoiceBackgroundIndicator = 81;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:listDividerAlertDialog
+          @attr name com.alperenbilal.bitirme:listDividerAlertDialog
         */
         public static final int AppCompatTheme_listDividerAlertDialog = 44;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:listPopupWindowStyle
+          @attr name com.alperenbilal.bitirme:listPopupWindowStyle
         */
         public static final int AppCompatTheme_listPopupWindowStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5310,11 +5312,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:listPreferredItemHeight
+          @attr name com.alperenbilal.bitirme:listPreferredItemHeight
         */
         public static final int AppCompatTheme_listPreferredItemHeight = 69;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5326,11 +5328,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:listPreferredItemHeightLarge
+          @attr name com.alperenbilal.bitirme:listPreferredItemHeightLarge
         */
         public static final int AppCompatTheme_listPreferredItemHeightLarge = 71;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5342,11 +5344,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:listPreferredItemHeightSmall
+          @attr name com.alperenbilal.bitirme:listPreferredItemHeightSmall
         */
         public static final int AppCompatTheme_listPreferredItemHeightSmall = 70;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5358,11 +5360,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:listPreferredItemPaddingLeft
+          @attr name com.alperenbilal.bitirme:listPreferredItemPaddingLeft
         */
         public static final int AppCompatTheme_listPreferredItemPaddingLeft = 72;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5374,31 +5376,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:listPreferredItemPaddingRight
+          @attr name com.alperenbilal.bitirme:listPreferredItemPaddingRight
         */
         public static final int AppCompatTheme_listPreferredItemPaddingRight = 73;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#panelBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:panelBackground
+          @attr name com.alperenbilal.bitirme:panelBackground
         */
         public static final int AppCompatTheme_panelBackground = 78;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:panelMenuListTheme
+          @attr name com.alperenbilal.bitirme:panelMenuListTheme
         */
         public static final int AppCompatTheme_panelMenuListTheme = 80;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5410,201 +5412,201 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:panelMenuListWidth
+          @attr name com.alperenbilal.bitirme:panelMenuListWidth
         */
         public static final int AppCompatTheme_panelMenuListWidth = 79;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:popupMenuStyle
+          @attr name com.alperenbilal.bitirme:popupMenuStyle
         */
         public static final int AppCompatTheme_popupMenuStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:popupWindowStyle
+          @attr name com.alperenbilal.bitirme:popupWindowStyle
         */
         public static final int AppCompatTheme_popupWindowStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:radioButtonStyle
+          @attr name com.alperenbilal.bitirme:radioButtonStyle
         */
         public static final int AppCompatTheme_radioButtonStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:ratingBarStyle
+          @attr name com.alperenbilal.bitirme:ratingBarStyle
         */
         public static final int AppCompatTheme_ratingBarStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#ratingBarStyleIndicator}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#ratingBarStyleIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:ratingBarStyleIndicator
+          @attr name com.alperenbilal.bitirme:ratingBarStyleIndicator
         */
         public static final int AppCompatTheme_ratingBarStyleIndicator = 107;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#ratingBarStyleSmall}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#ratingBarStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:ratingBarStyleSmall
+          @attr name com.alperenbilal.bitirme:ratingBarStyleSmall
         */
         public static final int AppCompatTheme_ratingBarStyleSmall = 108;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:searchViewStyle
+          @attr name com.alperenbilal.bitirme:searchViewStyle
         */
         public static final int AppCompatTheme_searchViewStyle = 68;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:seekBarStyle
+          @attr name com.alperenbilal.bitirme:seekBarStyle
         */
         public static final int AppCompatTheme_seekBarStyle = 109;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:selectableItemBackground
+          @attr name com.alperenbilal.bitirme:selectableItemBackground
         */
         public static final int AppCompatTheme_selectableItemBackground = 52;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:selectableItemBackgroundBorderless
+          @attr name com.alperenbilal.bitirme:selectableItemBackgroundBorderless
         */
         public static final int AppCompatTheme_selectableItemBackgroundBorderless = 53;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:spinnerDropDownItemStyle
+          @attr name com.alperenbilal.bitirme:spinnerDropDownItemStyle
         */
         public static final int AppCompatTheme_spinnerDropDownItemStyle = 47;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:spinnerStyle
+          @attr name com.alperenbilal.bitirme:spinnerStyle
         */
         public static final int AppCompatTheme_spinnerStyle = 110;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#switchStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:switchStyle
+          @attr name com.alperenbilal.bitirme:switchStyle
         */
         public static final int AppCompatTheme_switchStyle = 111;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:textAppearanceLargePopupMenu
+          @attr name com.alperenbilal.bitirme:textAppearanceLargePopupMenu
         */
         public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:textAppearanceListItem
+          @attr name com.alperenbilal.bitirme:textAppearanceListItem
         */
         public static final int AppCompatTheme_textAppearanceListItem = 76;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:textAppearanceListItemSmall
+          @attr name com.alperenbilal.bitirme:textAppearanceListItemSmall
         */
         public static final int AppCompatTheme_textAppearanceListItemSmall = 77;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:textAppearanceSearchResultSubtitle
+          @attr name com.alperenbilal.bitirme:textAppearanceSearchResultSubtitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 66;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:textAppearanceSearchResultTitle
+          @attr name com.alperenbilal.bitirme:textAppearanceSearchResultTitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultTitle = 65;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:textAppearanceSmallPopupMenu
+          @attr name com.alperenbilal.bitirme:textAppearanceSmallPopupMenu
         */
         public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5612,11 +5614,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name bitirme_mobile_app.Droid:textColorAlertDialogListItem
+          @attr name com.alperenbilal.bitirme:textColorAlertDialogListItem
         */
         public static final int AppCompatTheme_textColorAlertDialogListItem = 95;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5624,31 +5626,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name bitirme_mobile_app.Droid:textColorSearchUrl
+          @attr name com.alperenbilal.bitirme:textColorSearchUrl
         */
         public static final int AppCompatTheme_textColorSearchUrl = 67;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:toolbarNavigationButtonStyle
+          @attr name com.alperenbilal.bitirme:toolbarNavigationButtonStyle
         */
         public static final int AppCompatTheme_toolbarNavigationButtonStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:toolbarStyle
+          @attr name com.alperenbilal.bitirme:toolbarStyle
         */
         public static final int AppCompatTheme_toolbarStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#windowActionBar}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5658,11 +5660,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:windowActionBar
+          @attr name com.alperenbilal.bitirme:windowActionBar
         */
         public static final int AppCompatTheme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5672,11 +5674,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:windowActionBarOverlay
+          @attr name com.alperenbilal.bitirme:windowActionBarOverlay
         */
         public static final int AppCompatTheme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5686,11 +5688,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:windowActionModeOverlay
+          @attr name com.alperenbilal.bitirme:windowActionModeOverlay
         */
         public static final int AppCompatTheme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5705,11 +5707,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:windowFixedHeightMajor
+          @attr name com.alperenbilal.bitirme:windowFixedHeightMajor
         */
         public static final int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5724,11 +5726,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:windowFixedHeightMinor
+          @attr name com.alperenbilal.bitirme:windowFixedHeightMinor
         */
         public static final int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5743,11 +5745,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:windowFixedWidthMajor
+          @attr name com.alperenbilal.bitirme:windowFixedWidthMajor
         */
         public static final int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5762,11 +5764,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:windowFixedWidthMinor
+          @attr name com.alperenbilal.bitirme:windowFixedWidthMinor
         */
         public static final int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5781,11 +5783,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:windowMinWidthMajor
+          @attr name com.alperenbilal.bitirme:windowMinWidthMajor
         */
         public static final int AppCompatTheme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5800,11 +5802,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:windowMinWidthMinor
+          @attr name com.alperenbilal.bitirme:windowMinWidthMinor
         */
         public static final int AppCompatTheme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5814,7 +5816,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:windowNoTitle
+          @attr name com.alperenbilal.bitirme:windowNoTitle
         */
         public static final int AppCompatTheme_windowNoTitle = 3;
         /** Attributes that can be used with a BottomSheetBehavior_Params.
@@ -5823,8 +5825,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_hideable bitirme_mobile_app.Droid:behavior_hideable}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_peekHeight bitirme_mobile_app.Droid:behavior_peekHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_hideable com.alperenbilal.bitirme:behavior_hideable}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_peekHeight com.alperenbilal.bitirme:behavior_peekHeight}</code></td><td></td></tr>
            </table>
            @see #BottomSheetBehavior_Params_behavior_hideable
            @see #BottomSheetBehavior_Params_behavior_peekHeight
@@ -5833,7 +5835,7 @@ containing a value of this type.
             0x7f0100fd, 0x7f0100fe
         };
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#behavior_hideable}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#behavior_hideable}
           attribute's value can be found in the {@link #BottomSheetBehavior_Params} array.
 
 
@@ -5843,11 +5845,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:behavior_hideable
+          @attr name com.alperenbilal.bitirme:behavior_hideable
         */
         public static final int BottomSheetBehavior_Params_behavior_hideable = 1;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#behavior_peekHeight}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#behavior_peekHeight}
           attribute's value can be found in the {@link #BottomSheetBehavior_Params} array.
 
 
@@ -5859,7 +5861,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:behavior_peekHeight
+          @attr name com.alperenbilal.bitirme:behavior_peekHeight
         */
         public static final int BottomSheetBehavior_Params_behavior_peekHeight = 0;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -5868,7 +5870,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking bitirme_mobile_app.Droid:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.alperenbilal.bitirme:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
@@ -5876,7 +5878,7 @@ containing a value of this type.
             0x7f0100bd
         };
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -5886,7 +5888,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:allowStacking
+          @attr name com.alperenbilal.bitirme:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CardView.
@@ -5897,17 +5899,17 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
            <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardBackgroundColor bitirme_mobile_app.Droid:cardBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardCornerRadius bitirme_mobile_app.Droid:cardCornerRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardElevation bitirme_mobile_app.Droid:cardElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardMaxElevation bitirme_mobile_app.Droid:cardMaxElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardPreventCornerOverlap bitirme_mobile_app.Droid:cardPreventCornerOverlap}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardUseCompatPadding bitirme_mobile_app.Droid:cardUseCompatPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPadding bitirme_mobile_app.Droid:contentPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingBottom bitirme_mobile_app.Droid:contentPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingLeft bitirme_mobile_app.Droid:contentPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingRight bitirme_mobile_app.Droid:contentPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingTop bitirme_mobile_app.Droid:contentPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardBackgroundColor com.alperenbilal.bitirme:cardBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardCornerRadius com.alperenbilal.bitirme:cardCornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardElevation com.alperenbilal.bitirme:cardElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardMaxElevation com.alperenbilal.bitirme:cardMaxElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.alperenbilal.bitirme:cardPreventCornerOverlap}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardUseCompatPadding com.alperenbilal.bitirme:cardUseCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPadding com.alperenbilal.bitirme:contentPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingBottom com.alperenbilal.bitirme:contentPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingLeft com.alperenbilal.bitirme:contentPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingRight com.alperenbilal.bitirme:contentPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingTop com.alperenbilal.bitirme:contentPaddingTop}</code></td><td></td></tr>
            </table>
            @see #CardView_android_minHeight
            @see #CardView_android_minWidth
@@ -5942,7 +5944,7 @@ containing a value of this type.
         */
         public static final int CardView_android_minWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#cardBackgroundColor}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#cardBackgroundColor}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -5953,11 +5955,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:cardBackgroundColor
+          @attr name com.alperenbilal.bitirme:cardBackgroundColor
         */
         public static final int CardView_cardBackgroundColor = 2;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#cardCornerRadius}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#cardCornerRadius}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -5969,11 +5971,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:cardCornerRadius
+          @attr name com.alperenbilal.bitirme:cardCornerRadius
         */
         public static final int CardView_cardCornerRadius = 3;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#cardElevation}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#cardElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -5985,11 +5987,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:cardElevation
+          @attr name com.alperenbilal.bitirme:cardElevation
         */
         public static final int CardView_cardElevation = 4;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#cardMaxElevation}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#cardMaxElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6001,11 +6003,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:cardMaxElevation
+          @attr name com.alperenbilal.bitirme:cardMaxElevation
         */
         public static final int CardView_cardMaxElevation = 5;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#cardPreventCornerOverlap}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#cardPreventCornerOverlap}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6015,11 +6017,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:cardPreventCornerOverlap
+          @attr name com.alperenbilal.bitirme:cardPreventCornerOverlap
         */
         public static final int CardView_cardPreventCornerOverlap = 7;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#cardUseCompatPadding}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#cardUseCompatPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6029,11 +6031,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:cardUseCompatPadding
+          @attr name com.alperenbilal.bitirme:cardUseCompatPadding
         */
         public static final int CardView_cardUseCompatPadding = 6;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#contentPadding}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#contentPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6045,11 +6047,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:contentPadding
+          @attr name com.alperenbilal.bitirme:contentPadding
         */
         public static final int CardView_contentPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#contentPaddingBottom}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#contentPaddingBottom}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6061,11 +6063,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:contentPaddingBottom
+          @attr name com.alperenbilal.bitirme:contentPaddingBottom
         */
         public static final int CardView_contentPaddingBottom = 12;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#contentPaddingLeft}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#contentPaddingLeft}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6077,11 +6079,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:contentPaddingLeft
+          @attr name com.alperenbilal.bitirme:contentPaddingLeft
         */
         public static final int CardView_contentPaddingLeft = 9;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#contentPaddingRight}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#contentPaddingRight}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6093,11 +6095,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:contentPaddingRight
+          @attr name com.alperenbilal.bitirme:contentPaddingRight
         */
         public static final int CardView_contentPaddingRight = 10;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#contentPaddingTop}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#contentPaddingTop}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6109,7 +6111,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:contentPaddingTop
+          @attr name com.alperenbilal.bitirme:contentPaddingTop
         */
         public static final int CardView_contentPaddingTop = 11;
         /** Attributes that can be used with a CollapsingAppBarLayout_LayoutParams.
@@ -6118,8 +6120,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode bitirme_mobile_app.Droid:layout_collapseMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier bitirme_mobile_app.Droid:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode com.alperenbilal.bitirme:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier com.alperenbilal.bitirme:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
            </table>
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseMode
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier
@@ -6128,7 +6130,7 @@ containing a value of this type.
             0x7f0100ff, 0x7f010100
         };
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -6142,11 +6144,11 @@ containing a value of this type.
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name bitirme_mobile_app.Droid:layout_collapseMode
+          @attr name com.alperenbilal.bitirme:layout_collapseMode
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -6156,7 +6158,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:layout_collapseParallaxMultiplier
+          @attr name com.alperenbilal.bitirme:layout_collapseParallaxMultiplier
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a CollapsingToolbarLayout.
@@ -6165,20 +6167,20 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity bitirme_mobile_app.Droid:collapsedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance bitirme_mobile_app.Droid:collapsedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim bitirme_mobile_app.Droid:contentScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity bitirme_mobile_app.Droid:expandedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin bitirme_mobile_app.Droid:expandedTitleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom bitirme_mobile_app.Droid:expandedTitleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd bitirme_mobile_app.Droid:expandedTitleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart bitirme_mobile_app.Droid:expandedTitleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop bitirme_mobile_app.Droid:expandedTitleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance bitirme_mobile_app.Droid:expandedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim bitirme_mobile_app.Droid:statusBarScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_title bitirme_mobile_app.Droid:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled bitirme_mobile_app.Droid:titleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId bitirme_mobile_app.Droid:toolbarId}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.alperenbilal.bitirme:collapsedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.alperenbilal.bitirme:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.alperenbilal.bitirme:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.alperenbilal.bitirme:expandedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.alperenbilal.bitirme:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.alperenbilal.bitirme:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.alperenbilal.bitirme:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.alperenbilal.bitirme:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.alperenbilal.bitirme:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.alperenbilal.bitirme:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.alperenbilal.bitirme:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_title com.alperenbilal.bitirme:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.alperenbilal.bitirme:titleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.alperenbilal.bitirme:toolbarId}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_collapsedTitleGravity
            @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -6202,7 +6204,7 @@ containing a value of this type.
             0x7f01010c, 0x7f01010d
         };
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#collapsedTitleGravity}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#collapsedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6223,21 +6225,21 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name bitirme_mobile_app.Droid:collapsedTitleGravity
+          @attr name com.alperenbilal.bitirme:collapsedTitleGravity
         */
         public static final int CollapsingToolbarLayout_collapsedTitleGravity = 11;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:collapsedTitleTextAppearance
+          @attr name com.alperenbilal.bitirme:collapsedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6248,11 +6250,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:contentScrim
+          @attr name com.alperenbilal.bitirme:contentScrim
         */
         public static final int CollapsingToolbarLayout_contentScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#expandedTitleGravity}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#expandedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6273,11 +6275,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name bitirme_mobile_app.Droid:expandedTitleGravity
+          @attr name com.alperenbilal.bitirme:expandedTitleGravity
         */
         public static final int CollapsingToolbarLayout_expandedTitleGravity = 12;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6289,11 +6291,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:expandedTitleMargin
+          @attr name com.alperenbilal.bitirme:expandedTitleMargin
         */
         public static final int CollapsingToolbarLayout_expandedTitleMargin = 1;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6305,11 +6307,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:expandedTitleMarginBottom
+          @attr name com.alperenbilal.bitirme:expandedTitleMarginBottom
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6321,11 +6323,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:expandedTitleMarginEnd
+          @attr name com.alperenbilal.bitirme:expandedTitleMarginEnd
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6337,11 +6339,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:expandedTitleMarginStart
+          @attr name com.alperenbilal.bitirme:expandedTitleMarginStart
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6353,21 +6355,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:expandedTitleMarginTop
+          @attr name com.alperenbilal.bitirme:expandedTitleMarginTop
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:expandedTitleTextAppearance
+          @attr name com.alperenbilal.bitirme:expandedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6378,11 +6380,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:statusBarScrim
+          @attr name com.alperenbilal.bitirme:statusBarScrim
         */
         public static final int CollapsingToolbarLayout_statusBarScrim = 9;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#title}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#title}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6392,11 +6394,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:title
+          @attr name com.alperenbilal.bitirme:title
         */
         public static final int CollapsingToolbarLayout_title = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#titleEnabled}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#titleEnabled}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6406,17 +6408,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:titleEnabled
+          @attr name com.alperenbilal.bitirme:titleEnabled
         */
         public static final int CollapsingToolbarLayout_titleEnabled = 13;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:toolbarId
+          @attr name com.alperenbilal.bitirme:toolbarId
         */
         public static final int CollapsingToolbarLayout_toolbarId = 10;
         /** Attributes that can be used with a CompoundButton.
@@ -6426,8 +6428,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint bitirme_mobile_app.Droid:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode bitirme_mobile_app.Droid:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint com.alperenbilal.bitirme:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode com.alperenbilal.bitirme:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
@@ -6443,7 +6445,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -6454,11 +6456,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:buttonTint
+          @attr name com.alperenbilal.bitirme:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -6474,7 +6476,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name bitirme_mobile_app.Droid:buttonTintMode
+          @attr name com.alperenbilal.bitirme:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -6483,8 +6485,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines bitirme_mobile_app.Droid:keylines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground bitirme_mobile_app.Droid:statusBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines com.alperenbilal.bitirme:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.alperenbilal.bitirme:statusBarBackground}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
@@ -6493,23 +6495,23 @@ containing a value of this type.
             0x7f01010e, 0x7f01010f
         };
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#keylines}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:keylines
+          @attr name com.alperenbilal.bitirme:keylines
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:statusBarBackground
+          @attr name com.alperenbilal.bitirme:statusBarBackground
         */
         public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_LayoutParams.
@@ -6519,10 +6521,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_LayoutParams_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor bitirme_mobile_app.Droid:layout_anchor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity bitirme_mobile_app.Droid:layout_anchorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior bitirme_mobile_app.Droid:layout_behavior}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline bitirme_mobile_app.Droid:layout_keyline}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor com.alperenbilal.bitirme:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity com.alperenbilal.bitirme:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior com.alperenbilal.bitirme:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline com.alperenbilal.bitirme:layout_keyline}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_LayoutParams_android_layout_gravity
            @see #CoordinatorLayout_LayoutParams_layout_anchor
@@ -6541,17 +6543,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_LayoutParams_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:layout_anchor
+          @attr name com.alperenbilal.bitirme:layout_anchor
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -6576,11 +6578,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name bitirme_mobile_app.Droid:layout_anchorGravity
+          @attr name com.alperenbilal.bitirme:layout_anchorGravity
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -6590,11 +6592,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:layout_behavior
+          @attr name com.alperenbilal.bitirme:layout_behavior
         */
         public static final int CoordinatorLayout_LayoutParams_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -6604,7 +6606,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:layout_keyline
+          @attr name com.alperenbilal.bitirme:layout_keyline
         */
         public static final int CoordinatorLayout_LayoutParams_layout_keyline = 3;
         /** Attributes that can be used with a DesignTheme.
@@ -6613,9 +6615,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme bitirme_mobile_app.Droid:bottomSheetDialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetStyle bitirme_mobile_app.Droid:bottomSheetStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_textColorError bitirme_mobile_app.Droid:textColorError}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.alperenbilal.bitirme:bottomSheetDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.alperenbilal.bitirme:bottomSheetStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_textColorError com.alperenbilal.bitirme:textColorError}</code></td><td></td></tr>
            </table>
            @see #DesignTheme_bottomSheetDialogTheme
            @see #DesignTheme_bottomSheetStyle
@@ -6625,27 +6627,27 @@ containing a value of this type.
             0x7f010114, 0x7f010115, 0x7f010116
         };
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#bottomSheetDialogTheme}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#bottomSheetDialogTheme}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:bottomSheetDialogTheme
+          @attr name com.alperenbilal.bitirme:bottomSheetDialogTheme
         */
         public static final int DesignTheme_bottomSheetDialogTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#bottomSheetStyle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#bottomSheetStyle}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:bottomSheetStyle
+          @attr name com.alperenbilal.bitirme:bottomSheetStyle
         */
         public static final int DesignTheme_bottomSheetStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#textColorError}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#textColorError}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
@@ -6656,7 +6658,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:textColorError
+          @attr name com.alperenbilal.bitirme:textColorError
         */
         public static final int DesignTheme_textColorError = 2;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -6665,14 +6667,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength bitirme_mobile_app.Droid:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength bitirme_mobile_app.Droid:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength bitirme_mobile_app.Droid:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color bitirme_mobile_app.Droid:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize bitirme_mobile_app.Droid:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars bitirme_mobile_app.Droid:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars bitirme_mobile_app.Droid:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness bitirme_mobile_app.Droid:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.alperenbilal.bitirme:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.alperenbilal.bitirme:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength com.alperenbilal.bitirme:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.alperenbilal.bitirme:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.alperenbilal.bitirme:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.alperenbilal.bitirme:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.alperenbilal.bitirme:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.alperenbilal.bitirme:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -6688,7 +6690,7 @@ containing a value of this type.
             0x7f0100c4, 0x7f0100c5, 0x7f0100c6, 0x7f0100c7
         };
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6700,11 +6702,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:arrowHeadLength
+          @attr name com.alperenbilal.bitirme:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6716,11 +6718,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:arrowShaftLength
+          @attr name com.alperenbilal.bitirme:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#barLength}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6732,11 +6734,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:barLength
+          @attr name com.alperenbilal.bitirme:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#color}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6747,11 +6749,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:color
+          @attr name com.alperenbilal.bitirme:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6763,11 +6765,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:drawableSize
+          @attr name com.alperenbilal.bitirme:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6779,11 +6781,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:gapBetweenBars
+          @attr name com.alperenbilal.bitirme:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6793,11 +6795,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:spinBars
+          @attr name com.alperenbilal.bitirme:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6809,7 +6811,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:thickness
+          @attr name com.alperenbilal.bitirme:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a FloatingActionButton.
@@ -6818,14 +6820,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTint bitirme_mobile_app.Droid:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode bitirme_mobile_app.Droid:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_borderWidth bitirme_mobile_app.Droid:borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_elevation bitirme_mobile_app.Droid:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabSize bitirme_mobile_app.Droid:fabSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ bitirme_mobile_app.Droid:pressedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_rippleColor bitirme_mobile_app.Droid:rippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_useCompatPadding bitirme_mobile_app.Droid:useCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint com.alperenbilal.bitirme:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.alperenbilal.bitirme:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth com.alperenbilal.bitirme:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation com.alperenbilal.bitirme:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize com.alperenbilal.bitirme:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.alperenbilal.bitirme:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor com.alperenbilal.bitirme:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.alperenbilal.bitirme:useCompatPadding}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_backgroundTint
            @see #FloatingActionButton_backgroundTintMode
@@ -6841,7 +6843,7 @@ containing a value of this type.
             0x7f010118, 0x7f010119, 0x7f01011a, 0x7f01011b
         };
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6852,11 +6854,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:backgroundTint
+          @attr name com.alperenbilal.bitirme:backgroundTint
         */
         public static final int FloatingActionButton_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6872,11 +6874,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name bitirme_mobile_app.Droid:backgroundTintMode
+          @attr name com.alperenbilal.bitirme:backgroundTintMode
         */
         public static final int FloatingActionButton_backgroundTintMode = 2;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6888,11 +6890,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:borderWidth
+          @attr name com.alperenbilal.bitirme:borderWidth
         */
         public static final int FloatingActionButton_borderWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6904,11 +6906,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:elevation
+          @attr name com.alperenbilal.bitirme:elevation
         */
         public static final int FloatingActionButton_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6921,11 +6923,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name bitirme_mobile_app.Droid:fabSize
+          @attr name com.alperenbilal.bitirme:fabSize
         */
         public static final int FloatingActionButton_fabSize = 4;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6937,11 +6939,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:pressedTranslationZ
+          @attr name com.alperenbilal.bitirme:pressedTranslationZ
         */
         public static final int FloatingActionButton_pressedTranslationZ = 5;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6952,11 +6954,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:rippleColor
+          @attr name com.alperenbilal.bitirme:rippleColor
         */
         public static final int FloatingActionButton_rippleColor = 3;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#useCompatPadding}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#useCompatPadding}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6966,7 +6968,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:useCompatPadding
+          @attr name com.alperenbilal.bitirme:useCompatPadding
         */
         public static final int FloatingActionButton_useCompatPadding = 7;
         /** Attributes that can be used with a ForegroundLinearLayout.
@@ -6977,7 +6979,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding bitirme_mobile_app.Droid:foregroundInsidePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.alperenbilal.bitirme:foregroundInsidePadding}</code></td><td></td></tr>
            </table>
            @see #ForegroundLinearLayout_android_foreground
            @see #ForegroundLinearLayout_android_foregroundGravity
@@ -6999,7 +7001,7 @@ containing a value of this type.
         */
         public static final int ForegroundLinearLayout_android_foregroundGravity = 1;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#foregroundInsidePadding}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#foregroundInsidePadding}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
 
 
@@ -7009,7 +7011,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:foregroundInsidePadding
+          @attr name com.alperenbilal.bitirme:foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_foregroundInsidePadding = 2;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -7023,10 +7025,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider bitirme_mobile_app.Droid:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding bitirme_mobile_app.Droid:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild bitirme_mobile_app.Droid:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers bitirme_mobile_app.Droid:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.alperenbilal.bitirme:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.alperenbilal.bitirme:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.alperenbilal.bitirme:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.alperenbilal.bitirme:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -7074,17 +7076,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:divider
+          @attr name com.alperenbilal.bitirme:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7096,11 +7098,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:dividerPadding
+          @attr name com.alperenbilal.bitirme:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7110,11 +7112,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:measureWithLargestChild
+          @attr name com.alperenbilal.bitirme:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7129,7 +7131,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name bitirme_mobile_app.Droid:showDividers
+          @attr name com.alperenbilal.bitirme:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -7208,12 +7210,12 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LoadingImageView_circleCrop bitirme_mobile_app.Droid:circleCrop}</code></td><td>
+           <tr><td><code>{@link #LoadingImageView_circleCrop com.alperenbilal.bitirme:circleCrop}</code></td><td>
         Whether or not this view should have a circular clip applied
         </td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatio bitirme_mobile_app.Droid:imageAspectRatio}</code></td><td>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.alperenbilal.bitirme:imageAspectRatio}</code></td><td>
         The fixed aspect ratio to use in aspect ratio adjustments.</td></tr>
-           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust bitirme_mobile_app.Droid:imageAspectRatioAdjust}</code></td><td>
+           <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.alperenbilal.bitirme:imageAspectRatioAdjust}</code></td><td>
         What kind of aspect ratio adjustment to do.</td></tr>
            </table>
            @see #LoadingImageView_circleCrop
@@ -7238,7 +7240,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name bitirme_mobile_app.Droid:circleCrop
+          @attr name com.alperenbilal.bitirme:circleCrop
         */
         public static final int LoadingImageView_circleCrop = 2;
         /**
@@ -7256,7 +7258,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
           <p>This is a private symbol.
-          @attr name bitirme_mobile_app.Droid:imageAspectRatio
+          @attr name com.alperenbilal.bitirme:imageAspectRatio
         */
         public static final int LoadingImageView_imageAspectRatio = 1;
         /**
@@ -7279,7 +7281,7 @@ containing a value of this type.
 <tr><td><code>adjust_height</code></td><td>2</td><td></td></tr>
 </table>
           <p>This is a private symbol.
-          @attr name bitirme_mobile_app.Droid:imageAspectRatioAdjust
+          @attr name com.alperenbilal.bitirme:imageAspectRatioAdjust
         */
         public static final int LoadingImageView_imageAspectRatioAdjust = 0;
         /** Attributes that can be used with a MediaRouteButton.
@@ -7290,7 +7292,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #MediaRouteButton_android_minHeight android:minHeight}</code></td><td></td></tr>
            <tr><td><code>{@link #MediaRouteButton_android_minWidth android:minWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #MediaRouteButton_externalRouteEnabledDrawable bitirme_mobile_app.Droid:externalRouteEnabledDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #MediaRouteButton_externalRouteEnabledDrawable com.alperenbilal.bitirme:externalRouteEnabledDrawable}</code></td><td></td></tr>
            </table>
            @see #MediaRouteButton_android_minHeight
            @see #MediaRouteButton_android_minWidth
@@ -7312,13 +7314,13 @@ containing a value of this type.
         */
         public static final int MediaRouteButton_android_minWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#externalRouteEnabledDrawable}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#externalRouteEnabledDrawable}
           attribute's value can be found in the {@link #MediaRouteButton} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:externalRouteEnabledDrawable
+          @attr name com.alperenbilal.bitirme:externalRouteEnabledDrawable
         */
         public static final int MediaRouteButton_externalRouteEnabledDrawable = 2;
         /** Attributes that can be used with a MenuGroup.
@@ -7387,9 +7389,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout bitirme_mobile_app.Droid:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass bitirme_mobile_app.Droid:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass bitirme_mobile_app.Droid:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.alperenbilal.bitirme:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.alperenbilal.bitirme:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.alperenbilal.bitirme:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -7403,7 +7405,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction bitirme_mobile_app.Droid:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.alperenbilal.bitirme:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -7431,17 +7433,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100ce
         };
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:actionLayout
+          @attr name com.alperenbilal.bitirme:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7451,11 +7453,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:actionProviderClass
+          @attr name com.alperenbilal.bitirme:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7465,7 +7467,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:actionViewClass
+          @attr name com.alperenbilal.bitirme:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -7547,7 +7549,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7563,7 +7565,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name bitirme_mobile_app.Droid:showAsAction
+          @attr name com.alperenbilal.bitirme:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -7579,7 +7581,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing bitirme_mobile_app.Droid:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.alperenbilal.bitirme:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -7637,7 +7639,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -7647,7 +7649,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:preserveIconSpacing
+          @attr name com.alperenbilal.bitirme:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a NavigationView.
@@ -7659,13 +7661,13 @@ containing a value of this type.
            <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_elevation bitirme_mobile_app.Droid:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_headerLayout bitirme_mobile_app.Droid:headerLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemBackground bitirme_mobile_app.Droid:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconTint bitirme_mobile_app.Droid:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextAppearance bitirme_mobile_app.Droid:itemTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextColor bitirme_mobile_app.Droid:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_menu bitirme_mobile_app.Droid:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation com.alperenbilal.bitirme:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout com.alperenbilal.bitirme:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground com.alperenbilal.bitirme:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint com.alperenbilal.bitirme:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextAppearance com.alperenbilal.bitirme:itemTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor com.alperenbilal.bitirme:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu com.alperenbilal.bitirme:menu}</code></td><td></td></tr>
            </table>
            @see #NavigationView_android_background
            @see #NavigationView_android_fitsSystemWindows
@@ -7702,7 +7704,7 @@ containing a value of this type.
         */
         public static final int NavigationView_android_maxWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#elevation}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -7714,31 +7716,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:elevation
+          @attr name com.alperenbilal.bitirme:elevation
         */
         public static final int NavigationView_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:headerLayout
+          @attr name com.alperenbilal.bitirme:headerLayout
         */
         public static final int NavigationView_headerLayout = 9;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:itemBackground
+          @attr name com.alperenbilal.bitirme:itemBackground
         */
         public static final int NavigationView_itemBackground = 7;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -7749,21 +7751,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:itemIconTint
+          @attr name com.alperenbilal.bitirme:itemIconTint
         */
         public static final int NavigationView_itemIconTint = 5;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#itemTextAppearance}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:itemTextAppearance
+          @attr name com.alperenbilal.bitirme:itemTextAppearance
         */
         public static final int NavigationView_itemTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -7774,17 +7776,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:itemTextColor
+          @attr name com.alperenbilal.bitirme:itemTextColor
         */
         public static final int NavigationView_itemTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#menu}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:menu
+          @attr name com.alperenbilal.bitirme:menu
         */
         public static final int NavigationView_menu = 4;
         /** Attributes that can be used with a PopupWindow.
@@ -7794,7 +7796,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor bitirme_mobile_app.Droid:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.alperenbilal.bitirme:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
@@ -7809,7 +7811,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -7819,7 +7821,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:overlapAnchor
+          @attr name com.alperenbilal.bitirme:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -7828,7 +7830,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor bitirme_mobile_app.Droid:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.alperenbilal.bitirme:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -7836,7 +7838,7 @@ containing a value of this type.
             0x7f0100d1
         };
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -7846,7 +7848,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:state_above_anchor
+          @attr name com.alperenbilal.bitirme:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a RecyclerView.
@@ -7856,10 +7858,10 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager bitirme_mobile_app.Droid:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout bitirme_mobile_app.Droid:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount bitirme_mobile_app.Droid:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd bitirme_mobile_app.Droid:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager com.alperenbilal.bitirme:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout com.alperenbilal.bitirme:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount com.alperenbilal.bitirme:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd com.alperenbilal.bitirme:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_orientation
            @see #RecyclerView_layoutManager
@@ -7878,7 +7880,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -7888,11 +7890,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:layoutManager
+          @attr name com.alperenbilal.bitirme:layoutManager
         */
         public static final int RecyclerView_layoutManager = 1;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -7902,11 +7904,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:reverseLayout
+          @attr name com.alperenbilal.bitirme:reverseLayout
         */
         public static final int RecyclerView_reverseLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -7916,11 +7918,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:spanCount
+          @attr name com.alperenbilal.bitirme:spanCount
         */
         public static final int RecyclerView_spanCount = 2;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -7930,7 +7932,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:stackFromEnd
+          @attr name com.alperenbilal.bitirme:stackFromEnd
         */
         public static final int RecyclerView_stackFromEnd = 4;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
@@ -7939,7 +7941,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground bitirme_mobile_app.Droid:insetForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.alperenbilal.bitirme:insetForeground}</code></td><td></td></tr>
            </table>
            @see #ScrimInsetsFrameLayout_insetForeground
          */
@@ -7947,7 +7949,7 @@ containing a value of this type.
             0x7f010123
         };
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -7955,7 +7957,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name bitirme_mobile_app.Droid:insetForeground
+          @attr name com.alperenbilal.bitirme:insetForeground
         */
         public static final int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrollingViewBehavior_Params.
@@ -7964,7 +7966,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop bitirme_mobile_app.Droid:behavior_overlapTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop com.alperenbilal.bitirme:behavior_overlapTop}</code></td><td></td></tr>
            </table>
            @see #ScrollingViewBehavior_Params_behavior_overlapTop
          */
@@ -7972,7 +7974,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010124
         };
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Params} array.
 
 
@@ -7984,7 +7986,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:behavior_overlapTop
+          @attr name com.alperenbilal.bitirme:behavior_overlapTop
         */
         public static final int ScrollingViewBehavior_Params_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
@@ -7997,19 +7999,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon bitirme_mobile_app.Droid:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon bitirme_mobile_app.Droid:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint bitirme_mobile_app.Droid:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon bitirme_mobile_app.Droid:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault bitirme_mobile_app.Droid:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout bitirme_mobile_app.Droid:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground bitirme_mobile_app.Droid:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint bitirme_mobile_app.Droid:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon bitirme_mobile_app.Droid:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon bitirme_mobile_app.Droid:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground bitirme_mobile_app.Droid:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout bitirme_mobile_app.Droid:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon bitirme_mobile_app.Droid:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.alperenbilal.bitirme:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.alperenbilal.bitirme:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint com.alperenbilal.bitirme:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.alperenbilal.bitirme:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.alperenbilal.bitirme:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.alperenbilal.bitirme:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.alperenbilal.bitirme:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.alperenbilal.bitirme:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon com.alperenbilal.bitirme:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.alperenbilal.bitirme:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.alperenbilal.bitirme:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.alperenbilal.bitirme:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.alperenbilal.bitirme:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -8061,27 +8063,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:closeIcon
+          @attr name com.alperenbilal.bitirme:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:commitIcon
+          @attr name com.alperenbilal.bitirme:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8091,21 +8093,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:defaultQueryHint
+          @attr name com.alperenbilal.bitirme:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:goIcon
+          @attr name com.alperenbilal.bitirme:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8115,31 +8117,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:iconifiedByDefault
+          @attr name com.alperenbilal.bitirme:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:layout
+          @attr name com.alperenbilal.bitirme:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:queryBackground
+          @attr name com.alperenbilal.bitirme:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8149,57 +8151,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:queryHint
+          @attr name com.alperenbilal.bitirme:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:searchHintIcon
+          @attr name com.alperenbilal.bitirme:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:searchIcon
+          @attr name com.alperenbilal.bitirme:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:submitBackground
+          @attr name com.alperenbilal.bitirme:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:suggestionRowLayout
+          @attr name com.alperenbilal.bitirme:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:voiceIcon
+          @attr name com.alperenbilal.bitirme:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a SnackbarLayout.
@@ -8209,8 +8211,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_elevation bitirme_mobile_app.Droid:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth bitirme_mobile_app.Droid:maxActionInlineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation com.alperenbilal.bitirme:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.alperenbilal.bitirme:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
            @see #SnackbarLayout_android_maxWidth
            @see #SnackbarLayout_elevation
@@ -8226,7 +8228,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SnackbarLayout_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#elevation}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -8238,11 +8240,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:elevation
+          @attr name com.alperenbilal.bitirme:elevation
         */
         public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -8254,7 +8256,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:maxActionInlineWidth
+          @attr name com.alperenbilal.bitirme:maxActionInlineWidth
         */
         public static final int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
@@ -8267,7 +8269,7 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme bitirme_mobile_app.Droid:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme com.alperenbilal.bitirme:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_entries
@@ -8304,13 +8306,13 @@ containing a value of this type.
         */
         public static final int Spinner_android_prompt = 2;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:popupTheme
+          @attr name com.alperenbilal.bitirme:popupTheme
         */
         public static final int Spinner_popupTheme = 4;
         /** Attributes that can be used with a SwitchCompat.
@@ -8322,13 +8324,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText bitirme_mobile_app.Droid:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack bitirme_mobile_app.Droid:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth bitirme_mobile_app.Droid:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding bitirme_mobile_app.Droid:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance bitirme_mobile_app.Droid:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding bitirme_mobile_app.Droid:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track bitirme_mobile_app.Droid:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.alperenbilal.bitirme:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.alperenbilal.bitirme:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.alperenbilal.bitirme:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.alperenbilal.bitirme:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.alperenbilal.bitirme:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.alperenbilal.bitirme:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.alperenbilal.bitirme:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -8365,7 +8367,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8375,11 +8377,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:showText
+          @attr name com.alperenbilal.bitirme:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8389,11 +8391,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:splitTrack
+          @attr name com.alperenbilal.bitirme:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8405,11 +8407,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:switchMinWidth
+          @attr name com.alperenbilal.bitirme:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8421,21 +8423,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:switchPadding
+          @attr name com.alperenbilal.bitirme:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:switchTextAppearance
+          @attr name com.alperenbilal.bitirme:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8447,17 +8449,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:thumbTextPadding
+          @attr name com.alperenbilal.bitirme:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#track}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:track
+          @attr name com.alperenbilal.bitirme:track
         */
         public static final int SwitchCompat_track = 3;
         /** Attributes that can be used with a TabItem.
@@ -8501,22 +8503,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TabLayout_tabBackground bitirme_mobile_app.Droid:tabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabContentStart bitirme_mobile_app.Droid:tabContentStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabGravity bitirme_mobile_app.Droid:tabGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorColor bitirme_mobile_app.Droid:tabIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorHeight bitirme_mobile_app.Droid:tabIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMaxWidth bitirme_mobile_app.Droid:tabMaxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMinWidth bitirme_mobile_app.Droid:tabMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMode bitirme_mobile_app.Droid:tabMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPadding bitirme_mobile_app.Droid:tabPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingBottom bitirme_mobile_app.Droid:tabPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingEnd bitirme_mobile_app.Droid:tabPaddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingStart bitirme_mobile_app.Droid:tabPaddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingTop bitirme_mobile_app.Droid:tabPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabSelectedTextColor bitirme_mobile_app.Droid:tabSelectedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextAppearance bitirme_mobile_app.Droid:tabTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextColor bitirme_mobile_app.Droid:tabTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground com.alperenbilal.bitirme:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart com.alperenbilal.bitirme:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity com.alperenbilal.bitirme:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor com.alperenbilal.bitirme:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.alperenbilal.bitirme:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth com.alperenbilal.bitirme:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth com.alperenbilal.bitirme:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode com.alperenbilal.bitirme:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding com.alperenbilal.bitirme:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom com.alperenbilal.bitirme:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd com.alperenbilal.bitirme:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart com.alperenbilal.bitirme:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop com.alperenbilal.bitirme:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.alperenbilal.bitirme:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance com.alperenbilal.bitirme:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor com.alperenbilal.bitirme:tabTextColor}</code></td><td></td></tr>
            </table>
            @see #TabLayout_tabBackground
            @see #TabLayout_tabContentStart
@@ -8542,17 +8544,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010132, 0x7f010133, 0x7f010134, 0x7f010135
         };
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:tabBackground
+          @attr name com.alperenbilal.bitirme:tabBackground
         */
         public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8564,11 +8566,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:tabContentStart
+          @attr name com.alperenbilal.bitirme:tabContentStart
         */
         public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8581,11 +8583,11 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name bitirme_mobile_app.Droid:tabGravity
+          @attr name com.alperenbilal.bitirme:tabGravity
         */
         public static final int TabLayout_tabGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8596,11 +8598,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:tabIndicatorColor
+          @attr name com.alperenbilal.bitirme:tabIndicatorColor
         */
         public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8612,11 +8614,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:tabIndicatorHeight
+          @attr name com.alperenbilal.bitirme:tabIndicatorHeight
         */
         public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8628,11 +8630,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:tabMaxWidth
+          @attr name com.alperenbilal.bitirme:tabMaxWidth
         */
         public static final int TabLayout_tabMaxWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8644,11 +8646,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:tabMinWidth
+          @attr name com.alperenbilal.bitirme:tabMinWidth
         */
         public static final int TabLayout_tabMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8661,11 +8663,11 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name bitirme_mobile_app.Droid:tabMode
+          @attr name com.alperenbilal.bitirme:tabMode
         */
         public static final int TabLayout_tabMode = 4;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8677,11 +8679,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:tabPadding
+          @attr name com.alperenbilal.bitirme:tabPadding
         */
         public static final int TabLayout_tabPadding = 15;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8693,11 +8695,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:tabPaddingBottom
+          @attr name com.alperenbilal.bitirme:tabPaddingBottom
         */
         public static final int TabLayout_tabPaddingBottom = 14;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8709,11 +8711,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:tabPaddingEnd
+          @attr name com.alperenbilal.bitirme:tabPaddingEnd
         */
         public static final int TabLayout_tabPaddingEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8725,11 +8727,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:tabPaddingStart
+          @attr name com.alperenbilal.bitirme:tabPaddingStart
         */
         public static final int TabLayout_tabPaddingStart = 11;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8741,11 +8743,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:tabPaddingTop
+          @attr name com.alperenbilal.bitirme:tabPaddingTop
         */
         public static final int TabLayout_tabPaddingTop = 12;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8756,21 +8758,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:tabSelectedTextColor
+          @attr name com.alperenbilal.bitirme:tabSelectedTextColor
         */
         public static final int TabLayout_tabSelectedTextColor = 10;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:tabTextAppearance
+          @attr name com.alperenbilal.bitirme:tabTextAppearance
         */
         public static final int TabLayout_tabTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8781,7 +8783,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:tabTextColor
+          @attr name com.alperenbilal.bitirme:tabTextColor
         */
         public static final int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
@@ -8798,7 +8800,7 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps bitirme_mobile_app.Droid:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps com.alperenbilal.bitirme:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_shadowColor
            @see #TextAppearance_android_shadowDx
@@ -8864,14 +8866,14 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name bitirme_mobile_app.Droid:textAllCaps
+          @attr name com.alperenbilal.bitirme:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 8;
         /** Attributes that can be used with a TextInputLayout.
@@ -8882,15 +8884,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterEnabled bitirme_mobile_app.Droid:counterEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterMaxLength bitirme_mobile_app.Droid:counterMaxLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance bitirme_mobile_app.Droid:counterOverflowTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterTextAppearance bitirme_mobile_app.Droid:counterTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorEnabled bitirme_mobile_app.Droid:errorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorTextAppearance bitirme_mobile_app.Droid:errorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled bitirme_mobile_app.Droid:hintAnimationEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintEnabled bitirme_mobile_app.Droid:hintEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintTextAppearance bitirme_mobile_app.Droid:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterEnabled com.alperenbilal.bitirme:counterEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterMaxLength com.alperenbilal.bitirme:counterMaxLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.alperenbilal.bitirme:counterOverflowTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.alperenbilal.bitirme:counterTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled com.alperenbilal.bitirme:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.alperenbilal.bitirme:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.alperenbilal.bitirme:hintAnimationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintEnabled com.alperenbilal.bitirme:hintEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.alperenbilal.bitirme:hintTextAppearance}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
            @see #TextInputLayout_android_textColorHint
@@ -8922,7 +8924,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_android_textColorHint = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#counterEnabled}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#counterEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -8932,11 +8934,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:counterEnabled
+          @attr name com.alperenbilal.bitirme:counterEnabled
         */
         public static final int TextInputLayout_counterEnabled = 6;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#counterMaxLength}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#counterMaxLength}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -8946,31 +8948,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:counterMaxLength
+          @attr name com.alperenbilal.bitirme:counterMaxLength
         */
         public static final int TextInputLayout_counterMaxLength = 7;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#counterOverflowTextAppearance}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#counterOverflowTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:counterOverflowTextAppearance
+          @attr name com.alperenbilal.bitirme:counterOverflowTextAppearance
         */
         public static final int TextInputLayout_counterOverflowTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#counterTextAppearance}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#counterTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:counterTextAppearance
+          @attr name com.alperenbilal.bitirme:counterTextAppearance
         */
         public static final int TextInputLayout_counterTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -8980,21 +8982,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:errorEnabled
+          @attr name com.alperenbilal.bitirme:errorEnabled
         */
         public static final int TextInputLayout_errorEnabled = 4;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:errorTextAppearance
+          @attr name com.alperenbilal.bitirme:errorTextAppearance
         */
         public static final int TextInputLayout_errorTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#hintAnimationEnabled}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#hintAnimationEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -9004,11 +9006,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:hintAnimationEnabled
+          @attr name com.alperenbilal.bitirme:hintAnimationEnabled
         */
         public static final int TextInputLayout_hintAnimationEnabled = 10;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#hintEnabled}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#hintEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -9018,17 +9020,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:hintEnabled
+          @attr name com.alperenbilal.bitirme:hintEnabled
         */
         public static final int TextInputLayout_hintEnabled = 3;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:hintTextAppearance
+          @attr name com.alperenbilal.bitirme:hintTextAppearance
         */
         public static final int TextInputLayout_hintTextAppearance = 2;
         /** Attributes that can be used with a Toolbar.
@@ -9039,29 +9041,29 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription bitirme_mobile_app.Droid:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon bitirme_mobile_app.Droid:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd bitirme_mobile_app.Droid:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft bitirme_mobile_app.Droid:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight bitirme_mobile_app.Droid:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart bitirme_mobile_app.Droid:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo bitirme_mobile_app.Droid:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription bitirme_mobile_app.Droid:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight bitirme_mobile_app.Droid:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription bitirme_mobile_app.Droid:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon bitirme_mobile_app.Droid:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme bitirme_mobile_app.Droid:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle bitirme_mobile_app.Droid:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance bitirme_mobile_app.Droid:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor bitirme_mobile_app.Droid:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title bitirme_mobile_app.Droid:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom bitirme_mobile_app.Droid:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd bitirme_mobile_app.Droid:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart bitirme_mobile_app.Droid:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop bitirme_mobile_app.Droid:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins bitirme_mobile_app.Droid:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance bitirme_mobile_app.Droid:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor bitirme_mobile_app.Droid:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.alperenbilal.bitirme:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.alperenbilal.bitirme:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.alperenbilal.bitirme:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.alperenbilal.bitirme:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.alperenbilal.bitirme:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.alperenbilal.bitirme:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo com.alperenbilal.bitirme:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription com.alperenbilal.bitirme:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.alperenbilal.bitirme:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.alperenbilal.bitirme:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.alperenbilal.bitirme:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.alperenbilal.bitirme:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.alperenbilal.bitirme:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.alperenbilal.bitirme:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor com.alperenbilal.bitirme:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.alperenbilal.bitirme:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.alperenbilal.bitirme:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.alperenbilal.bitirme:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.alperenbilal.bitirme:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.alperenbilal.bitirme:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.alperenbilal.bitirme:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.alperenbilal.bitirme:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor com.alperenbilal.bitirme:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -9111,7 +9113,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9121,21 +9123,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:collapseContentDescription
+          @attr name com.alperenbilal.bitirme:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:collapseIcon
+          @attr name com.alperenbilal.bitirme:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 18;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9147,11 +9149,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:contentInsetEnd
+          @attr name com.alperenbilal.bitirme:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9163,11 +9165,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:contentInsetLeft
+          @attr name com.alperenbilal.bitirme:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9179,11 +9181,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:contentInsetRight
+          @attr name com.alperenbilal.bitirme:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9195,21 +9197,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:contentInsetStart
+          @attr name com.alperenbilal.bitirme:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:logo
+          @attr name com.alperenbilal.bitirme:logo
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9219,11 +9221,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:logoDescription
+          @attr name com.alperenbilal.bitirme:logoDescription
         */
         public static final int Toolbar_logoDescription = 22;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9235,11 +9237,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:maxButtonHeight
+          @attr name com.alperenbilal.bitirme:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 17;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9249,31 +9251,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:navigationContentDescription
+          @attr name com.alperenbilal.bitirme:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 21;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:navigationIcon
+          @attr name com.alperenbilal.bitirme:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 20;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:popupTheme
+          @attr name com.alperenbilal.bitirme:popupTheme
         */
         public static final int Toolbar_popupTheme = 9;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9283,21 +9285,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:subtitle
+          @attr name com.alperenbilal.bitirme:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:subtitleTextAppearance
+          @attr name com.alperenbilal.bitirme:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 11;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9308,11 +9310,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:subtitleTextColor
+          @attr name com.alperenbilal.bitirme:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 24;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#title}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9322,11 +9324,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:title
+          @attr name com.alperenbilal.bitirme:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9338,11 +9340,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:titleMarginBottom
+          @attr name com.alperenbilal.bitirme:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 16;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9354,11 +9356,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:titleMarginEnd
+          @attr name com.alperenbilal.bitirme:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 14;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9370,11 +9372,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:titleMarginStart
+          @attr name com.alperenbilal.bitirme:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 13;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9386,11 +9388,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:titleMarginTop
+          @attr name com.alperenbilal.bitirme:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 15;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9402,21 +9404,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:titleMargins
+          @attr name com.alperenbilal.bitirme:titleMargins
         */
         public static final int Toolbar_titleMargins = 12;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:titleTextAppearance
+          @attr name com.alperenbilal.bitirme:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9427,7 +9429,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:titleTextColor
+          @attr name com.alperenbilal.bitirme:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 23;
         /** Attributes that can be used with a View.
@@ -9438,9 +9440,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd bitirme_mobile_app.Droid:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart bitirme_mobile_app.Droid:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme bitirme_mobile_app.Droid:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.alperenbilal.bitirme:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.alperenbilal.bitirme:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme com.alperenbilal.bitirme:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -9465,7 +9467,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9477,11 +9479,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:paddingEnd
+          @attr name com.alperenbilal.bitirme:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9493,17 +9495,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:paddingStart
+          @attr name com.alperenbilal.bitirme:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name bitirme_mobile_app.Droid:theme
+          @attr name com.alperenbilal.bitirme:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -9513,8 +9515,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint bitirme_mobile_app.Droid:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode bitirme_mobile_app.Droid:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.alperenbilal.bitirme:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.alperenbilal.bitirme:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
@@ -9530,7 +9532,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -9541,11 +9543,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name bitirme_mobile_app.Droid:backgroundTint
+          @attr name com.alperenbilal.bitirme:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link bitirme_mobile_app.Droid.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.alperenbilal.bitirme.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -9561,7 +9563,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name bitirme_mobile_app.Droid:backgroundTintMode
+          @attr name com.alperenbilal.bitirme:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.

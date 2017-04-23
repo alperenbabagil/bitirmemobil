@@ -12,6 +12,14 @@ namespace bitirme_mobile_app.Models
         /// it is in the main memory during program is running. It saved to permanent memory also to save 
         /// previous recommendation sessions
         /// </summary>
-        public List<RecommendationSession> recommendationSessions { get; set; }
+        public List<RecommendationSession> recommendationSessions { get; set; } 
+
+        public RecommendationSessionHolder()
+        {
+            recommendationSessions = new List<RecommendationSession>();
+        }
+            
+            
+            
     }
 }

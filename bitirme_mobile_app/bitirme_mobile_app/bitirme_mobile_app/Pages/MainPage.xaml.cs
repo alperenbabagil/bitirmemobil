@@ -22,18 +22,23 @@ namespace bitirme_mobile_app.Pages
 
         private MainPageViewModel mpvm;
 
+        /// <summary>
+        /// it shows popup here because popup needs to page be created first
+        /// </summary>
         protected override void OnAppearing() //page on the screen
         {
             base.OnAppearing();
             if (mpvm.NoRecommendationSessionBefore) showGoToRatingPagePopup();
         }
 
-        public MainPage()
+        public MainPage(List<string> recommendedMoviesList)
         {
 
             InitializeComponent();
 
-            mpvm = new MainPageViewModel(this);
+            mpvm = new MainPageViewModel(this, recommendedMoviesList);
+
+            ToolbarItems.Add(new ToolbarItem() { Text="New Recommendation",Command=new Command(openRateMoviePage) });
 
 
             BindingContext = mpvm;
@@ -88,9 +93,7 @@ namespace bitirme_mobile_app.Pages
 
         public void popupDisappeared()
         {
-            var closer = DependencyService.Get<ICloseApplication>();
-            if (closer != null)
-                closer.closeApplication();
+            GeneralHelper.quitApp();
         }
 
         public void openRateMoviePage()

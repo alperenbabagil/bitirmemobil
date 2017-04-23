@@ -8,10 +8,33 @@ using Xamarin.Forms;
 
 namespace bitirme_mobile_app.Views
 {
-    public class MovieListViewItem
+    public class MovieListViewItem : ViewModelBase
     {
-        public Movie Movie { get; set; }
-        //public bool IsImageLoading { get; set; }
-        Image Image { get; set; }
+
+        private Movie movie;
+       
+        public Movie Movie
+        {
+            get
+            {
+                return movie;
+            }
+
+            set
+            {
+                movie = value;
+                notifyProperty("Movie");
+            }
+        }
+
+        public static List<MovieListViewItem> convertMovieListToMovieListViewItemList(List<Movie> movies)
+        {
+            var lvis = new List<MovieListViewItem>();
+            foreach (var mv in movies)
+            {
+                lvis.Add(new MovieListViewItem() { Movie = mv });
+            }
+            return lvis;
+        }
     }
 }

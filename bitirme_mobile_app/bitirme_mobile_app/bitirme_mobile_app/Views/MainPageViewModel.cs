@@ -21,6 +21,8 @@ namespace bitirme_mobile_app.Models
     {
         private MainPage _mainPage;
 
+        #region state variables
+
         private bool _noRecommendationSessionBefore = false;
 
         public bool NoRecommendationSessionBefore
@@ -35,11 +37,40 @@ namespace bitirme_mobile_app.Models
                 _noRecommendationSessionBefore = value;
                 notifyProperty("NoRecommendationSessionBefore");
             }
-        } 
+        }
+
+        private bool _waitingForRecommendation = false;
+
+        public bool WaitingForRecommendation
+        {
+            get
+            {
+                return _waitingForRecommendation;
+            }
+
+            set
+            {
+                _waitingForRecommendation = value;
+            }
+        }
+
+        private bool _isRefreshing = false;
+
+        public bool IsRefreshing
+        {
+            get { return _isRefreshing; }
+            set
+            {
+                _isRefreshing = value;
+                notifyProperty("IsRefreshing");
+            }
+        }
+
+        #endregion
 
         #region Lists
 
-        public RangeEnabledObservableCollection<Movie> RatedMovies
+        public RangeEnabledObservableCollection<MovieRateListViewItem> RatedMovies
         {
             get
             {
@@ -52,7 +83,7 @@ namespace bitirme_mobile_app.Models
                 notifyProperty("RatedMovies");
             }
         }
-        public RangeEnabledObservableCollection<Movie> RecommendedMovies
+        public RangeEnabledObservableCollection<MovieListViewItem> RecommendedMovies
         {
             get
             {
@@ -66,35 +97,76 @@ namespace bitirme_mobile_app.Models
             }
         }
 
-        RangeEnabledObservableCollection<Movie> _ratedMovies = new RangeEnabledObservableCollection<Movie>();
-        RangeEnabledObservableCollection<Movie> _recommendedMovies = new RangeEnabledObservableCollection<Movie>();
+        RangeEnabledObservableCollection<MovieRateListViewItem> _ratedMovies = new RangeEnabledObservableCollection<MovieRateListViewItem>();
+        RangeEnabledObservableCollection<MovieListViewItem> _recommendedMovies = new RangeEnabledObservableCollection<MovieListViewItem>();
 
         #endregion
 
         //public ICommand openRateMoviePageCommand { get; private set; }
 
-        public MainPageViewModel(MainPage mainPage)
+        public MainPageViewModel(MainPage mainPage, List<string> recommendedMoviesList)
         {
             _mainPage = mainPage;
             //openRateMoviePageCommand = new Command(openRateMoviePage);
-
             var lastSession = DBHelper.getLastSession();
-            if (lastSession == null)
-            {
-                NoRecommendationSessionBefore = true;
+
+            if (recommendedMoviesList == null)
+            {                
+                if (lastSession == null)
+                {
+                    NoRecommendationSessionBefore = true;
+                }
+                else
+                {
+                    RatedMovies.InsertRange(lastSession.ratedMovies);
+                    //TODO: What if no movie recommented by server ?
+                    if (lastSession.recommendedMovies!=null && lastSession.recommendedMovies.Count == 0)
+                    {
+                        WaitingForRecommendation = true;
+                    }         
+                    else RecommendedMovies.InsertRange(lastSession.recommendedMovies);
+                }
             }
-            else fillLists(lastSession);
-
-
+            else
+            {
+                fillLists(lastSession, recommendedMoviesList);
+            }
         }
 
-        private void fillLists(RecommendationSession session)
+        private async void  fillLists(RecommendationSession session, List<string> recommendedMoviesList)
         {
             RatedMovies.InsertRange(session.ratedMovies);
-            RecommendedMovies.InsertRange(session.recommendedMovies);
+            IsRefreshing = true;
+            var movies= await new RestService().getMovieInfoFromWeb(recommendedMoviesList, 0, recommendedMoviesList.Count);
+            var movieLvis = MovieListViewItem.convertMovieListToMovieListViewItemList(movies);
+            IsRefreshing = false;
+            RecommendedMovies.InsertRange(movieLvis);
+            Logger.Logcat(movieLvis.ToString());
+            var ls=DBHelper.getLastSession();
+            if(ls.recommendedMovies==null || (ls.recommendedMovies!=null && ls.recommendedMovies.Count == 0))
+            {
+                ls.recommendedMovies.AddRange(movieLvis);
+                DBHelper.updateDB();
+            }
+            
         }
 
-       
+        //private async Task<List<Movie>> getMoviesToRate(List<string> recommendedMoviesList)
+        //{
+        //    var movies = await new RestService().getMovieInfoFromWeb(recommendedMoviesList, 30, 40);
+        //    var lvis = new List<MovieRateListViewItem>();
+
+        //    foreach (var movie in movies)
+        //    {
+        //        lvis.Add(new MovieRateListViewItem(null)
+        //        {
+        //            Movie = movie,
+        //        });
+        //    }
+        //    return lvis;
+        //}
+
+
 
     }
 }

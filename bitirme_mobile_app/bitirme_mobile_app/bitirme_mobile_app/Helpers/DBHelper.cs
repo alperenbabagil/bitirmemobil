@@ -42,6 +42,12 @@ namespace bitirme_mobile_app.Helpers
             Application.Current.SavePropertiesAsync();
         }
 
+        public static void addRecommendationSession(RecommendationSession session)
+        {
+            App.RecommendationSessionHolder.recommendationSessions.Add(session);
+            updateDB();
+        }
+
         public static User getUser()
         {
             if(App.Current.Properties.ContainsKey("User"))
@@ -56,12 +62,38 @@ namespace bitirme_mobile_app.Helpers
 
         public static RecommendationSession getLastSession()
         {
+            if (App.RecommendationSessionHolder != null)
+            {
+                if (App.RecommendationSessionHolder.recommendationSessions != null)
+                {
+                    return App.RecommendationSessionHolder.recommendationSessions.LastOrDefault();
+                }
+            }
+            //if (App.Current.Properties.ContainsKey("RecommendationSessionHolder"))
+            //{
+            //    var holder = JsonConvert.DeserializeObject<RecommendationSessionHolder>(App.Current.Properties["RecommendationSessionHolder"] as string);
+            //    return holder.recommendationSessions.LastOrDefault();
+            //}
+            return null;
+        }
+
+        public static void DBInit()
+        {
             if (App.Current.Properties.ContainsKey("RecommendationSessionHolder"))
             {
-                var holder = JsonConvert.DeserializeObject<RecommendationSessionHolder>(App.Current.Properties["RecommendationSessionHolder"] as string);
-                return holder.recommendationSessions.LastOrDefault();
+                App.RecommendationSessionHolder = JsonConvert.DeserializeObject<RecommendationSessionHolder>(App.Current.Properties["RecommendationSessionHolder"] as string);
             }
-            return null;
+            else
+            {
+                App.RecommendationSessionHolder = new RecommendationSessionHolder();
+                updateDB();
+            }
+        }
+
+        public static void updateDB()
+        {
+            App.Current.Properties["RecommendationSessionHolder"] = JsonConvert.SerializeObject(App.RecommendationSessionHolder);
+            Application.Current.SavePropertiesAsync();
         }
     }
 }

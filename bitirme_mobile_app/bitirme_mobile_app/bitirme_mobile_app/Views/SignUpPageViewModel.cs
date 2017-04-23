@@ -1,6 +1,7 @@
 ﻿using bitirme_mobile_app.Helpers;
 using bitirme_mobile_app.Models;
 using bitirme_mobile_app.Pages;
+using Com.OneSignal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -57,27 +58,39 @@ namespace bitirme_mobile_app.Views
 
         private async void sendSignupRequest()
         {
-            User user = new User { Username = Name, Password = Password, DeviceId = getDeviceId() };
+            OneSignal.Current.IdsAvailable(IdsAvailable);
+        }
+
+        private async void IdsAvailable(string userID, string pushToken)
+        {
+
+            User user = new User { Username = Name, Password = Password, DeviceId = userID };
+
             IsBusy = true;
             var isLoggedIn = await new RestService().signup(user);
-            IsBusy = false;
+
+            
             if (isLoggedIn)
             {
-                await _page.DisplayAlert("Info", "Signed up", null, "Ok");
                 DBHelper.addUser(user);
+                App.CurrentUser = user;
+                IsBusy = false;
+                await _page.DisplayAlert("Info", "Signed up", null, "Ok");               
                 await MDPage.Instance.OpenMainPage();
             }
             else
             {
+                IsBusy = false;
                 await _page.DisplayAlert("Info", "Not Signed up", null, "Ok");
             }
 
+            System.Diagnostics.Debug.WriteLine("UserID: " + userID);
+            System.Diagnostics.Debug.WriteLine("pushToken: " + pushToken);
+            //("UserID:" + userID);
+            //print("pushToken:" + pushToken);
         }
 
-        private string getDeviceId()
-        {
-            return "qqq";
-        }
+
 
     }
 }

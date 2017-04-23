@@ -32,9 +32,13 @@ namespace bitirme_mobile_app.Pages
             base.OnAppearing();
         }
 
-        public MDPage()
+        List<string> _recommendedMovies;
+
+        public MDPage(List<string> recommendedMovies)
         {
             _instance = this;
+
+            _recommendedMovies = recommendedMovies;
 
             InitializeComponent();
             
@@ -42,7 +46,7 @@ namespace bitirme_mobile_app.Pages
 
             if (AuthManager.IsLoggedIn())
             {
-                Detail = new NavigationPage(new MainPage());
+                Detail = new NavigationPage(new MainPage(_recommendedMovies));
                 Master = new MasterPage() { Title = "Master" };
             }
             else
@@ -55,7 +59,7 @@ namespace bitirme_mobile_app.Pages
         public async Task<bool> OpenMainPage()
         {
             await Detail.Navigation.PopToRootAsync();
-            Detail = new NavigationPage(new MainPage());
+            Detail = new NavigationPage(new MainPage(_recommendedMovies));
             return true;
         }
     }

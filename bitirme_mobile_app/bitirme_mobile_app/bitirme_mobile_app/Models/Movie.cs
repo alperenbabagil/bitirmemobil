@@ -8,6 +8,7 @@ namespace bitirme_mobile_app.Models
 {
     public class Movie
     {
+        public String ImdbId { get; set; }
         public string Name { get; set; }
         public List<string> Genres { get; set; }
         public string ImdbImageUrl { get; set; }

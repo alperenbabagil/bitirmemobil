@@ -39,6 +39,7 @@
     <Compile Include="Helpers\AuthManager.cs" />
     <Compile Include="Helpers\Constants.cs" />
     <Compile Include="Helpers\DBHelper.cs" />
+    <Compile Include="Helpers\GeneralHelper.cs" />
     <Compile Include="Helpers\Logger.cs" />
     <Compile Include="Helpers\NegateBooleanConverter.cs" />
     <Compile Include="Helpers\RestService.cs" />
@@ -78,6 +79,7 @@
       <DependentUpon>GoToMovieRatePagePopup.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\LoginPageViewModel.cs" />
+    <Compile Include="Views\RateMoviePageViewModel.cs" />
     <Compile Include="Views\MainPageViewModel.cs" />
     <Compile Include="Views\MovieListViewItem.cs" />
     <Compile Include="Views\MovieRateListViewItem.cs" />
