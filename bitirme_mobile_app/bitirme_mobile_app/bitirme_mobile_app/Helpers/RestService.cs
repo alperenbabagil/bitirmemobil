@@ -15,7 +15,7 @@ namespace bitirme_mobile_app.Helpers
 {
     public class RestService
     {
-        private const string baseUrl = "http://192.168.1.35:5432";
+        private const string baseUrl = "http://192.168.1.34:5432";
 
         public async Task<bool> login(User user)
         {
@@ -64,32 +64,32 @@ namespace bitirme_mobile_app.Helpers
             return null;
         }
 
-        public async Task<List<Movie>> getRecommendations(List<RecommendationRequest> recReqs)
-        {
-            try
-            {
-                string jsonData = Newtonsoft.Json.JsonConvert.SerializeObject(recReqs);
-                var resp = await postBaseFunc(jsonData, "getRecommendations");
-                List<Movie> movies = null;
-                try
-                {
-                    movies = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Movie>>(resp);
-                }
-                catch (Exception e)
-                {
+        //public async Task<List<Movie>> getRecommendations(List<RecommendationRequest> recReqs)
+        //{
+        //    try
+        //    {
+        //        string jsonData = Newtonsoft.Json.JsonConvert.SerializeObject(recReqs);
+        //        var resp = await postBaseFunc(jsonData, "getRecommendations");
+        //        List<Movie> movies = null;
+        //        try
+        //        {
+        //            movies = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Movie>>(resp);
+        //        }
+        //        catch (Exception e)
+        //        {
 
-                }
-                return movies;
-                //List<Stok> Mycustomclassname = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Stok>>(result);
-            }
-            catch (Exception s)
-            {
-                Logger.errLog("RestService.cs-getRecommendations", s);
-                //handleExceptions(s, "Stoklar alınamadı");
-            }
-            return null;
+        //        }
+        //        return movies;
+        //        //List<Stok> Mycustomclassname = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Stok>>(result);
+        //    }
+        //    catch (Exception s)
+        //    {
+        //        Logger.errLog("RestService.cs-getRecommendations", s);
+        //        //handleExceptions(s, "Stoklar alınamadı");
+        //    }
+        //    return null;
 
-        }
+        //}
 
         public async Task<List<string>> getTop250Ids()
         {

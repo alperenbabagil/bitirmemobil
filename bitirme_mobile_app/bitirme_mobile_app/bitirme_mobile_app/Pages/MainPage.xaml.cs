@@ -101,14 +101,14 @@ namespace bitirme_mobile_app.Pages
             Navigation.PushAsync(new RatingMoviesPage());
         }
 
-        private async void getRecommendations(List<RecommendationRequest> list)
-        {
-            var list2 = await new RestService().getRecommendations(list);
-        }
+        //private async void getRecommendations(List<RecommendationRequest> list)
+        //{
+        //    var list2 = await new RestService().getRecommendations(list);
+        //}
 
-        private async void getTop(List<RecommendationRequest> list)
-        {
+        //private async void getTop(List<RecommendationRequest> list)
+        //{
 
-        }
+        //}
     }
 }

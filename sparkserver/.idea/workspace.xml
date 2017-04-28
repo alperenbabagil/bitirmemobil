@@ -1,7 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/engine.py" line="150" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="406fdf91-85dd-421b-8aac-6eaee7154c05" name="Default" comment="" />
+    <list default="true" id="7f39cc54-5f70-4b4a-b87f-d953843e133e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Parameters.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-movie-lens-master/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-movie-lens-master/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-movie-lens-master/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-movie-lens-master/.idea/preferred-vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-movie-lens-master/.idea/spark-movie-lens-master.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-movie-lens-master/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-movie-lens-master/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-movie-lens-master/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-movie-lens-master/Movie.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-movie-lens-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-movie-lens-master/app.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-movie-lens-master/deneme.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-movie-lens-master/engine.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-movie-lens-master/get-pip.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-movie-lens-master/notebooks/building-recommender.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-movie-lens-master/notebooks/online-recommendations.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-movie-lens-master/server.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-movie-lens-master/start_server.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-movie-lens-master/user_ratings.file" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/.vs/bitirme_mobile_app/v14/.suo" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/.vs/bitirme_mobile_app/v14/.suo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/bin/Debug/bitirme_mobile_app.Droid.dll" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/bin/Debug/bitirme_mobile_app.Droid.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/bin/Debug/bitirme_mobile_app.Droid.dll.mdb" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/bin/Debug/bitirme_mobile_app.Droid.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/bin/Debug/bitirme_mobile_app.Droid.pdb" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/bin/Debug/bitirme_mobile_app.Droid.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/bin/Debug/bitirme_mobile_app.dll" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/bin/Debug/bitirme_mobile_app.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/bin/Debug/bitirme_mobile_app.dll.mdb" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/bin/Debug/bitirme_mobile_app.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/bin/Debug/bitirme_mobile_app.pdb" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/bin/Debug/bitirme_mobile_app.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/android/assets/bitirme_mobile_app.Droid.dll" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/android/assets/bitirme_mobile_app.Droid.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/android/assets/bitirme_mobile_app.Droid.dll.mdb" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/android/assets/bitirme_mobile_app.Droid.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/android/assets/bitirme_mobile_app.dll" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/android/assets/bitirme_mobile_app.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/android/assets/bitirme_mobile_app.dll.mdb" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/android/assets/bitirme_mobile_app.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/bitirme_mobile_app.Droid.csprojResolveAssemblyReference.cache" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/bitirme_mobile_app.Droid.csprojResolveAssemblyReference.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/bitirme_mobile_app.Droid.dll" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/bitirme_mobile_app.Droid.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/bitirme_mobile_app.Droid.pdb" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/bitirme_mobile_app.Droid.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/linkdst/bitirme_mobile_app.Droid.dll" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/linkdst/bitirme_mobile_app.Droid.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/linkdst/bitirme_mobile_app.Droid.dll.mdb" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/linkdst/bitirme_mobile_app.Droid.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/linksrc/bitirme_mobile_app.Droid.dll" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/linksrc/bitirme_mobile_app.Droid.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/linksrc/bitirme_mobile_app.Droid.dll.mdb" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/linksrc/bitirme_mobile_app.Droid.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/linksrc/bitirme_mobile_app.dll" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/linksrc/bitirme_mobile_app.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/linksrc/bitirme_mobile_app.dll.mdb" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app.Droid/obj/Debug/linksrc/bitirme_mobile_app.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app/bin/Debug/bitirme_mobile_app.dll" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app/bin/Debug/bitirme_mobile_app.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app/bin/Debug/bitirme_mobile_app.dll.mdb" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app/bin/Debug/bitirme_mobile_app.dll.mdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app/bin/Debug/bitirme_mobile_app.pdb" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app/bin/Debug/bitirme_mobile_app.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app/obj/Debug/bitirme_mobile_app.dll" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app/obj/Debug/bitirme_mobile_app.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app/obj/Debug/bitirme_mobile_app.pdb" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app/obj/Debug/bitirme_mobile_app.pdb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app/Helpers/RestService.cs" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app/Helpers/RestService.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app/Pages/MainPage.xaml.cs" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app/Pages/MainPage.xaml.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app/obj/Debug/bitirme_mobile_app.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/../bitirme_mobile_app/bitirme_mobile_app/bitirme_mobile_app/obj/Debug/bitirme_mobile_app.csproj.FileListAbsolute.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/preferred-vcs.xml" afterPath="$PROJECT_DIR$/.idea/preferred-vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +72,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="server.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spark-movie-lens-master/server.py">
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="78" column="39" lean-forward="false" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -27,13 +84,120 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+              <folding>
+                <element signature="e#978#1038#0" expanded="false" />
+                <element signature="e#1098#1174#0" expanded="false" />
+                <element signature="e#1207#1218#0" expanded="false" />
+                <element signature="e#1282#1520#0" expanded="false" />
+                <element signature="e#3576#3960#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="servers.py" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/cherrypy/process/servers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12120">
+              <caret line="410" column="0" lean-forward="false" selection-start-line="410" selection-start-column="0" selection-end-line="410" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="engine.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/engine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#2023#2260#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parameters.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Parameters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.dat</find>
+      <find>for</find>
+      <find>numR</find>
+      <find>iter</find>
+      <find>get_top250</find>
+      <find>#sc</find>
+      <find># sc</find>
+      <find>ss</find>
+      <find>recommendation_engine</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/unittest/util.py" />
+        <option value="$PROJECT_DIR$/Movie.py" />
+        <option value="$PROJECT_DIR$/server.py" />
+        <option value="$PROJECT_DIR$/deneme.py" />
+        <option value="$PROJECT_DIR$/Parameters.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/engine.py" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
     <option name="height" value="1048" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyCompatibilityInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -63,19 +227,33 @@
               <option name="myItemId" value="sparkserver" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spark-movie-lens-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-movie-lens-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Python.server">
+    <configuration default="false" name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python34\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spark-movie-lens-master" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="false" name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,12 +261,29 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spark-movie-lens-master" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="sparkserver" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spark-movie-lens-master/server.py" />
+      <module name="spark-movie-lens-master" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="deneme" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spark-movie-lens-master" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deneme.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -107,7 +302,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="sparkserver" />
+      <module name="spark-movie-lens-master" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -122,7 +317,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="sparkserver" />
+      <module name="spark-movie-lens-master" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -134,7 +329,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="sparkserver" />
+      <module name="spark-movie-lens-master" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -153,7 +348,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="sparkserver" />
+      <module name="spark-movie-lens-master" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -172,7 +367,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="sparkserver" />
+      <module name="spark-movie-lens-master" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -193,7 +388,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="sparkserver" />
+      <module name="spark-movie-lens-master" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -215,7 +410,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="sparkserver" />
+      <module name="spark-movie-lens-master" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -230,63 +425,140 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Python.server" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.app" />
+      <item index="1" class="java.lang.String" itemvalue="Python.server" />
+      <item index="2" class="java.lang.String" itemvalue="Python.deneme" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Python.server" />
+        <item index="1" class="java.lang.String" itemvalue="Python.app" />
+        <item index="2" class="java.lang.String" itemvalue="Python.deneme" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SFStoredExecutionPersistentComponent">
+    <executions>
+      <execution name="Default" sourceToExecute="" />
+    </executions>
+    <lastSelectedExecutionName>Default</lastSelectedExecutionName>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="406fdf91-85dd-421b-8aac-6eaee7154c05" name="Default" comment="" />
-      <created>1490534939515</created>
+      <changelist id="7f39cc54-5f70-4b4a-b87f-d953843e133e" name="Default" comment="" />
+      <created>1489328143926</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1490534939515</updated>
+      <updated>1489328143926</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51529413" sideWeight="0.50185084" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6117647" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17768377" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0867266" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40941176" sideWeight="0.49814913" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/engine.py</url>
+          <line>145</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/engine.py</url>
+          <line>112</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/engine.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/engine.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="45" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spark-movie-lens-master/server.py">
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1508">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46255">
+          <caret line="1595" column="0" lean-forward="false" selection-start-line="1595" selection-start-column="0" selection-end-line="1595" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/spark-2.0.1-bin-hadoop2.7/python/lib/pyspark.zip!/pyspark/conf.py" />
+    <entry file="file://$PROJECT_DIR$/engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#2023#2260#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -296,13 +568,294 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spark-movie-lens-master/server.py">
+    <entry file="jar://C:/spark-2.0.1-bin-hadoop2.7/python/lib/pyspark.zip!/pyspark/conf.py" />
+    <entry file="file://$PROJECT_DIR$/engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#2023#2260#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/spark-2.0.1-bin-hadoop2.7/python/pyspark/java_gateway.py" />
+    <entry file="file://$PROJECT_DIR$/engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2871">
+          <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#2023#2260#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/spark-2.0.1-bin-hadoop2.7/python/pyspark/java_gateway.py" />
+    <entry file="file://$PROJECT_DIR$/engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2871">
+          <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#2023#2260#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1537">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2871">
+          <caret line="99" column="22" lean-forward="true" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#2023#2260#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start_server.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/site-packages/py4j/protocol.py" />
+    <entry file="file://D:/bitirme/spark-2.0.1-bin-hadoop2.7/python/pyspark/rdd.py" />
+    <entry file="file://C:/Python34/Lib/site-packages/Flask-0.10.1-py3.4.egg/flask/app.py" />
+    <entry file="file://C:/spark-2.0.1-bin-hadoop2.7/python/pyspark/java_gateway.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/numpy/__init__.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/numpy/add_newdocs.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/numpy/lib/__init__.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/numpy/lib/type_check.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/unittest/util.py" />
+    <entry file="jar://C:/spark-2.0.1-bin-hadoop2.7/python/lib/pyspark.zip!/pyspark/conf.py" />
+    <entry file="jar://C:/spark-2.0.1-bin-hadoop2.7/python/lib/pyspark.zip!/pyspark/rdd.py" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="-1038">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks/building-recommender.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47160">
+          <caret line="1597" column="0" lean-forward="false" selection-start-line="1597" selection-start-column="0" selection-end-line="1597" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28140">
+          <caret line="973" column="0" lean-forward="false" selection-start-line="973" selection-start-column="0" selection-end-line="973" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/bitirmeyeni/spark-2.1.0-bin-hadoop2.7/python/pyspark/rdd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="1342" column="0" lean-forward="false" selection-start-line="1342" selection-start-column="0" selection-end-line="1342" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/bitirmeyeni/spark-2.1.0-bin-hadoop2.7/python/pyspark/context.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="964" column="0" lean-forward="false" selection-start-line="964" selection-start-column="0" selection-end-line="964" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Movie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/py4j/protocol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="318" column="0" lean-forward="false" selection-start-line="318" selection-start-column="0" selection-end-line="318" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/py4j/java_gateway.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="1132" column="0" lean-forward="false" selection-start-line="1132" selection-start-column="0" selection-end-line="1132" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get-pip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="78" column="39" lean-forward="false" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/1137067715/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="3738" column="8" lean-forward="false" selection-start-line="3738" selection-start-column="8" selection-end-line="3738" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="575" column="0" lean-forward="false" selection-start-line="575" selection-start-column="0" selection-end-line="575" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/bitirmeyeni/spark-2.1.0-bin-hadoop2.7/python/pyspark/mllib/recommendation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="232" column="0" lean-forward="false" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deneme.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-293">
+          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding>
+            <element signature="e#474#635#0" expanded="false" />
+            <element signature="e#750#936#0" expanded="false" />
+            <element signature="e#1010#1070#0" expanded="false" />
+            <element signature="e#1129#1218#0" expanded="false" />
+            <element signature="e#1304#1688#0" expanded="false" />
+            <element signature="e#1332#1420#0" expanded="false" />
+            <element signature="e#1777#2420#0" expanded="false" />
+            <element signature="e#1847#1904#0" expanded="false" />
+            <element signature="e#2293#2338#0" expanded="false" />
+            <element signature="e#2728#3062#0" expanded="false" />
+            <element signature="e#2883#3043#0" expanded="false" />
+            <element signature="e#2991#3038#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding>
+            <element signature="e#978#1038#0" expanded="false" />
+            <element signature="e#1098#1174#0" expanded="false" />
+            <element signature="e#1207#1218#0" expanded="false" />
+            <element signature="e#1282#1520#0" expanded="false" />
+            <element signature="e#3576#3960#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Parameters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#2023#2260#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/cherrypy/process/servers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12120">
+          <caret line="410" column="0" lean-forward="false" selection-start-line="410" selection-start-column="0" selection-end-line="410" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

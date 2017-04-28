@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/sparkserver.iml" filepath="$PROJECT_DIR$/.idea/sparkserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spark-movie-lens-master.iml" filepath="$PROJECT_DIR$/.idea/spark-movie-lens-master.iml" />
     </modules>
   </component>
 </project>
