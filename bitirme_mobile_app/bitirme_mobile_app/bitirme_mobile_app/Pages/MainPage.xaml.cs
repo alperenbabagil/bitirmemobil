@@ -20,7 +20,7 @@ namespace bitirme_mobile_app.Pages
     public partial class MainPage : TabbedPage
     {
 
-        private MainPageViewModel mpvm;
+        public MainPageViewModel mpvm { get; private set; }
 
         /// <summary>
         /// it shows popup here because popup needs to page be created first

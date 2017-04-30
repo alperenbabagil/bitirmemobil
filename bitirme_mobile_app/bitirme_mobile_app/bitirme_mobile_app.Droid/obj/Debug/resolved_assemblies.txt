@@ -33,10 +33,10 @@ C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Resources.ResourceManager.dll
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Collections.dll
-C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Diagnostics.Debug.dll
-C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.ObjectModel.dll
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Threading.Tasks.dll
+C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
+C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.ObjectModel.dll
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Newtonsoft.Json.dll
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.IO.dll
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\System.Xml.XDocument.dll

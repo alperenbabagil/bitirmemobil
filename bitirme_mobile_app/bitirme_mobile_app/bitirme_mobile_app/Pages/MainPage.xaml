@@ -7,6 +7,7 @@
 
   <ContentPage.Resources>
     <ResourceDictionary>
+      <local:NumberBooleanConverter x:Key="numberBooleanConverter"/>
       <local:StarRateSourceConverter x:Key="rateConverter"/>
       <local:NegateBooleanConverter x:Key="inverter"/>
     </ResourceDictionary>
@@ -15,10 +16,11 @@
     <TabbedPage.Children>
       
       <ContentPage Title=" Recommended movies">
-        
-        <StackLayout  IsVisible="{Binding IsBusy , Converter={StaticResource inverter}"  AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All">
 
-          <ListView x:Name="RecommendedMoviesListView" ItemsSource="{Binding RecommendedMovies}"
+        <AbsoluteLayout>
+
+          <ActivityIndicator  x:Name="preparingRcmmddMoviesIndicator" IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" Color="Blue" AbsoluteLayout.LayoutBounds=".5,.5,.5,.5" AbsoluteLayout.LayoutFlags="All" />
+          <ListView x:Name="RecommendedMoviesListView" ItemsSource="{Binding RecommendedMovies}" AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All"
                      HasUnevenRows="True" CachingStrategy="RecycleElement">
             <ListView.ItemTemplate>
               <DataTemplate>
@@ -36,7 +38,12 @@
             </ListView.ItemTemplate>
           </ListView>
 
-        </StackLayout>
+          
+          <Label Text="We could not recommend a movie for you. Try again with another movies" x:Name="noRecommendedMovieLabel" IsVisible="{Binding RecommendedMovies.Count , Converter={StaticResource numberBooleanConverter}" AbsoluteLayout.LayoutBounds=".5,.5,.5,.5" AbsoluteLayout.LayoutFlags="All" />
+          <Label Text="Waiting for last recommendation request's result." x:Name="waitingRecommendedMoviesLabel" IsVisible="{Binding WaitingForRecommendation}" AbsoluteLayout.LayoutBounds=".5,.5,.5,.5" AbsoluteLayout.LayoutFlags="All" />
+
+
+        </AbsoluteLayout>
       
       </ContentPage>
 

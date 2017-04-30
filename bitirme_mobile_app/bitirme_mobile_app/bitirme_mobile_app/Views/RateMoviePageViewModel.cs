@@ -200,7 +200,7 @@ namespace bitirme_mobile_app.Models
         public void onMovieStarClicked(MovieRateListViewItem movieRateListViewItem)
         {
             tempMovieRateListViewItem = movieRateListViewItem;
-            Device.StartTimer(TimeSpan.FromMilliseconds(500), swapMovies);
+            Device.StartTimer(TimeSpan.FromMilliseconds(300), swapMovies);
             
         }
 
@@ -213,18 +213,20 @@ namespace bitirme_mobile_app.Models
 
         private async void sendRecommendationRequest()
         {
+            var session = new RecommendationSession() { ratedMovies = RatedMovies,CreateDate=DateTime.Now };
+            int id=App.RecommendationSessionHolder.addNewSession(session);         
             IsBusy = true;
-            await new RestService().sendRecommendationRequest(RatedMovies);
+            await new RestService().sendRecommendationRequest(RatedMovies,id);
             IsBusy = false;
             await _rateMoviePage.DisplayAlert("Info", "Request is sent successfully. Your movies will come soon as a push notification", "Ok");
-            addSessionToDb();
+            await DBHelper.updateDB();
             GeneralHelper.quitApp();
         }
-        private void addSessionToDb()
-        {
-            var session = new RecommendationSession() { ratedMovies=RatedMovies.ToList()};
+        //private void addSessionToDb()
+        //{
+        //    var session = new RecommendationSession() { ratedMovies=RatedMovies.ToList()};
             
-            DBHelper.addRecommendationSession(session);
-        }
+        //    DBHelper.addRecommendationSession(session);
+        //}
     }
 }

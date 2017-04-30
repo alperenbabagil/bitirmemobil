@@ -8,7 +8,7 @@ namespace bitirme_mobile_app.Models
 {
     public class RecommendationRequest
     {
-        public int movieId { get; set; }
-        public double rating { get; set; }
+        public Dictionary<string, double> pairs { get; set; }
+        public int sessionId { get; set; }
     }
 }

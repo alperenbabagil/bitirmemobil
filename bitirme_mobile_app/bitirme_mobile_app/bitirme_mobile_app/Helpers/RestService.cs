@@ -33,14 +33,14 @@ namespace bitirme_mobile_app.Helpers
             else return false;
         }
 
-        public async Task<string> sendRecommendationRequest(IList<MovieRateListViewItem> lvItems)
+        public async Task<string> sendRecommendationRequest(IList<MovieRateListViewItem> lvItems,int id)
         {
-            Dictionary<string, double> pairs = new Dictionary<string, double>();
+            Dictionary<string, double> pairs1 = new Dictionary<string, double>();
             foreach (var lvi in lvItems)
             {
-                pairs[lvi.Movie.ImdbId] = lvi.Rating;
+                pairs1[lvi.Movie.ImdbId] = lvi.Rating;
             }
-            string jsonData = Newtonsoft.Json.JsonConvert.SerializeObject(pairs);
+            string jsonData = Newtonsoft.Json.JsonConvert.SerializeObject(new RecommendationRequest() {pairs=pairs1,sessionId=id });
             var resp = await postBaseFunc(jsonData, "recommendation_request");
             return resp;
         }

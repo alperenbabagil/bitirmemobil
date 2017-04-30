@@ -51,6 +51,7 @@ namespace bitirme_mobile_app.Models
             set
             {
                 _waitingForRecommendation = value;
+                notifyProperty("WaitingForRecommendation");
             }
         }
 
@@ -107,49 +108,95 @@ namespace bitirme_mobile_app.Models
         public MainPageViewModel(MainPage mainPage, List<string> recommendedMoviesList)
         {
             _mainPage = mainPage;
-            //openRateMoviePageCommand = new Command(openRateMoviePage);
             var lastSession = DBHelper.getLastSession();
 
-            if (recommendedMoviesList == null)
-            {                
-                if (lastSession == null)
-                {
-                    NoRecommendationSessionBefore = true;
-                }
-                else
-                {
-                    RatedMovies.InsertRange(lastSession.ratedMovies);
-                    //TODO: What if no movie recommented by server ?
-                    if (lastSession.recommendedMovies!=null && lastSession.recommendedMovies.Count == 0)
-                    {
-                        WaitingForRecommendation = true;
-                    }         
-                    else RecommendedMovies.InsertRange(lastSession.recommendedMovies);
-                }
+            if (lastSession == null)
+            {
+                // it is checked in MainPage onAppearing
+                NoRecommendationSessionBefore = true;
             }
             else
             {
-                fillLists(lastSession, recommendedMoviesList);
+                fillListViews(lastSession);
+            }
+
+            //if (recommendedMoviesList == null)
+            //{                
+            //    if (lastSession == null)
+            //    {
+            //        NoRecommendationSessionBefore = true;
+            //    }
+            //    else
+            //    {
+            //        RatedMovies.InsertRange(lastSession.ratedMovies);
+            //        //TODO: What if no movie recommended by server ?
+            //        if (lastSession.recommendedMovies!=null && lastSession.recommendedMovies.Count == 0)
+            //        {
+            //            WaitingForRecommendation = true;
+            //        }         
+            //        else RecommendedMovies.InsertRange(lastSession.recommendedMovies);
+            //    }
+            //}
+            //else
+            //{
+            //    fillLists(lastSession, recommendedMoviesList);
+            //}
+        }
+
+        public async void fillListViews(RecommendationSession session)
+        {
+            RatedMovies.Clear();
+            RecommendedMovies.Clear();
+            RatedMovies.InsertRange(session.ratedMovies);
+            if (session.isCompleted)
+            {
+                // movie data is taken before
+                RecommendedMovies.InsertRange(session.recommendedMovies);
+            }
+            else
+            {
+                if (session.hasJustRecommendedIds)
+                {
+                    //TODO: NO refreshing activity indicator
+                    IsRefreshing = true;
+                    // get movie data
+                    var movies = await new RestService().getMovieInfoFromWeb(session.recommendedMovieIds, 0, session.recommendedMovieIds.Count);
+                    //convert movies to movielistviewitems
+                    var movieLvis = MovieListViewItem.convertMovieListToMovieListViewItemList(movies);
+                    session.recommendedMovies = movieLvis;
+                    //because it is completed now
+                    session.hasJustRecommendedIds = false;
+                    session.isCompleted = true;
+                    await DBHelper.updateDB();
+                    // inserting movies inlo listview's list
+                    App.masterPageListMustBeUpdated = true;
+                    RecommendedMovies.InsertRange(movieLvis);
+                    IsRefreshing = false;
+                    
+                }
+                else WaitingForRecommendation = true;
             }
         }
 
-        private async void  fillLists(RecommendationSession session, List<string> recommendedMoviesList)
-        {
-            RatedMovies.InsertRange(session.ratedMovies);
-            IsRefreshing = true;
-            var movies= await new RestService().getMovieInfoFromWeb(recommendedMoviesList, 0, recommendedMoviesList.Count);
-            var movieLvis = MovieListViewItem.convertMovieListToMovieListViewItemList(movies);
-            IsRefreshing = false;
-            RecommendedMovies.InsertRange(movieLvis);
-            Logger.Logcat(movieLvis.ToString());
-            var ls=DBHelper.getLastSession();
-            if(ls.recommendedMovies==null || (ls.recommendedMovies!=null && ls.recommendedMovies.Count == 0))
-            {
-                ls.recommendedMovies.AddRange(movieLvis);
-                DBHelper.updateDB();
-            }
+        //private async void  fillLists(RecommendationSession session, List<string> recommendedMoviesList)
+        //{
+        //    RatedMovies.InsertRange(session.ratedMovies);
+        //    IsRefreshing = true;
+        //    var movies= await new RestService().getMovieInfoFromWeb(recommendedMoviesList, 0, recommendedMoviesList.Count);
+        //    var movieLvis = MovieListViewItem.convertMovieListToMovieListViewItemList(movies);
+        //    IsRefreshing = false;
+        //    RecommendedMovies.InsertRange(movieLvis);
+        //    Logger.Logcat(movieLvis.ToString());
+        //    var ls=DBHelper.getLastSession();
+
+        //    // recommendations came
+        //    if(ls.recommendedMovies==null || (ls.recommendedMovies!=null && ls.recommendedMovies.Count == 0))
+        //    {
+        //        ls.recommendedMovies.AddRange(movieLvis);
+        //        DBHelper.updateDB();
+        //    }
             
-        }
+        //}
 
         //private async Task<List<Movie>> getMoviesToRate(List<string> recommendedMoviesList)
         //{

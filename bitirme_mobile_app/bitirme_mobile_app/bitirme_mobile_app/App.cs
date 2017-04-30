@@ -29,6 +29,9 @@ namespace bitirme_mobile_app
         public static RecommendationSessionHolder RecommendationSessionHolder;
         private MDPage mdPage;
         private static List<string> recommendedMovies = null;
+
+        //will be checked when side menu opened
+        public static bool masterPageListMustBeUpdated { get; set; } = false;
         public App()
         {
             DBHelper.DBInit();
@@ -67,7 +70,7 @@ namespace bitirme_mobile_app
         // Called when a notification is opened.
         // The name of the method can be anything as long as the signature matches.
         // Method must be static or this object should be marked as DontDestroyOnLoad
-        private static void HandleNotificationOpened(OSNotificationOpenedResult result)
+        private static async void HandleNotificationOpened(OSNotificationOpenedResult result)
         {
             System.Diagnostics.Debug.WriteLine("HandleNotificationOpened");
             OSNotificationPayload payload = result.notification.payload;
@@ -86,11 +89,12 @@ namespace bitirme_mobile_app
                     {
                         var typ = additionalData["movies"].GetType();
                         var str = additionalData["movies"].ToString();
+                        var sesionId = Int32.Parse(additionalData["sessionId"].ToString());
                         Logger.Logcat("HandleNotificationOpened");
                         var movies = JsonConvert.DeserializeObject<List<string>>(str);
                         recommendedMovies = movies;
-
-
+                        await DBHelper.addIdsToSession(movies, sesionId);
+                        
                     }
                     catch (Exception e)
                     {

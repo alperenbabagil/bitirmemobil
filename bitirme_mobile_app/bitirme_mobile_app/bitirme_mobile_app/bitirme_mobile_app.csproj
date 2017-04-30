@@ -41,8 +41,10 @@
     <Compile Include="Helpers\DBHelper.cs" />
     <Compile Include="Helpers\GeneralHelper.cs" />
     <Compile Include="Helpers\Logger.cs" />
+    <Compile Include="Helpers\NumberBooleanConverter.cs" />
     <Compile Include="Helpers\NegateBooleanConverter.cs" />
     <Compile Include="Helpers\RestService.cs" />
+    <Compile Include="Helpers\SessionHelper.cs" />
     <Compile Include="Helpers\StarRateSourceConverter.cs" />
     <Compile Include="Interfaces\IAndroidLog.cs" />
     <Compile Include="Interfaces\ICloseApplication.cs" />
@@ -79,6 +81,7 @@
       <DependentUpon>GoToMovieRatePagePopup.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\LoginPageViewModel.cs" />
+    <Compile Include="Views\MasterPageViewModel.cs" />
     <Compile Include="Views\RateMoviePageViewModel.cs" />
     <Compile Include="Views\MainPageViewModel.cs" />
     <Compile Include="Views\MovieListViewItem.cs" />

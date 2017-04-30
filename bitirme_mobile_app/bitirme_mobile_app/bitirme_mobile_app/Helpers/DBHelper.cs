@@ -44,7 +44,7 @@ namespace bitirme_mobile_app.Helpers
 
         public static void addRecommendationSession(RecommendationSession session)
         {
-            App.RecommendationSessionHolder.recommendationSessions.Add(session);
+            App.RecommendationSessionHolder.addNewSession(session);
             updateDB();
         }
 
@@ -64,9 +64,12 @@ namespace bitirme_mobile_app.Helpers
         {
             if (App.RecommendationSessionHolder != null)
             {
-                if (App.RecommendationSessionHolder.recommendationSessions != null)
+                if (App.RecommendationSessionHolder.getSessions() != null)
                 {
-                    return App.RecommendationSessionHolder.recommendationSessions.LastOrDefault();
+                    //TODO: Remove
+                    var sessions = App.RecommendationSessionHolder.getSessions();
+                    var sessions2 = App.RecommendationSessionHolder.getSessions().LastOrDefault();
+                    return App.RecommendationSessionHolder.getSessions().LastOrDefault();
                 }
             }
             //if (App.Current.Properties.ContainsKey("RecommendationSessionHolder"))
@@ -77,7 +80,7 @@ namespace bitirme_mobile_app.Helpers
             return null;
         }
 
-        public static void DBInit()
+        public static async void DBInit()
         {
             if (App.Current.Properties.ContainsKey("RecommendationSessionHolder"))
             {
@@ -86,14 +89,41 @@ namespace bitirme_mobile_app.Helpers
             else
             {
                 App.RecommendationSessionHolder = new RecommendationSessionHolder();
-                updateDB();
+                await updateDB();
             }
         }
 
-        public static void updateDB()
+        public async static Task updateDB()
         {
             App.Current.Properties["RecommendationSessionHolder"] = JsonConvert.SerializeObject(App.RecommendationSessionHolder);
-            Application.Current.SavePropertiesAsync();
+            await Application.Current.SavePropertiesAsync();
+        }
+
+        public static async Task<RecommendationSession> addIdsToSession(List<string> ids, int id)
+        {
+            var ses = getSessionWithId(id);
+            if (ses != null)
+            {
+                ses.recommendedMovieIds = ids;
+                ses.hasJustRecommendedIds = true;
+
+                await updateDB();
+                return ses;
+
+            }
+            return null;
+        }
+
+        public static RecommendationSession getSessionWithId(int id)
+        {
+            if (App.RecommendationSessionHolder != null)
+            {
+                foreach (var ses in App.RecommendationSessionHolder.getSessions())
+                {
+                    if (id == ses.id) return ses;
+                }
+            }
+            return null;
         }
     }
 }

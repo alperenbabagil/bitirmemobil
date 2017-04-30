@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,14 +13,35 @@ namespace bitirme_mobile_app.Models
         /// it is in the main memory during program is running. It saved to permanent memory also to save 
         /// previous recommendation sessions
         /// </summary>
-        public List<RecommendationSession> recommendationSessions { get; set; } 
+        /// 
+
+        [JsonProperty]
+        private List<RecommendationSession> _recommendationSessions { get; set; }
+
+        [JsonProperty]
+        private int _lastId = 0;
 
         public RecommendationSessionHolder()
         {
-            recommendationSessions = new List<RecommendationSession>();
+            _recommendationSessions = new List<RecommendationSession>();
+        }       
+
+        public int addNewSession(RecommendationSession session)
+        {
+            _lastId++;
+            session.id = _lastId;
+            _recommendationSessions.Add(session);
+            return _lastId;
         }
-            
-            
-            
+
+        /// <summary>
+        /// actual sessions is made private because adding list must be happen via only addNewSession func to update last id
+        /// Logic might be changed in future if a real db used
+        /// </summary>
+        /// <returns></returns>
+        public List<RecommendationSession> getSessions()
+        {
+            return new List<RecommendationSession>(_recommendationSessions);
+        }
     }
 }

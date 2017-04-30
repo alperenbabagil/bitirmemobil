@@ -92,6 +92,8 @@ C:\Source\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Deb
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.dll.config
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.dll
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.pdb
+C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\bin\Debug\com.alperenbilal.bitirme.apk
+C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\bin\Debug\com.alperenbilal.bitirme-Signed.apk
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.dll
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\bin\Debug\Com.OneSignal.Abstractions.dll
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\bin\Debug\Com.OneSignal.dll
@@ -133,6 +135,7 @@ C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.csprojResolveAssemblyReference.cache
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.dll
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.pdb
+C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\bin\com.alperenbilal.bitirme.apk
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\res\drawable\icon.png
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-hdpi\icon.png
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xhdpi\icon.png
@@ -140,6 +143,12 @@ C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\res\layout\tabbar.xml
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\res\layout\toolbar.xml
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\res\values\styles.xml
+C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-hdpi\ic_star_border_black_24dp.png
+C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-hdpi\ic_star_black_24dp.png
+C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xhdpi\ic_star_border_black_24dp.png
+C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xhdpi\ic_star_black_24dp.png
+C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xxhdpi\ic_star_border_black_24dp.png
+C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xxhdpi\ic_star_black_24dp.png
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\R.cs.flag
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\uploadflags.txt
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.dll.mdb
@@ -178,14 +187,5 @@ C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-hdpi\ic_star_border_black_24dp.png
-C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-hdpi\ic_star_black_24dp.png
-C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xhdpi\ic_star_border_black_24dp.png
-C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xhdpi\ic_star_black_24dp.png
-C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xxhdpi\ic_star_border_black_24dp.png
-C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\res\drawable-xxhdpi\ic_star_black_24dp.png
-C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\bin\Debug\com.alperenbilal.bitirme.apk
-C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\bin\Debug\com.alperenbilal.bitirme-Signed.apk
-C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\bin\com.alperenbilal.bitirme.apk
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\bitirme_mobile_app.Droid.dll.mdb
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\bin\Debug\bitirme_mobile_app.Droid.dll.mdb
