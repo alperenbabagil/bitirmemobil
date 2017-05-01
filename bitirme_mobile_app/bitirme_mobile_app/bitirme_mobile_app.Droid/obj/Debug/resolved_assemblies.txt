@@ -2,6 +2,8 @@ C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\bitirme_mobile_app.dll
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Com.OneSignal.Abstractions.dll
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Com.OneSignal.dll
+C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\FAB.Droid.dll
+C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\FAB.Forms.dll
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\FormsViewGroup.dll
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\OneSignal.Android.Binding.dll
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app.Droid\obj\Debug\android\assets\Rg.Plugins.Popup.dll

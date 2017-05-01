@@ -102,6 +102,8 @@ class MonoPackageManager_Resources {
 		"bitirme_mobile_app.dll",
 		"Com.OneSignal.Abstractions.dll",
 		"Com.OneSignal.dll",
+		"FAB.Droid.dll",
+		"FAB.Forms.dll",
 		"FormsViewGroup.dll",
 		"OneSignal.Android.Binding.dll",
 		"Rg.Plugins.Popup.dll",

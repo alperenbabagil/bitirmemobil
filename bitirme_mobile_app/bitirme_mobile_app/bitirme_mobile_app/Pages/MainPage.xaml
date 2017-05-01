@@ -2,7 +2,9 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="bitirme_mobile_app.Pages.MainPage"
+            xmlns:fab="clr-namespace:FAB.Forms;assembly=FAB.Forms"
              xmlns:local="clr-namespace:bitirme_mobile_app.Helpers;;assembly=bitirme_mobile_app"
+             Title="My Recommendations"
              >
 
   <ContentPage.Resources>
@@ -13,7 +15,86 @@
     </ResourceDictionary>
   </ContentPage.Resources>
 
+
+  
+
     <TabbedPage.Children>
+
+      <!--<ContentPage Title=" adadssd">
+        <RelativeLayout>
+
+          
+          
+          <ListView x:Name="RecommasdaendedMoviesListView" ItemsSource="{Binding RecommendedMovies}"
+            HasUnevenRows="True" CachingStrategy="RecycleElement"                   
+            RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0,Constant=0}"                  
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0,Constant=0}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
+            RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1,Constant=0}"
+            >
+            
+            <ListView.ItemTemplate>
+              <DataTemplate>
+                <ViewCell>
+                  <StackLayout Padding="10">
+                    <AbsoluteLayout HorizontalOptions="Center" AbsoluteLayout.LayoutFlags="All" WidthRequest="300"  HeightRequest="400">
+                      <ActivityIndicator  AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="ActivityIndicator" IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" BindingContext="{x:Reference Name=img}"></ActivityIndicator>
+                      <Image AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="img" Source="{Binding Movie.ImdbImageUrl}" WidthRequest="300"  HeightRequest="400" HorizontalOptions="CenterAndExpand"></Image>
+                    </AbsoluteLayout>
+                    <Label Font="30" Text="{Binding Movie.Name}"/>
+                    <Label Font="16" Text="genres"/>
+                  </StackLayout>
+                </ViewCell>
+              </DataTemplate>
+            </ListView.ItemTemplate>
+          </ListView>
+
+          <ActivityIndicator  x:Name="preparingRcmmddMovtrgfiesIndicator" IsVisible="True" IsRunning="True" Color="Blue"
+                              RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=.25,Constant=0}"
+                              RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.25,Constant=0}"
+                              RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=.5,Constant=0}"
+                              RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.5,Constant=0}"
+                              
+          />
+
+          <Label Text="We could not recommend a movie for you. Try again with another movies" x:Name="noRecommsendedMovieLabel" IsVisible="{Binding RecommendedMovies.Count , Converter={StaticResource numberBooleanConverter}" 
+                              RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=.25,Constant=0}"
+                              RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.25,Constant=0}"
+                              RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=.5,Constant=0}"
+                              RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.5,Constant=0}"
+          />
+          <Label Text="Waiting for last recommendation request's result." x:Name="waitingRecomsmendedMoviesLabel" IsVisible="{Binding WaitingForRecommendation}" 
+                               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=.25,Constant=0}"
+                              RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.25,Constant=0}"
+                              RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=.5,Constant=0}"
+                              RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.5,Constant=0}"
+                              
+           />
+
+          <fab:FloatingActionButton
+
+          x:Name="fasbBtn"
+
+          Source="ic_add_white_24dp.png"
+
+          Size="Normal"
+
+          NormalColor="Blue"
+
+          RippleColor="Aqua"
+         
+          
+          RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1, Constant=-75}"
+
+          RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1, Constant=-75}"
+          
+          />
+
+
+
+
+        </RelativeLayout>
+      </ContentPage>-->
       
       <ContentPage Title=" Recommended movies">
 
@@ -42,7 +123,22 @@
           <Label Text="We could not recommend a movie for you. Try again with another movies" x:Name="noRecommendedMovieLabel" IsVisible="{Binding RecommendedMovies.Count , Converter={StaticResource numberBooleanConverter}" AbsoluteLayout.LayoutBounds=".5,.5,.5,.5" AbsoluteLayout.LayoutFlags="All" />
           <Label Text="Waiting for last recommendation request's result." x:Name="waitingRecommendedMoviesLabel" IsVisible="{Binding WaitingForRecommendation}" AbsoluteLayout.LayoutBounds=".5,.5,.5,.5" AbsoluteLayout.LayoutFlags="All" />
 
+          <!--<fab:FloatingActionButton
 
+          x:Name="fasbsdBtn"
+
+          Source="icon.png"
+
+          Size="Normal"
+
+          NormalColor="Blue"
+
+          RippleColor="Aqua"
+         
+          AbsoluteLayout.LayoutBounds=".7,.7,.2,.2" AbsoluteLayout.LayoutFlags="All"
+          
+          />-->
+          
         </AbsoluteLayout>
       
       </ContentPage>

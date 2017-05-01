@@ -158,7 +158,7 @@ namespace bitirme_mobile_app.Models
                 if (session.hasJustRecommendedIds)
                 {
                     //TODO: NO refreshing activity indicator
-                    IsRefreshing = true;
+                    IsBusy = true;
                     // get movie data
                     var movies = await new RestService().getMovieInfoFromWeb(session.recommendedMovieIds, 0, session.recommendedMovieIds.Count);
                     //convert movies to movielistviewitems
@@ -171,7 +171,7 @@ namespace bitirme_mobile_app.Models
                     // inserting movies inlo listview's list
                     App.masterPageListMustBeUpdated = true;
                     RecommendedMovies.InsertRange(movieLvis);
-                    IsRefreshing = false;
+                    IsBusy = false;
                     
                 }
                 else WaitingForRecommendation = true;

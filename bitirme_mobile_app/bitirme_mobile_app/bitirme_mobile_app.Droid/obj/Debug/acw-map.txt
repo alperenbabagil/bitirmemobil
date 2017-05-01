@@ -22,6 +22,10 @@ Com.OneSignal.NotificationReceivedHandler, Com.OneSignal;md5991ebe8579e073f691f5
 Com.OneSignal.NotificationReceivedHandler, Com.OneSignal, Version=3.0.1.0, Culture=neutral, PublicKeyToken=null;md5991ebe8579e073f691f50c45652ea2d8.NotificationReceivedHandler
 Com.OneSignal.NotificationReceivedHandler;md5991ebe8579e073f691f50c45652ea2d8.NotificationReceivedHandler
 com.onesignal.NotificationReceivedHandler;md5991ebe8579e073f691f50c45652ea2d8.NotificationReceivedHandler
+FAB.Droid.FloatingActionButtonRenderer, FAB.Droid;md5445507f430e9bd6ef1be2cef5d05ff68.FloatingActionButtonRenderer
+FAB.Droid.FloatingActionButtonRenderer, FAB.Droid, Version=2.1.1.0, Culture=neutral, PublicKeyToken=null;md5445507f430e9bd6ef1be2cef5d05ff68.FloatingActionButtonRenderer
+FAB.Droid.FloatingActionButtonRenderer;md5445507f430e9bd6ef1be2cef5d05ff68.FloatingActionButtonRenderer
+fab.droid.FloatingActionButtonRenderer;md5445507f430e9bd6ef1be2cef5d05ff68.FloatingActionButtonRenderer
 Rg.Plugins.Popup.Droid.Renderers.PopupPageRenderer, Rg.Plugins.Popup.Droid;md5d3faaefeebcb93e0145f431f44dc199e.PopupPageRenderer
 Rg.Plugins.Popup.Droid.Renderers.PopupPageRenderer, Rg.Plugins.Popup.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d3faaefeebcb93e0145f431f44dc199e.PopupPageRenderer
 Rg.Plugins.Popup.Droid.Renderers.PopupPageRenderer;md5d3faaefeebcb93e0145f431f44dc199e.PopupPageRenderer

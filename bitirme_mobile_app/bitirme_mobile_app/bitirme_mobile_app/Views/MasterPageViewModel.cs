@@ -99,6 +99,7 @@ namespace bitirme_mobile_app.Views
         {
             DBHelper.removeUser(App.CurrentUser);
             _mdPage.openLoginPage();
+            _mdPage.IsPresented = false;
         }
 
         public void updateList()

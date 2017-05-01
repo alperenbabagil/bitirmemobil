@@ -14,9 +14,9 @@ using Xamarin.Forms;
 namespace bitirme_mobile_app
 {
     //TODO: Page titles will be put
-    //TODO: Master page will list previous recommendation sessions
+    //TODO: Master page will list previous recommendation sessions +
     //TODO: Listview must show genres of movies and imdb or other rates
-    //TODO: Main page rated movies ratings must not be canged by user
+    //TODO: Main page rated movies ratings must not be changed by user
     //TODO: App design will be made
     //TODO: Notification and app icon will be changed
     //TODO: Filtering must be implemented when get movies for rating **

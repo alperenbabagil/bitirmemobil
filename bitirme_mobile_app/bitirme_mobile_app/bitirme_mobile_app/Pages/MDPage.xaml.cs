@@ -75,6 +75,7 @@ namespace bitirme_mobile_app.Pages
         public void openLoginPage()
         {
             Detail = new NavigationPage(new LoginPage());
+            Master = new DummyPage() { Title = "Master" };
         }
 
         public void changeRecommendationSessionOnMainPage(RecommendationSession session)

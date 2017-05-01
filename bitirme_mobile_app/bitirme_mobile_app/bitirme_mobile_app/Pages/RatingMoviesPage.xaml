@@ -2,7 +2,9 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:bitirme_mobile_app.Helpers;;assembly=bitirme_mobile_app"
-             x:Class="bitirme_mobile_app.Pages.RatingMoviesPage">
+             x:Class="bitirme_mobile_app.Pages.RatingMoviesPage"
+             Title="Rate Movies"
+            >
   
   
   <ContentPage.Resources>
