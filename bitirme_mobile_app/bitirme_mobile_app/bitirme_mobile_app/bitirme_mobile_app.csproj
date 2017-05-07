@@ -41,7 +41,8 @@
     <Compile Include="Helpers\DBHelper.cs" />
     <Compile Include="Helpers\GeneralHelper.cs" />
     <Compile Include="Helpers\Logger.cs" />
-    <Compile Include="Helpers\NumberBooleanConverter.cs" />
+    <Compile Include="Helpers\NumberBooleanConverterNonZeroFalse.cs" />
+    <Compile Include="Helpers\NumberBooleanConverterNonZeroTrue.cs" />
     <Compile Include="Helpers\NegateBooleanConverter.cs" />
     <Compile Include="Helpers\RestService.cs" />
     <Compile Include="Helpers\SessionHelper.cs" />

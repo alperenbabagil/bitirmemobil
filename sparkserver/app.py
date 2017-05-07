@@ -1,4 +1,7 @@
 from flask import Blueprint
+
+import Parameters
+
 main = Blueprint('main', __name__)
  
 from tinydb import TinyDB, Query
@@ -104,23 +107,26 @@ def recommendation_request():
 
 def startRecommendation(user_id, tuples,dev_id,session_id):
 
+    # region live
 
     # recommendation_engine.add_ratings(tuples)
     # top_ratings = recommendation_engine.get_top_ratings(int(user_id), 15)
     # imdb_ids=recommendation_engine.get_imdb_ids_from_mvl_ids(top_ratings)
     # dictToSend = {
-    #     "app_id": "db4e3be5-9a31-4843-ba4b-d513c7bdcd8e",
+    #     "app_id": Parameters.app_id,
     #     "include_player_ids": [dev_id],
     #     "data": {"movies": imdb_ids,"sessionId":session_id},
     #     "contents": {"en": "Your movie recommendations ready"}
     # }
+
+    #endregion
 
     #region test
 
     # tuples=[(int(user_id),1,4),(int(user_id),123,3),(int(user_id),32,5),(int(user_id),134,4)]
     time.sleep(5)
     dictToSend = {
-        "app_id": "db4e3be5-9a31-4843-ba4b-d513c7bdcd8e",
+        "app_id": Parameters.app_id,
         "include_player_ids": [dev_id],
         "data": {"movies": "[\"0050083\",\"0108052\",\"0110912\",\"0167260\"]","sessionId":session_id},
         "contents": {"en": "Your movie recommendations ready"}

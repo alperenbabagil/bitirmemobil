@@ -32,8 +32,10 @@ namespace bitirme_mobile_app
 
         //will be checked when side menu opened
         public static bool masterPageListMustBeUpdated { get; set; } = false;
+        public static App instance;
         public App()
         {
+            instance = this;
             DBHelper.DBInit();
             CurrentUser = DBHelper.getUser();
             mdPage= new MDPage(recommendedMovies);
@@ -46,6 +48,7 @@ namespace bitirme_mobile_app
                 OneSignal.Current.StartInit("db4e3be5-9a31-4843-ba4b-d513c7bdcd8e")
                     .HandleNotificationReceived(HandleNotificationReceived)
                     .HandleNotificationOpened(HandleNotificationOpened)
+                    
                   .EndInit();
             }
             catch (Exception e)
@@ -94,7 +97,11 @@ namespace bitirme_mobile_app
                         var movies = JsonConvert.DeserializeObject<List<string>>(str);
                         recommendedMovies = movies;
                         await DBHelper.addIdsToSession(movies, sesionId);
-                        
+                        if (instance != null)
+                        {
+                            App.instance.mdPage = new MDPage(recommendedMovies);
+                            App.instance.MainPage = App.instance.mdPage;
+                        }
                     }
                     catch (Exception e)
                     {

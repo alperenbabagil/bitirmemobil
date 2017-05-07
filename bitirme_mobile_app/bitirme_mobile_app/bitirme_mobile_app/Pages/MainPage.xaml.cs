@@ -2,6 +2,7 @@
 using bitirme_mobile_app.Interfaces;
 using bitirme_mobile_app.Models;
 using bitirme_mobile_app.Views;
+using FAB.Forms;
 using Rg.Plugins.Popup.Extensions;
 using System;
 using System.Collections.Generic;
@@ -19,7 +20,7 @@ namespace bitirme_mobile_app.Pages
     /// </summary>
     public partial class MainPage : TabbedPage
     {
-
+        //TODO:change fab position when last item of listview viewed
         public MainPageViewModel mpvm { get; private set; }
 
         /// <summary>
@@ -40,7 +41,7 @@ namespace bitirme_mobile_app.Pages
 
             ToolbarItems.Add(new ToolbarItem() { Text="New", Icon = "ic_add_white_24dp.png", Command=new Command(openRateMoviePage) });
 
-
+            
             BindingContext = mpvm;
 
             //var auth = new OAuth2Authenticator(

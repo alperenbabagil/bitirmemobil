@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using bitirme_mobile_app.Helpers;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,6 +33,12 @@ namespace bitirme_mobile_app.Models
             session.id = _lastId;
             _recommendationSessions.Add(session);
             return _lastId;
+        }
+
+        public async Task deleteSession(RecommendationSession session)
+        {
+            _recommendationSessions.Remove(session);
+            await DBHelper.updateDB();
         }
 
         /// <summary>

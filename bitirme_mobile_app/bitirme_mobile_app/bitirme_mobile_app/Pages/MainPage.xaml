@@ -2,14 +2,16 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="bitirme_mobile_app.Pages.MainPage"
-            xmlns:fab="clr-namespace:FAB.Forms;assembly=FAB.Forms"
+             xmlns:fab="clr-namespace:FAB.Forms;assembly=FAB.Forms"
              xmlns:local="clr-namespace:bitirme_mobile_app.Helpers;;assembly=bitirme_mobile_app"
              Title="My Recommendations"
              >
 
   <ContentPage.Resources>
     <ResourceDictionary>
-      <local:NumberBooleanConverter x:Key="numberBooleanConverter"/>
+      
+      <local:NumberBooleanConverterNonZeroTrue x:Key="numberBooleanConverterNonZeroTrue"/>
+      <local:NumberBooleanConverterNonZeroFalse x:Key="numberBooleanConverterNonZeroFalse"/>
       <local:StarRateSourceConverter x:Key="rateConverter"/>
       <local:NegateBooleanConverter x:Key="inverter"/>
     </ResourceDictionary>
@@ -20,36 +22,34 @@
 
     <TabbedPage.Children>
 
-      <!--<ContentPage Title=" adadssd">
+      <ContentPage Title=" Recommended movies">
         <RelativeLayout>
-
-          
-          
-          <ListView x:Name="RecommasdaendedMoviesListView" ItemsSource="{Binding RecommendedMovies}"
-            HasUnevenRows="True" CachingStrategy="RecycleElement"                   
+          <ListView x:Name="RecommendedMoviesListView" ItemsSource="{Binding RecommendedMovies}"
+            HasUnevenRows="True" CachingStrategy="RecycleElement" SelectedItem="{Binding ListViewSelectedItem,Mode=TwoWay}"
+            
             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0,Constant=0}"                  
             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0,Constant=0}"
             RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
             RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1,Constant=0}"
-            >
-            
+            >           
             <ListView.ItemTemplate>
+              
               <DataTemplate>
                 <ViewCell>
                   <StackLayout Padding="10">
                     <AbsoluteLayout HorizontalOptions="Center" AbsoluteLayout.LayoutFlags="All" WidthRequest="300"  HeightRequest="400">
-                      <ActivityIndicator  AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="ActivityIndicator" IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" BindingContext="{x:Reference Name=img}"></ActivityIndicator>
+                      <ActivityIndicator  AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="ActivityIndicator" IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" BindingContext="{x:Reference Name=img}" Color="#244358"></ActivityIndicator>
                       <Image AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="img" Source="{Binding Movie.ImdbImageUrl}" WidthRequest="300"  HeightRequest="400" HorizontalOptions="CenterAndExpand"></Image>
                     </AbsoluteLayout>
-                    <Label Font="30" Text="{Binding Movie.Name}"/>
-                    <Label Font="16" Text="genres"/>
+                    <Label Font="30" Text="{Binding Movie.Name}" TextColor="#28544B"/>
+                    <Label Font="20" Text="genres" TextColor="#28544B"/>
                   </StackLayout>
                 </ViewCell>
               </DataTemplate>
-            </ListView.ItemTemplate>
+            </ListView.ItemTemplate> 
           </ListView>
 
-          <ActivityIndicator  x:Name="preparingRcmmddMovtrgfiesIndicator" IsVisible="True" IsRunning="True" Color="Blue"
+          <ActivityIndicator  x:Name="preparingRcmmddMoviesIndicator" IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" Color="#244358"
                               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=.25,Constant=0}"
                               RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.25,Constant=0}"
                               RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=.5,Constant=0}"
@@ -57,46 +57,46 @@
                               
           />
 
-          <Label Text="We could not recommend a movie for you. Try again with another movies" x:Name="noRecommsendedMovieLabel" IsVisible="{Binding RecommendedMovies.Count , Converter={StaticResource numberBooleanConverter}" 
-                              RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=.25,Constant=0}"
-                              RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.25,Constant=0}"
-                              RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=.5,Constant=0}"
-                              RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.5,Constant=0}"
+          <StackLayout x:Name="userWarningLabels" IsVisible="{Binding IsBusy,Converter={StaticResource inverter}"
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=.25,Constant=0}"
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.25,Constant=0}"
+                       RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=.5,Constant=0}"
+                       RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.5,Constant=0}"
+                       >
+
+            <Label Text="We could not recommend a movie for you. Try again with another movies" x:Name="noRecommendedMovieLabel" IsVisible="{Binding NoMovieRecommended}"
+                    HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"    
           />
-          <Label Text="Waiting for last recommendation request's result." x:Name="waitingRecomsmendedMoviesLabel" IsVisible="{Binding WaitingForRecommendation}" 
-                               RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=.25,Constant=0}"
-                              RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.25,Constant=0}"
-                              RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=.5,Constant=0}"
-                              RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.5,Constant=0}"
-                              
+            <Label Text="Waiting for last recommendation request's result." x:Name="waitingRecommendedMoviesLabel" IsVisible="{Binding WaitingForRecommendation}"
+                   HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"
            />
+          </StackLayout>
+
+          
 
           <fab:FloatingActionButton
-
-          x:Name="fasbBtn"
+            
+          HasShadow="True"
 
           Source="ic_add_white_24dp.png"
 
           Size="Normal"
 
-          NormalColor="Blue"
+          NormalColor="#FF302C"
 
-          RippleColor="Aqua"
+          RippleColor="#BC7676"
          
+          Command="{Binding OpenRateMoviePageCommand}"
           
-          RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1, Constant=-75}"
+          RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1, Constant=-110}"
 
-          RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1, Constant=-75}"
+          RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1, Constant=-110}"
           
           />
-
-
-
-
         </RelativeLayout>
-      </ContentPage>-->
+      </ContentPage>
       
-      <ContentPage Title=" Recommended movies">
+      <!--<ContentPage Title=" Recommended movies">
 
         <AbsoluteLayout>
 
@@ -123,7 +123,7 @@
           <Label Text="We could not recommend a movie for you. Try again with another movies" x:Name="noRecommendedMovieLabel" IsVisible="{Binding RecommendedMovies.Count , Converter={StaticResource numberBooleanConverter}" AbsoluteLayout.LayoutBounds=".5,.5,.5,.5" AbsoluteLayout.LayoutFlags="All" />
           <Label Text="Waiting for last recommendation request's result." x:Name="waitingRecommendedMoviesLabel" IsVisible="{Binding WaitingForRecommendation}" AbsoluteLayout.LayoutBounds=".5,.5,.5,.5" AbsoluteLayout.LayoutFlags="All" />
 
-          <!--<fab:FloatingActionButton
+          --><!--<fab:FloatingActionButton
 
           x:Name="fasbsdBtn"
 
@@ -137,31 +137,29 @@
          
           AbsoluteLayout.LayoutBounds=".7,.7,.2,.2" AbsoluteLayout.LayoutFlags="All"
           
-          />-->
+          />--><!--
           
         </AbsoluteLayout>
       
-      </ContentPage>
+      </ContentPage>-->
 
       <ContentPage Title="{Binding RatedMovies.Count, StringFormat='Rated movies ({0})'}">
 
-        <AbsoluteLayout>
-
-          <ActivityIndicator  x:Name="sepetPageActivityIndicator" IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" Color="Blue" AbsoluteLayout.LayoutBounds=".5,.5,.5,.5" AbsoluteLayout.LayoutFlags="All" />
-
-
-          <StackLayout  IsVisible="{Binding IsBusy , Converter={StaticResource inverter}"  AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All">
-
-            <!--<Button Text="Get recommendations" Command="{Binding SendRecommendationRequestCommand}"></Button>-->
+        <RelativeLayout>
 
             <ListView x:Name="RatedMoviesListView" ItemsSource="{Binding RatedMovies}"
-                      SelectedItem="{Binding RatedMoviesLVSelectedItem}" HasUnevenRows="True" CachingStrategy="RecycleElement">
+                      SelectedItem="{Binding ListViewSelectedItem, Mode=TwoWay}" HasUnevenRows="True" CachingStrategy="RecycleElement"
+                   RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0,Constant=0}"
+            RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0,Constant=0}"
+            RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1,Constant=0}"
+            RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=1,Constant=0}"                    
+                      >
               <ListView.ItemTemplate>
                 <DataTemplate>
                   <ViewCell>
                     <StackLayout Padding="10">
                       <AbsoluteLayout HorizontalOptions="Center" AbsoluteLayout.LayoutFlags="All" WidthRequest="300"  HeightRequest="400">
-                        <ActivityIndicator  AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="ActivityIndicator" IsRunning="{Binding IsLoading}" IsVisible="{Binding Movie.IsLoading}" BindingContext="{x:Reference Name=img}"></ActivityIndicator>
+                        <ActivityIndicator  AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="ActivityIndicator" IsRunning="{Binding IsLoading}" IsVisible="{Binding Movie.IsLoading}" BindingContext="{x:Reference Name=img}" Color="#244358"></ActivityIndicator>
                         <Image AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="img" Source="{Binding Movie.ImdbImageUrl}" WidthRequest="300"  HeightRequest="400" HorizontalOptions="CenterAndExpand"></Image>
                       </AbsoluteLayout>
                       <Label Font="30" Text="{Binding Movie.Name}"/>
@@ -259,8 +257,25 @@
               </ListView.ItemTemplate>
             </ListView>
 
-          </StackLayout>
-        </AbsoluteLayout>
+          <fab:FloatingActionButton
+
+          Source="ic_add_white_24dp.png"
+
+          Size="Normal"
+
+          NormalColor="#FF302C"
+
+          RippleColor="#BC7676"
+         
+          Command="{Binding OpenRateMoviePageCommand}"
+          
+          RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1, Constant=-110}"
+
+          RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=1, Constant=-110}"
+          
+          />
+
+        </RelativeLayout>
         
       </ContentPage>
       

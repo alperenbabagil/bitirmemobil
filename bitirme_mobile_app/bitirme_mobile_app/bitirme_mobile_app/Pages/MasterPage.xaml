@@ -1,39 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:bitirme_mobile_app.Views;assembly=bitirme_mobile_app"
              x:Class="bitirme_mobile_app.Pages.MasterPage">
+
+
+  <!--<ContentPage.Resources>
+    <ResourceDictionary>
+      <views:MasterPageViewModel x:Key="masterPageViewModel"/>
+    </ResourceDictionary>
+  </ContentPage.Resources>-->
+  
   <Grid>
     <Grid.RowDefinitions>
       <RowDefinition Height="1*" />
-      <RowDefinition Height="7*" />
-      <RowDefinition Height="1*" />      
+      <RowDefinition Height="9*" />      
     </Grid.RowDefinitions>
-    <StackLayout  Grid.Row="0" BackgroundColor="#efefef">
-      <Label Text="{Binding UserName}" FontSize="25" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Label>
+    <StackLayout  Grid.Row="0" BackgroundColor="#28544B">
+      <Label Text="{Binding UserName}" FontSize="25" TextColor="#FFD6A0" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"></Label>
     </StackLayout>
     
-    <StackLayout Grid.Row="1">
-      <Label Text="Previous Sessions" HorizontalOptions="Center"  Font="18" BackgroundColor="#dedede"></Label>
+    <StackLayout Grid.Row="1" Spacing="0">
+      <StackLayout Spacing="0">
+        <Label Text="Previous Sessions" Font="25" TextColor="#012530" HorizontalOptions="CenterAndExpand"/>
+      </StackLayout>
+      <!--<Label Text="Previous Sessions" HorizontalOptions="CenterAndExpand"  Font="18" BackgroundColor="#012530" TextColor="#FFD6A0"></Label>-->
       <ListView x:Name="RecommendedMoviesListView" SelectedItem="{Binding SelectedRecSession}"  ItemsSource="{Binding Sessions}" AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All"
-                     HasUnevenRows="True" CachingStrategy="RecycleElement">
+       HasUnevenRows="True" CachingStrategy="RecycleElement" SeparatorColor="#012530">              
         <ListView.ItemTemplate>
           <DataTemplate>
             <ViewCell>
-              <StackLayout Padding="10">
-                
+              <StackLayout Padding="10">            
                 <StackLayout Orientation="Horizontal">
-                  <Label Font="20" Text="{Binding id}"/>
-                  <Label Font="20" Text=" - "/>
-                  <Label Font="20" Text="{Binding CreateDate}"/>
+                  <!--<Label Font="20" Text="{Binding id}"/>-->
+                  <Label Font="20" Text="{Binding CreateDate}" TextColor="#2B3A42"/>
                 </StackLayout>
-                <Label Font="22" Text="{Binding ratedMovies.Count, StringFormat='Rated movies: {0}'}"/>
-                <Label Font="22" Text="{Binding recommendedMovies.Count, StringFormat='Recommended movies: {0}'}"/>
+                <Label Font="22" Text="{Binding ratedMovies.Count, StringFormat='Rated movies: {0}'}" TextColor="#3F5765"/>
+                <Label Font="22" Text="{Binding recommendedMovies.Count, StringFormat='Recommended movies: {0}'}" TextColor="#3F5765"/>
               </StackLayout>
+
+              <ViewCell.ContextActions>
+                <MenuItem Command="{x:Static views:MasterPageViewModel.DeleteItemFromMasterPageLvCommand}" CommandParameter="{Binding .}"
+                   Text="Delete recommendation" IsDestructive="True" />
+              </ViewCell.ContextActions>
+              
             </ViewCell>
+
+            
+            
           </DataTemplate>
         </ListView.ItemTemplate>
       </ListView>
+    
+      <Button BackgroundColor="#28544B" TextColor="#FFD6A0"  Margin="0, 20, 0, 0"  Text="Logout" VerticalOptions="Fill" Command="{Binding LogOutCommand}"></Button>
     </StackLayout>
-    <Button Grid.Row="3" Text="Logout" VerticalOptions="Fill" Command="{Binding LogOutCommand}"></Button>
+    
   </Grid>
 </ContentPage>

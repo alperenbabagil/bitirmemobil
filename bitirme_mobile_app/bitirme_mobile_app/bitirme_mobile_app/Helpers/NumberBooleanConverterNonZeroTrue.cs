@@ -10,7 +10,7 @@ namespace bitirme_mobile_app.Helpers
     /// <summary>
     /// returns true if parameter is not 0
     /// </summary>
-    public class NumberBooleanConverter : IValueConverter
+    public class NumberBooleanConverterNonZeroTrue : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {

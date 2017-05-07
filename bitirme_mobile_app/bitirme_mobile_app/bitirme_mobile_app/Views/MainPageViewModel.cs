@@ -39,6 +39,23 @@ namespace bitirme_mobile_app.Models
             }
         }
 
+        private bool _noMovieRecommended = false;
+
+        public bool NoMovieRecommended
+        {
+            get
+            {
+                return _noMovieRecommended;
+            }
+
+            set
+            {
+                _noMovieRecommended = value;
+                notifyProperty("NoMovieRecommended");
+            }
+        }
+
+
         private bool _waitingForRecommendation = false;
 
         public bool WaitingForRecommendation
@@ -103,11 +120,29 @@ namespace bitirme_mobile_app.Models
 
         #endregion
 
-        //public ICommand openRateMoviePageCommand { get; private set; }
+        public ICommand OpenRateMoviePageCommand { get; private set; }
+
+        /// <summary>
+        /// to make clear selections of listviews
+        /// </summary>
+        private Object _listViewSelectedItem;
+        public Object ListViewSelectedItem
+        {
+            get
+            {
+                return _listViewSelectedItem;
+            }
+            set
+            {
+                _listViewSelectedItem = null;
+                notifyProperty("ListViewSelectedItem");
+            }
+        }
 
         public MainPageViewModel(MainPage mainPage, List<string> recommendedMoviesList)
         {
             _mainPage = mainPage;
+            OpenRateMoviePageCommand = new Command(openRateMoviePage);
             var lastSession = DBHelper.getLastSession();
 
             if (lastSession == null)
@@ -143,6 +178,9 @@ namespace bitirme_mobile_app.Models
             //}
         }
 
+        
+
+
         public async void fillListViews(RecommendationSession session)
         {
             RatedMovies.Clear();
@@ -152,6 +190,8 @@ namespace bitirme_mobile_app.Models
             {
                 // movie data is taken before
                 RecommendedMovies.InsertRange(session.recommendedMovies);
+                NoMovieRecommended = RecommendedMovies.Count == 0 ? true : false;
+
             }
             else
             {
@@ -168,14 +208,21 @@ namespace bitirme_mobile_app.Models
                     session.hasJustRecommendedIds = false;
                     session.isCompleted = true;
                     await DBHelper.updateDB();
+                    WaitingForRecommendation = false;
                     // inserting movies inlo listview's list
                     App.masterPageListMustBeUpdated = true;
                     RecommendedMovies.InsertRange(movieLvis);
+                    NoMovieRecommended = RecommendedMovies.Count == 0 ? true : false;
                     IsBusy = false;
                     
                 }
                 else WaitingForRecommendation = true;
             }
+        }
+
+        public void openRateMoviePage()
+        {
+            _mainPage.Navigation.PushAsync(new RatingMoviesPage());
         }
 
         //private async void  fillLists(RecommendationSession session, List<string> recommendedMoviesList)
@@ -195,7 +242,7 @@ namespace bitirme_mobile_app.Models
         //        ls.recommendedMovies.AddRange(movieLvis);
         //        DBHelper.updateDB();
         //    }
-            
+
         //}
 
         //private async Task<List<Movie>> getMoviesToRate(List<string> recommendedMoviesList)

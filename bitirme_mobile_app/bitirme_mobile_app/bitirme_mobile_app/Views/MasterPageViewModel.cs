@@ -13,6 +13,22 @@ namespace bitirme_mobile_app.Views
 {
     public class MasterPageViewModel : ViewModelBase
     {
+        //private RangeEnabledObservableCollection<MasterPageListViewItem> _sessions;
+
+        //public RangeEnabledObservableCollection<MasterPageListViewItem> Sessions
+        //{
+        //    get
+        //    {
+        //        return _sessions;
+        //    }
+
+        //    set
+        //    {
+        //        _sessions = value;
+        //        notifyProperty("Sessions");
+        //    }
+        //}
+
         private RangeEnabledObservableCollection<RecommendationSession> _sessions;
 
         public RangeEnabledObservableCollection<RecommendationSession> Sessions
@@ -60,7 +76,7 @@ namespace bitirme_mobile_app.Views
                 notifyProperty("SelectedRecSession");
                 if (value != null)
                 {
-                    _mdPage.changeRecommendationSessionOnMainPage((RecommendationSession) value);
+                    _mdPage.changeRecommendationSessionOnMainPage((RecommendationSession)value);
                     _mdPage.IsPresented = false;
                 }
             }
@@ -84,15 +100,22 @@ namespace bitirme_mobile_app.Views
 
         private MDPage _mdPage;
 
+        public static Command DeleteItemFromMasterPageLvCommand { get; private set; }
+
         public MasterPageViewModel(MDPage mdPage)
         {
             _mdPage = mdPage;
+            DeleteItemFromMasterPageLvCommand = new Command<RecommendationSession>(deleteItemFromMasterPageLv);
             UserName = App.CurrentUser.Username;
             Sessions = new RangeEnabledObservableCollection<RecommendationSession>();
-            Sessions.InsertRange(App.RecommendationSessionHolder.getSessions());
-            Sessions.Reverse();
+            updateList();
             LogOutCommand = new Command(logOutFunction);
+        }
 
+        private async void deleteItemFromMasterPageLv(RecommendationSession session)
+        {
+            await App.RecommendationSessionHolder.deleteSession(session);
+            updateList();
         }
 
         private void logOutFunction()
@@ -105,9 +128,33 @@ namespace bitirme_mobile_app.Views
         public void updateList()
         {
             Sessions.Clear();
-            Sessions.InsertRange(App.RecommendationSessionHolder.getSessions());
-            Sessions.Reverse();
+            var sessions = App.RecommendationSessionHolder.getSessions();
+            sessions.Reverse();
+            Sessions.InsertRange(sessions);
         }
+
+        //private RangeEnabledObservableCollection<MasterPageListViewItem> makeListViewItems(List<RecommendationSession> sessions)
+        //{
+        //    var lvis = new RangeEnabledObservableCollection<MasterPageListViewItem>();
+        //    foreach (var rcms in sessions)
+        //    {
+        //        lvis.Add(new MasterPageListViewItem() { Session = rcms });
+        //    }
+        //    return lvis;
+        //}
+
+        //public class MasterPageListViewItem
+        //{
+        //    public RecommendationSession Session { get; set; }
+        //    public Command deleteSessionCommand
+        //    {
+        //        get
+        //        {
+        //            return MasterPageViewModel.DeleteItemFromMasterPageLvCommand;
+        //        }
+        //    }
+            
+        //}
 
 
 

@@ -16,6 +16,7 @@ namespace bitirme_mobile_app.Models
             foreach (var item in items)
                 this.Items.Add(item);
             this.OnCollectionChanged(new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Reset));
+            this.OnPropertyChanged(new System.ComponentModel.PropertyChangedEventArgs("Count"));
         }
     }
 }
