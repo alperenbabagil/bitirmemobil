@@ -14,7 +14,7 @@
   <AbsoluteLayout>
     <ActivityIndicator  x:Name="sepetPageActivityIndicator" IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" Color="Blue" AbsoluteLayout.LayoutBounds=".5,.5,.5,.5" AbsoluteLayout.LayoutFlags="All" />
     
-    <StackLayout IsVisible="{Binding IsBusy , Converter={StaticResource inverter}"  AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All"><StackLayout>
+    <StackLayout IsVisible="{Binding IsBusy , Converter={StaticResource inverter}}"  AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All"><StackLayout>
         <StackLayout Orientation="Horizontal">
           <Label Text="Username:" WidthRequest="80" VerticalOptions="CenterAndExpand"/>
           <Entry x:Name="UserName" Text="{Binding Name,Mode=TwoWay}" FontSize="18" FontAttributes="Bold" WidthRequest="150" VerticalOptions="CenterAndExpand"></Entry>

@@ -1,5 +1,7 @@
 import time, sys, cherrypy, os
 from paste.translogger import TransLogger
+
+import glo
 from app import create_app
 
 
@@ -38,9 +40,16 @@ def init_spark_context():
 
     # load spark context
     try:
-        conf = SparkConf().setAppName("movie_recommendation-server").set("spark.executor.memory", "2g")
+        #conf = SparkConf().setAppName("movie_recommendation-server").set("spark.executor.memory", "2g")
         # conf = SparkConf().setAppName("movie_recommendation-server").setExecutorEnv('spark.executor.memory','2g')
-        sc = SparkContext(conf=conf, pyFiles=['engine.py', 'app.py'])
+        #sc = SparkContext(conf=conf, pyFiles=['recomm_engine.py', 'app.py'])
+
+        conf = SparkConf() \
+                .setAppName("MovieLensALS") \
+            .set("spark.executor.memory", "2g")
+
+        sc = SparkContext(conf=conf)
+
     except Exception as e:
         print(e)
     # IMPORTANT: pass aditional Python modules to each worker
@@ -74,10 +83,12 @@ if __name__ == "__main__":
 
     # Init spark context and load libraries
     sc = init_spark_context()
+    #sc = None
 
     # dataset_path = os.path.join('datasets', 'ml-latest')
     #dataset_path = "F:\\bitirme\\bilal\\son\\MLlibSpark"
     dataset_path = Parameters.data_path
+    #app = create_app(None,dataset_path)
     app = create_app(sc,dataset_path)
     #app = create_app(None,None)
 

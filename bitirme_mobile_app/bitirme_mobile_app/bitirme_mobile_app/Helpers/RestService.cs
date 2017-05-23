@@ -15,7 +15,7 @@ namespace bitirme_mobile_app.Helpers
 {
     public class RestService
     {
-        private const string baseUrl = "http://192.168.1.34:5432";
+        private string baseUrl = Constants.ip;
 
         public async Task<bool> login(User user)
         {

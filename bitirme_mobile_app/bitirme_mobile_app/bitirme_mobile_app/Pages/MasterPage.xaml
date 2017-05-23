@@ -51,8 +51,9 @@
           </DataTemplate>
         </ListView.ItemTemplate>
       </ListView>
-    
-      <Button BackgroundColor="#28544B" TextColor="#FFD6A0"  Margin="0, 20, 0, 0"  Text="Logout" VerticalOptions="Fill" Command="{Binding LogOutCommand}"></Button>
+
+      <Button BackgroundColor="#28544B" TextColor="#FFD6A0"  Margin="0, 5, 0, 0"  Text="Settings" VerticalOptions="Fill" Command="{Binding SettingsCommand}"></Button>
+      <Button BackgroundColor="#28544B" TextColor="#FFD6A0"  Margin="0, 5, 0, 0"  Text="Logout" VerticalOptions="Fill" Command="{Binding LogOutCommand}"></Button>
     </StackLayout>
     
   </Grid>

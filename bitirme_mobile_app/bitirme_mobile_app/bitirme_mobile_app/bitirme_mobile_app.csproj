@@ -74,6 +74,9 @@
     <Compile Include="Pages\RatingMoviesPage.xaml.cs">
       <DependentUpon>RatingMoviesPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\SettingsPage.xaml.cs">
+      <DependentUpon>SettingsPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\SignUpPage.xaml.cs">
       <DependentUpon>SignUpPage.xaml</DependentUpon>
     </Compile>
@@ -87,6 +90,7 @@
     <Compile Include="Views\MainPageViewModel.cs" />
     <Compile Include="Views\MovieListViewItem.cs" />
     <Compile Include="Views\MovieRateListViewItem.cs" />
+    <Compile Include="Views\SettingsPageViewModel.cs" />
     <Compile Include="Views\SignUpPageViewModel.cs" />
     <Compile Include="Views\ViewModelBase.cs" />
   </ItemGroup>
@@ -186,6 +190,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\GoToMovieRatePagePopup.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pages\SettingsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

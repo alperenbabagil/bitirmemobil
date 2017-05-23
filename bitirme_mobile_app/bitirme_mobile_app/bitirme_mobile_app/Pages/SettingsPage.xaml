@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bitirme_mobile_app.Pages.SettingsPage">
+  <StackLayout>
+    <Label Text="Settings"></Label>
+    <TableView>
+      <TableView.Root>
+        <TableSection Title="Connection">
+          <EntryCell Label="Local IP:" Text="{Binding LocalIp,Mode=TwoWay}"></EntryCell>
+          <TextCell Text="Test"></TextCell>
+          
+        </TableSection>
+
+        <TableSection Title="Recommendation">
+          <EntryCell Label="Rec. Count:"></EntryCell>
+        </TableSection>
+        
+      </TableView.Root>
+    </TableView>
+  </StackLayout>
+</ContentPage>

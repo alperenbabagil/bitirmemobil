@@ -97,15 +97,30 @@ namespace bitirme_mobile_app.Views
         }
 
         private ICommand _logOutCommand;
+        private ICommand _settingsCommand;
 
         private MDPage _mdPage;
 
         public static Command DeleteItemFromMasterPageLvCommand { get; private set; }
 
+        public ICommand SettingsCommand
+        {
+            get
+            {
+                return _settingsCommand;
+            }
+
+            set
+            {
+                _settingsCommand = value;
+            }
+        }
+
         public MasterPageViewModel(MDPage mdPage)
         {
             _mdPage = mdPage;
             DeleteItemFromMasterPageLvCommand = new Command<RecommendationSession>(deleteItemFromMasterPageLv);
+            SettingsCommand = new Command(openSettingsPage);
             UserName = App.CurrentUser.Username;
             Sessions = new RangeEnabledObservableCollection<RecommendationSession>();
             updateList();
@@ -124,6 +139,14 @@ namespace bitirme_mobile_app.Views
             _mdPage.openLoginPage();
             _mdPage.IsPresented = false;
         }
+
+        private void openSettingsPage()
+        {
+            // TODO: will be removed from there
+            _mdPage.openSettingsPage();
+        }
+
+
 
         public void updateList()
         {

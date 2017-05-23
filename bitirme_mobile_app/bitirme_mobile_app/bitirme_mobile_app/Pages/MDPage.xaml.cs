@@ -78,6 +78,16 @@ namespace bitirme_mobile_app.Pages
             Master = new DummyPage() { Title = "Master" };
         }
 
+        public void openSettingsPage()
+        {
+            //Detail = new NavigationPage(new LoginPage());
+            //Master = new DummyPage() { Title = "Master" };
+            //TODO: check if it is a nav page
+            Detail.Navigation.PushAsync(new SettingsPage());
+        }
+
+        
+
         public void changeRecommendationSessionOnMainPage(RecommendationSession session)
         {
             _mainPage.mpvm.fillListViews(session);
