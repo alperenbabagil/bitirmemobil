@@ -124,16 +124,18 @@ namespace bitirme_mobile_app.Helpers
         /// <param name="startIndex"></param>
         /// <param name="endIndex"></param>
         /// <returns></returns>
-        public async Task<List<Movie>> getMovieInfoFromWeb(List<string> ids,int startIndex,int endIndex)
+        public async Task<List<Movie>> getMovieInfoFromWeb(List<string> ids)
         {
             List<Movie> movies = new List<Movie>();
             try
             {
                 using (var client = new HttpClient())
                 {
-                    for(int i= startIndex; i< endIndex; i++)
+                    foreach(var id in ids)
                     {
-                        client.BaseAddress = new Uri("http://www.omdbapi.com/?i=tt"+ids[i]);
+                        //http://www.omdbapi.com/?i=tt3896198&apikey=80dd9126
+                        //http://img.omdbapi.com/?i=tt3896198&h=600&apikey=80dd9126
+                        client.BaseAddress = new Uri("http://www.omdbapi.com/?apikey=80dd9126&i=tt" + id);
                         HttpResponseMessage response = await client.GetAsync(client.BaseAddress);
                         var result = await response.Content.ReadAsStringAsync();
                         //dynamic data = JObject.Parse(source);
@@ -146,18 +148,28 @@ namespace bitirme_mobile_app.Helpers
                         {
                             continue;
                         }
-                        Newtonsoft.Json.Linq.JArray ratings = tmp.Ratings;
-                        var rate0 = ratings[0];
-                        var ratingString = (string)(ratings[0])["Value"];
-                        var ratingDouble = Double.Parse(ratingString.Split('/')[0]);
-                        Movie movie = new Movie()
+                        //Newtonsoft.Json.Linq.JArray ratings = tmp.Ratings;
+                        //var rate0 = ratings[0];
+                        //var ratingString = (string)(ratings[0])["Value"];
+                        //var ratingDouble = Double.Parse(ratingString.Split('/')[0]);
+                        Movie movie = new Movie();
+                        try
                         {
-                            ImdbId = ids[i],
-                            Name = (string)tmp.Title,
-                            Genres = new List<string>(((string)tmp.Genre).Split(',')),
-                            ImdbImageUrl = (string)tmp.Poster,
+                            movie.ImdbId = id;
+                            movie.Name = (string)tmp.Title;
+                            movie.Genres = new List<string>(((string)tmp.Genre).Split(','));
+                            movie.ImdbImageUrl = (string)tmp.Poster;
                             //Rating= (JsonConvert.DeserializeObject<Ratings>(tmp.Ratings))
-                            Rating = ratingDouble
+                            movie.Rating = Double.Parse((string)tmp.imdbRating);
+                            movie.Year = tmp.Year;
+                        }
+                        catch(Exception e)
+                        {
+                            
+                        }
+                        
+                        {
+                            
                         };
                         movies.Add(movie);
                     }

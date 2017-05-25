@@ -31,8 +31,9 @@
                     <ActivityIndicator  AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="ActivityIndicator" IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" BindingContext="{x:Reference Name=img}"></ActivityIndicator>
                     <Image AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="img" Source="{Binding Movie.ImdbImageUrl}" WidthRequest="300"  HeightRequest="400" HorizontalOptions="CenterAndExpand"></Image>
                   </AbsoluteLayout>
-                  <Label Font="30" Text="{Binding Movie.Name}"/>
-                  <Label Font="16" Text="genres"/>
+                  <Label Font="30" Text="{Binding Movie.NameYearString}"/>
+                  <Label Font="16" Text="{Binding Movie.GenreString}"/>
+                  <Label Font="16" Text="{Binding Movie.Rating, StringFormat='IMDB rating  {0}'}"/>
                   <Grid>
                     <Grid.RowDefinitions>
                       <RowDefinition Height="*" />
@@ -149,8 +150,9 @@
                       <ActivityIndicator  AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="ActivityIndicator" IsRunning="{Binding IsLoading}" IsVisible="{Binding Movie.IsLoading}" BindingContext="{x:Reference Name=img}"></ActivityIndicator>
                       <Image AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="img" Source="{Binding Movie.ImdbImageUrl}" WidthRequest="300"  HeightRequest="400" HorizontalOptions="CenterAndExpand"></Image>
                     </AbsoluteLayout>
-                    <Label Font="30" Text="{Binding Movie.Name}"/>
-                    <Label Font="16" Text="genres"/>
+                    <Label Font="30" Text="{Binding Movie.NameYearString}"/>
+                    <Label Font="16" Text="{Binding Movie.GenreString}"/>
+                    <Label Font="16" Text="{Binding Movie.Rating, StringFormat='IMDB rating  {0}'}"/>
                     <Grid>
                       <Grid.RowDefinitions>
                         <RowDefinition Height="*" />

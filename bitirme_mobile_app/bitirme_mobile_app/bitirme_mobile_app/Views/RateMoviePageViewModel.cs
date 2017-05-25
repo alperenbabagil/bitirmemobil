@@ -176,8 +176,29 @@ namespace bitirme_mobile_app.Models
         private async void getMoviesToRate()
         {
             var ids = await new RestService().getTop250Ids();
-            var idx = new Random().Next() % 80;
-            var movies = await new RestService().getMovieInfoFromWeb(ids, idx, idx+15);
+
+            if (ids == null)
+            {
+                await _rateMoviePage.DisplayAlert("Info","Connection error","Ok");
+                return;
+            }
+            //filtering some movies
+            else
+            {
+                for(int i=ids.Count-1;i>-1;i--)
+                {
+                    if (ids[i] == "0119508") ids.Remove(ids[i]);
+                }
+            }
+
+
+            var randomIndexes = Enumerable.Range(1, 200).OrderBy(g => Guid.NewGuid()).Take(40).ToArray();
+            var idlist = new List<string>();
+            foreach(var idx in randomIndexes)
+            {
+                idlist.Add(ids[idx]);
+            }
+            var movies = await new RestService().getMovieInfoFromWeb(idlist);
             var lvis = new List<MovieRateListViewItem>();
 
             foreach (var movie in movies)
@@ -216,11 +237,20 @@ namespace bitirme_mobile_app.Models
             var session = new RecommendationSession() { ratedMovies = RatedMovies,CreateDate=DateTime.Now };
             int id=App.RecommendationSessionHolder.addNewSession(session);         
             IsBusy = true;
-            await new RestService().sendRecommendationRequest(RatedMovies,id);
+            string result = "";
+            result= await new RestService().sendRecommendationRequest(RatedMovies,id);
             IsBusy = false;
-            await _rateMoviePage.DisplayAlert("Info", "Request is sent successfully. Your movies will come soon as a push notification", "Ok");
-            await DBHelper.updateDB();
-            GeneralHelper.quitApp();
+            if (result == "success")
+            {
+                await _rateMoviePage.DisplayAlert("Info", "Request is sent successfully. Your movies will come soon as a push notification", "Ok");
+                await DBHelper.updateDB();
+                GeneralHelper.quitApp();
+            }
+            else
+            {
+                await _rateMoviePage.DisplayAlert("Info", "Connection error", "Ok");
+            }
+            
         }
         //private void addSessionToDb()
         //{

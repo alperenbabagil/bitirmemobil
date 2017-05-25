@@ -10,9 +10,8 @@ import numpy as np
 import  sys, os
 import Parameters
 
-os.environ['JAVA_HOME']=Parameters.java_home
 
-
+os.environ["PYSPARK_PYTHON"]="python3"
 os.environ["SPARK_HOME"] = Parameters.spark_home
 sys.path.append(Parameters.home_python)
 sys.path.append(Parameters.home_py4j)

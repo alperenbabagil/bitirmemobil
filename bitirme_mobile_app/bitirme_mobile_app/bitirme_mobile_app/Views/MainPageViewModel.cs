@@ -178,7 +178,7 @@ namespace bitirme_mobile_app.Models
             //}
         }
 
-        
+
 
 
         public async void fillListViews(RecommendationSession session)
@@ -200,7 +200,14 @@ namespace bitirme_mobile_app.Models
                     //TODO: NO refreshing activity indicator
                     IsBusy = true;
                     // get movie data
-                    var movies = await new RestService().getMovieInfoFromWeb(session.recommendedMovieIds, 0, session.recommendedMovieIds.Count);
+                    var movies = await new RestService().getMovieInfoFromWeb(session.recommendedMovieIds);
+
+                    //filtering some movies
+                    for (int i = movies.Count - 1; i > -1; i--)
+                    {
+                        if (movies[i].ImdbId == "0119508") movies.Remove(movies[i]);
+                    }
+
                     //convert movies to movielistviewitems
                     var movieLvis = MovieListViewItem.convertMovieListToMovieListViewItemList(movies);
                     session.recommendedMovies = movieLvis;
@@ -214,7 +221,7 @@ namespace bitirme_mobile_app.Models
                     RecommendedMovies.InsertRange(movieLvis);
                     NoMovieRecommended = RecommendedMovies.Count == 0 ? true : false;
                     IsBusy = false;
-                    
+
                 }
                 else WaitingForRecommendation = true;
             }

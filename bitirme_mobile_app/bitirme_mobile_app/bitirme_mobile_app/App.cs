@@ -35,6 +35,7 @@ namespace bitirme_mobile_app
         public static App instance;
         public App()
         {
+            if(Constants.ip==null) Constants.ip ="http://192.168.1.37:5432";
             instance = this;
             DBHelper.DBInit();
             CurrentUser = DBHelper.getUser();

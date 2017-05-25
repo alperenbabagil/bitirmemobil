@@ -8,6 +8,18 @@ namespace bitirme_mobile_app.Helpers
 {
     public class Constants
     {
-        public static string ip = "http://192.168.1.36:5432";
+        public static string ip
+        {
+            get
+            {
+                return App.Current.Properties["serverIp"] as string;
+            }
+            set
+            {
+                //TODO: Not a best way
+                App.Current.Properties["serverIp"] =value;
+            }
+        }
+
     }
 }

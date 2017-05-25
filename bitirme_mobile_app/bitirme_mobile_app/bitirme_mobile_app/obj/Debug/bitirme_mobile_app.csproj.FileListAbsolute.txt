@@ -96,9 +96,3 @@ C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\D
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\Debug\bitirme_mobile_app.Pages.SettingsPage.xaml.g.cs
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\Debug\bitirme_mobile_app.dll.mdb
 C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\bitirme_mobile_app.dll.mdb
-C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\Debug\bitirme_mobile_app.dll.mdb
-C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\bitirme_mobile_app.dll.mdb
-C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\Debug\bitirme_mobile_app.dll.mdb
-C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\bitirme_mobile_app.dll.mdb
-C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\obj\Debug\bitirme_mobile_app.dll.mdb
-C:\Source\bitirme\bitirme_mobile_app\bitirme_mobile_app\bitirme_mobile_app\bin\Debug\bitirme_mobile_app.dll.mdb

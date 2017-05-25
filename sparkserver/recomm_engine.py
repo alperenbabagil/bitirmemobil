@@ -11,7 +11,7 @@ import numpy as np
 import sys, os
 import Parameters
 
-os.environ['JAVA_HOME'] = Parameters.java_home
+os.environ["PYSPARK_PYTHON"]="python3"
 
 os.environ["SPARK_HOME"] = Parameters.spark_home
 sys.path.append(Parameters.home_python)
@@ -128,12 +128,12 @@ def get_mvl_ids_from_imdb_ids(moviesDict):
 def get_imdb_ids_from_mvl_ids(result):
     ids = []
     for res in result:
-        if str(res[0]) in id_link:
-            ids.append(id_link[str(res[0])])
+        if res in id_link:
+            ids.append(id_link[res])
     return ids
 
 def get_last_user_id(self):
-    with open(Parameters.data_path + "\\ratings.csv", 'rb') as fh:
+    with open(Parameters.data_path + "ratings.csv", 'rb') as fh:
         first = next(fh).decode()
 
         fh.seek(-1024, 2)
@@ -164,24 +164,44 @@ def getRecommendations(ratingTuples, recommNumber):
     myRatingsRDD = sc.parallelize(ratingTuples, 1)
 
     # ratingTuples eg: [(101,5.0),(102,5.0)]
-    training = ratings.filter(lambda x: x[0] < 6) \
+
+    #ratings=ratings.filter(lambda x: x[1][0] != 0)
+
+
+    training = ratings.filter(lambda x: x[0] < 6 and x[1][0]!=0) \
         .values() \
-        .union(myRatingsRDD) \
+        .union(myRatingsRDD)\
         .repartition(numPartitions) \
         .cache()
-    bestModel=trainModel()
+
+    # vr=training.collect()
+    # son=vr[-1]
+    # f=training.filter(lambda x:x[0]==0)
+    # fl=f.collect()
+
+    bestModel = trainModel()
 
 
     myRatedMovieIds = set([x[1] for x in ratingTuples])
     candidates = sc.parallelize([m for m in movies if m not in myRatedMovieIds])
+    cands=candidates.collect()
     predictions = bestModel.predictAll(candidates.map(lambda x: (0, x))).collect()
     print(predictions[:10])
     recommendations = sorted(predictions, key=lambda x: x[2], reverse=True)[:recommNumber]
+    reclist=[]
+    loopnum=recommNumber
+    ln=len(recommendations)
+    if ln<recommNumber:
+        loopnum=ln
+    for i in range(loopnum):
+        n=recommendations[i][1]
+        reclist.append(str(recommendations[i][1]))
     print(predictions[:10])
     print("Movies recommended for you:")
     for i in range(len(recommendations)):
         print("%2d: %s" % (i + 1, movies[recommendations[i][1]]))
-    return recommendations
+
+    return reclist
 
 def closeEngine():
     global sc
@@ -192,6 +212,7 @@ def parseRating(line):
     Parses a rating record in MovieLens format userId::movieId::rating::timestamp .
     """
     fields = line.strip().split("::")
+    ret= int(fields[3]) % 10, (int(fields[0]), int(fields[1]), float(fields[2]))
     return int(fields[3]) % 10, (int(fields[0]), int(fields[1]), float(fields[2]))
 
 def parseMovie(line):
@@ -231,7 +252,11 @@ def computeRmse(model, data, n):
 def trainModel():
     global bestRank, bestLambda, bestNumIter
     global training
-    return ALS.train(training, bestRank, bestLambda, bestNumIter)
+    try:
+        return ALS.train(training, bestRank, bestNumIter,bestLambda)
+    except Exception as e:
+        print(e)
+    return None
 
 
 # sc=None
@@ -249,18 +274,23 @@ def init(sparkContext):
     global requested_movies_RDD,movies_titles_RDD,movies_rating_counts_RDD
     global bestRank,bestLambda,bestNumIter,numPartitions
     global training,ratings
+    global myRatings
 
     sc = sparkContext
 
     # load personal ratings
-    myRatings = loadRatings(Parameters.data_path + "personalRatings.txt")
-    ms=list(myRatings)
-    myRatingsRDD = sc.parallelize(myRatings, 1)
+    # myRatings = loadRatings(Parameters.data_path + "personalRatings.txt")
+    # ms=list(myRatings)
+    # myRatingsRDD = sc.parallelize(myRatings, 1)
 
     # load ratings and movie titles
 
     # ratings is an RDD of (last digit of timestamp, (userId, movieId, rating))
     ratings = sc.textFile(Parameters.data_path + "ratings.csv").map(parseRating)
+    birli=ratings.filter(lambda x:x[1][0]==1)
+    birlils=birli.collect()
+    ls2=ratings.collect()
+
 
     # movies is an RDD of (movieId, movieTitle)
 
@@ -299,7 +329,6 @@ def init(sparkContext):
     numPartitions = 4
     training = ratings.filter(lambda x: x[0] < 6) \
         .values() \
-        .union(myRatingsRDD) \
         .repartition(numPartitions) \
         .cache()
 
@@ -330,9 +359,15 @@ def init(sparkContext):
     bestLambda = -1.0
     bestNumIter = -1
 
+
+
     for rank, lmbda, numIter in itertools.product(ranks, lambdas, numIters):
         # Build the recommendation model using Alternating Least Squares
-        model = ALS.train(training, rank, numIter, lmbda)
+        model=None
+        try:
+            model = ALS.train(training, rank, numIter, lmbda)
+        except Exception as e:
+            print(e)
         validationRmse = computeRmse(model, validation, numValidation)
         print("RMSE (validation) = %f for the model trained with " % validationRmse + \
               "rank = %d, lambda = %.1f, and numIter = %d." % (rank, lmbda, numIter))
