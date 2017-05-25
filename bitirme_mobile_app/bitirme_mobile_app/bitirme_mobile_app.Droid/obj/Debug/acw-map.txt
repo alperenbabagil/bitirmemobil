@@ -2,6 +2,10 @@ bitirme_mobile_app.Droid.MainActivity, bitirme_mobile_app.Droid;md5f72e067bdd7c3
 bitirme_mobile_app.Droid.MainActivity, bitirme_mobile_app.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5f72e067bdd7c3c40e4e35ef31ad296f9.MainActivity
 bitirme_mobile_app.Droid.MainActivity;md5f72e067bdd7c3c40e4e35ef31ad296f9.MainActivity
 bitirme_mobile_app.droid.MainActivity;md5f72e067bdd7c3c40e4e35ef31ad296f9.MainActivity
+bitirme_mobile_app.Droid.SplashActivity, bitirme_mobile_app.Droid;md5f72e067bdd7c3c40e4e35ef31ad296f9.SplashActivity
+bitirme_mobile_app.Droid.SplashActivity, bitirme_mobile_app.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5f72e067bdd7c3c40e4e35ef31ad296f9.SplashActivity
+bitirme_mobile_app.Droid.SplashActivity;md5f72e067bdd7c3c40e4e35ef31ad296f9.SplashActivity
+bitirme_mobile_app.droid.SplashActivity;md5f72e067bdd7c3c40e4e35ef31ad296f9.SplashActivity
 Com.OneSignal.TagsHandler, Com.OneSignal;md5991ebe8579e073f691f50c45652ea2d8.TagsHandler
 Com.OneSignal.TagsHandler, Com.OneSignal, Version=3.0.1.0, Culture=neutral, PublicKeyToken=null;md5991ebe8579e073f691f50c45652ea2d8.TagsHandler
 Com.OneSignal.TagsHandler;md5991ebe8579e073f691f50c45652ea2d8.TagsHandler

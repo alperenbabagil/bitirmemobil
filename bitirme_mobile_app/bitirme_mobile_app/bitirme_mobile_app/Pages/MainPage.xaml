@@ -25,6 +25,7 @@
       <ContentPage Title=" Recommended movies">
         <RelativeLayout>
           <ListView x:Name="RecommendedMoviesListView" ItemsSource="{Binding RecommendedMovies}"
+                    IsVisible="{Binding IsBusy, Converter={StaticResource inverter}}"
             HasUnevenRows="True" CachingStrategy="RecycleElement" SelectedItem="{Binding ListViewSelectedItem,Mode=TwoWay}"
             
             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0,Constant=0}"                  
@@ -77,6 +78,8 @@
 
           <fab:FloatingActionButton
             
+          IsVisible="{Binding IsBusy, Converter={StaticResource inverter}}"
+            
           HasShadow="True"
 
           Source="ic_add_white_24dp.png"
@@ -97,58 +100,12 @@
         </RelativeLayout>
       </ContentPage>
       
-      <!--<ContentPage Title=" Recommended movies">
-
-        <AbsoluteLayout>
-
-          <ActivityIndicator  x:Name="preparingRcmmddMoviesIndicator" IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" Color="Blue" AbsoluteLayout.LayoutBounds=".5,.5,.5,.5" AbsoluteLayout.LayoutFlags="All" />
-          <ListView x:Name="RecommendedMoviesListView" ItemsSource="{Binding RecommendedMovies}" AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All"
-                     HasUnevenRows="True" CachingStrategy="RecycleElement">
-            <ListView.ItemTemplate>
-              <DataTemplate>
-                <ViewCell>
-                  <StackLayout Padding="10">
-                    <AbsoluteLayout HorizontalOptions="Center" AbsoluteLayout.LayoutFlags="All" WidthRequest="300"  HeightRequest="400">
-                      <ActivityIndicator  AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="ActivityIndicator" IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" BindingContext="{x:Reference Name=img}"></ActivityIndicator>
-                      <Image AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="img" Source="{Binding Movie.ImdbImageUrl}" WidthRequest="300"  HeightRequest="400" HorizontalOptions="CenterAndExpand"></Image>
-                    </AbsoluteLayout>
-                    <Label Font="30" Text="{Binding Movie.Name}"/>
-                    <Label Font="16" Text="genres"/>
-                  </StackLayout>
-                </ViewCell>
-              </DataTemplate>
-            </ListView.ItemTemplate>
-          </ListView>
-
-          
-          <Label Text="We could not recommend a movie for you. Try again with another movies" x:Name="noRecommendedMovieLabel" IsVisible="{Binding RecommendedMovies.Count , Converter={StaticResource numberBooleanConverter}" AbsoluteLayout.LayoutBounds=".5,.5,.5,.5" AbsoluteLayout.LayoutFlags="All" />
-          <Label Text="Waiting for last recommendation request's result." x:Name="waitingRecommendedMoviesLabel" IsVisible="{Binding WaitingForRecommendation}" AbsoluteLayout.LayoutBounds=".5,.5,.5,.5" AbsoluteLayout.LayoutFlags="All" />
-
-          --><!--<fab:FloatingActionButton
-
-          x:Name="fasbsdBtn"
-
-          Source="icon.png"
-
-          Size="Normal"
-
-          NormalColor="Blue"
-
-          RippleColor="Aqua"
-         
-          AbsoluteLayout.LayoutBounds=".7,.7,.2,.2" AbsoluteLayout.LayoutFlags="All"
-          
-          />--><!--
-          
-        </AbsoluteLayout>
-      
-      </ContentPage>-->
-
       <ContentPage Title="{Binding RatedMovies.Count, StringFormat='Rated movies ({0})'}">
 
         <RelativeLayout>
 
             <ListView x:Name="RatedMoviesListView" ItemsSource="{Binding RatedMovies}"
+                      IsVisible="{Binding IsBusy, Converter={StaticResource inverter}}"
                       SelectedItem="{Binding ListViewSelectedItem, Mode=TwoWay}" HasUnevenRows="True" CachingStrategy="RecycleElement"
                    RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0,Constant=0}"
             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0,Constant=0}"
@@ -259,7 +216,17 @@
               </ListView.ItemTemplate>
             </ListView>
 
+          <ActivityIndicator  IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" Color="#244358"
+                              RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=.25,Constant=0}"
+                              RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.25,Constant=0}"
+                              RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=.5,Constant=0}"
+                              RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=.5,Constant=0}"
+                              
+          />
+
           <fab:FloatingActionButton
+            
+          IsVisible="{Binding IsBusy, Converter={StaticResource inverter}}"
 
           Source="ic_add_white_24dp.png"
 
@@ -284,37 +251,6 @@
       
       
     </TabbedPage.Children>
-
-
-
-  
-  <!--<StackLayout>
-    <Button Text="openRatePage" x:Name="openRatePage"></Button>
-    <Button Text="getRecommendations" x:Name="getRecommendationsBtn" />
-    <Button Text="getTop250" x:Name="getTop250"/>
-    <ListView x:Name="moviesListView" HasUnevenRows="True">
-      <ListView.ItemTemplate>
-        <DataTemplate>
-          <ViewCell>
-            <StackLayout BackgroundColor="Green">
-              <AbsoluteLayout HorizontalOptions="Center" AbsoluteLayout.LayoutFlags="All" WidthRequest="300"  HeightRequest="400">
-                <ActivityIndicator  AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="ActivityIndicator" IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" BindingContext="{x:Reference Name=img}"></ActivityIndicator>
-                <Image AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" x:Name="img" Source="{Binding ImdbImageUrl}" WidthRequest="300"  HeightRequest="400" HorizontalOptions="CenterAndExpand"></Image>
-              </AbsoluteLayout>
-
-              --><!--<AbsoluteLayout HorizontalOptions="Center">
-                --><!--
-              --><!--<ActivityIndicator  IsVisible="Image.IsLoading"  IsActive="True" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>--><!--
-              --><!--
-                <Image Source="{Binding ImdbImageUrl}" AbsoluteLayout.LayoutBounds="0,0,1,1"></Image>
-              </AbsoluteLayout>--><!--
-              <Label Text="{Binding Name}"/>
-            </StackLayout>
-          </ViewCell>
-        </DataTemplate>
-      </ListView.ItemTemplate>
-    </ListView>
-  </StackLayout>-->
 
 
 

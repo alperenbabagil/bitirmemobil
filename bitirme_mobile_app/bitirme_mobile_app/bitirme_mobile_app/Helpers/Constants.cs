@@ -12,7 +12,11 @@ namespace bitirme_mobile_app.Helpers
         {
             get
             {
-                return App.Current.Properties["serverIp"] as string;
+                if (App.Current.Properties.ContainsKey("serverIp"))
+                {
+                    return App.Current.Properties["serverIp"] as string;
+                }
+                return null;
             }
             set
             {

@@ -1,10 +1,8 @@
-# spark_home="F:\\bitirme\\spark-2.0.1-bin-hadoop2.7"
-# home_python="F:\\bitirme\\spark-2.0.1-bin-hadoop2.7\\python"
-# home_py4j="F:\\bitirme\\spark-2.0.1-bin-hadoop2.7\\python\\lib\\py4j-0.10.3-src.zip"
 
 spark_home="/Users/bilalemregulsen/Desktop/spark-2.1.0-bin-hadoop2.7"
 home_python="/Users/bilalemregulsen/Desktop/spark-2.1.0-bin-hadoop2.7/python"
 home_py4j="/Users/bilalemregulsen/Desktop/spark-2.1.0-bin-hadoop2.7/python/lib/py4j-0.10.4-src.zip"
+java_home="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home"
 
 
 # spark_home="C:\\Users\\alperen\\Desktop\\bitirmeyeni\\spark-2.1.1-bin-hadoop2.7"
@@ -14,7 +12,9 @@ home_py4j="/Users/bilalemregulsen/Desktop/spark-2.1.0-bin-hadoop2.7/python/lib/p
 app_id="db4e3be5-9a31-4843-ba4b-d513c7bdcd8e"
 
 data_path="/Users/bilalemregulsen/Desktop/data1m/"
-iteration=20
-iteration_array=[20]
-ranks_array = [12]
+checkpoint_path='/Users/bilalemregulsen/Desktop/checkpoint'
+
+
+iteration_array=[10,20]
+ranks_array = [4,8,12]
 lambdas_array=[0.1]

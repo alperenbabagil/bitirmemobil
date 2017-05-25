@@ -46,11 +46,17 @@ namespace bitirme_mobile_app.Pages
             //RatingMovieListView.RefreshCommand = new Command(fillListView);
         }
 
+        public void finishSelf()
+        {
+            // just wrong
+           ((MDPage) App.Current.MainPage).Detail.Navigation.PopAsync();
+        }
+
         //private async void fillListView()
         //{
         //    var ids = await new RestService().getTop250Ids();
         //    var movies = await new RestService().getMovieInfoFromWeb(ids, 30, 40);
-        //    var lvis = new List<MovieRateListViewItem>();
+        //    var lvis   = new List<MovieRateListViewItem>();
 
         //    foreach (var movie in movies)
         //    {

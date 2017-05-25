@@ -1,23 +1,13 @@
 import time, sys, cherrypy, os
+import Parameters
 
-import export as export
 from paste.translogger import TransLogger
 from app import create_app
 
 os.environ['PYSPARK_PYTHON'] = "python3"
-os.environ['JAVA_HOME'] = "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home"
+os.environ['JAVA_HOME'] = Parameters.java_home
 
-# os.environ["SPARK_HOME"] = "F:\\bitirme\\spark-2.0.1-bin-hadoop2.7"
-# sys.path.append("F:\\bitirme\\spark-2.0.1-bin-hadoop2.7\\python")
-# sys.path.append("F:\\bitirme\\spark-2.0.1-bin-hadoop2.7\\python\\lib\\py4j-0.10.3-src.zip")
 
-# os.environ["SPARK_HOME"] = "C:\\Users\\alperen\\Desktop\\bitirmeyeni\\spark-2.1.0-bin-hadoop2.7"
-# sys.path.append("C:\\Users\\alperen\\Desktop\\bitirmeyeni\\spark-2.1.0-bin-hadoop2.7\\python")
-# sys.path.append("C:\\Users\\alperen\\Desktop\\bitirmeyeni\\spark-2.1.0-bin-hadoop2.7\\python\\lib\\py4j-0.10.4-src.zip")
-#
-#
-
-import Parameters
 
 os.environ["SPARK_HOME"] = Parameters.spark_home
 sys.path.append(Parameters.home_python)
@@ -27,9 +17,7 @@ try:
     from pyspark import SparkContext
     from pyspark import SparkConf
     from pyspark.mllib.recommendation import ALS
-
-    print("success")
-
+    print("import success")
 except ImportError as exx:
     print(exx)
 
@@ -39,18 +27,14 @@ def init_spark_context():
     # words = sc.parallelize(["scala", "java", "hadoop", "spark", "akka"])
     # print(words.count())
 
+    sc=None
     # load spark context
     try:
         conf = SparkConf().setAppName("movie_recommendation-server").set("spark.executor.memory", "4g")
-        # conf = SparkConf().setAppName("movie_recommendation-server").setExecutorEnv('spark.executor.memory','2g')
-        sc = SparkContext(conf=conf, pyFiles=['engine.py', 'app.py'])
-        sc.setCheckpointDir('/Users/bilalemregulsen/Desktop/checkpoint')
-
+        sc = SparkContext(conf=conf, pyFiles=['recomm_engine.py', 'app.py'])
+        sc.setCheckpointDir(Parameters.checkpoint_path)
     except Exception as e:
         print(e)
-    # IMPORTANT: pass aditional Python modules to each worker
-
-
     return sc
 
 
@@ -75,15 +59,10 @@ def run_server(app):
 
 
 if __name__ == "__main__":
-    # Init spark context and load libraries
+
+    # Init spark context
     sc = init_spark_context()
-
-    # dataset_path = os.path.join('datasets', 'ml-latest')
-    # dataset_path = "F:\\bitirme\\bilal\\son\\MLlibSpark"
-    dataset_path = Parameters.data_path
-    app = create_app(sc, dataset_path)
-    # app = create_app(None,None)
-
+    app = create_app(sc)
     # start web server
     run_server(app)
 

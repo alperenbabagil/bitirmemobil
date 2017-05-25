@@ -39,7 +39,7 @@ namespace bitirme_mobile_app.Pages
 
             mpvm = new MainPageViewModel(this, recommendedMoviesList);
 
-            ToolbarItems.Add(new ToolbarItem() { Text="New", Icon = "ic_add_white_24dp.png", Command=new Command(openRateMoviePage) });
+            //ToolbarItems.Add(new ToolbarItem() { Text="New", Icon = "ic_add_white_24dp.png", Command=new Command(openRateMoviePage) });
 
             
             BindingContext = mpvm;

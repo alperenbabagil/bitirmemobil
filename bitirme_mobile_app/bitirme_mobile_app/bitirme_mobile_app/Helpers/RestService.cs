@@ -117,6 +117,7 @@ namespace bitirme_mobile_app.Helpers
             return null;
 
         }
+
         /// <summary>
         /// start and end indexes not checked. So they must be valid
         /// </summary>
@@ -124,6 +125,7 @@ namespace bitirme_mobile_app.Helpers
         /// <param name="startIndex"></param>
         /// <param name="endIndex"></param>
         /// <returns></returns>
+        /// 
         public async Task<List<Movie>> getMovieInfoFromWeb(List<string> ids)
         {
             List<Movie> movies = new List<Movie>();
@@ -160,7 +162,8 @@ namespace bitirme_mobile_app.Helpers
                             movie.Genres = new List<string>(((string)tmp.Genre).Split(','));
                             movie.ImdbImageUrl = (string)tmp.Poster;
                             //Rating= (JsonConvert.DeserializeObject<Ratings>(tmp.Ratings))
-                            movie.Rating = Double.Parse((string)tmp.imdbRating);
+                            var str = (string)tmp.imdbRating;
+                            movie.Rating = double.Parse((string)tmp.imdbRating, System.Globalization.CultureInfo.InvariantCulture);
                             movie.Year = tmp.Year;
                         }
                         catch(Exception e)
@@ -192,7 +195,6 @@ namespace bitirme_mobile_app.Helpers
             public string Source { get; set; }
             public string Value { get; set; }
         }
-
 
         public async Task<bool> checkUserIsCorrect(User user)
         {

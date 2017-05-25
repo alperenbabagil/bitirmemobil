@@ -1,4 +1,5 @@
 ﻿using bitirme_mobile_app.Helpers;
+using bitirme_mobile_app.Models;
 using bitirme_mobile_app.Pages;
 using bitirme_mobile_app.Views;
 using Rg.Plugins.Popup.Extensions;
@@ -11,7 +12,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
 
-namespace bitirme_mobile_app.Models
+namespace bitirme_mobile_app.Views
 {
     /// <summary>
     /// Viewmodel for Movie Rating page
@@ -157,6 +158,9 @@ namespace bitirme_mobile_app.Models
 
         //public ICommand openRateMoviePageCommand { get; private set; }
 
+        public static Command UnrateMovieCommand { get; private set; }
+
+
 
 
         public RateMoviePageViewModel(RatingMoviesPage rateMoviePage)
@@ -164,8 +168,15 @@ namespace bitirme_mobile_app.Models
             _rateMoviePage = rateMoviePage;
             MoviesToRateListViewRefreshCommand = new Command(getMoviesToRate);
             SendRecommendationRequestCommand = new Command(sendRecommendationRequest);
+            UnrateMovieCommand = new Command<MovieRateListViewItem>(unrateMovie);
             //MoviesToRateListViewItemClickCommand = new Command<MovieRateListViewItem>(movieToRateItemClick);
             //openRateMoviePageCommand = new Command(openRateMoviePage);
+        }
+
+        private void unrateMovie(MovieRateListViewItem item)
+        {
+            RatedMovies.Remove(item);
+            MoviesToRate.Add(item);
         }
 
         private void listViewItemClick(MovieRateListViewItem lvi)
@@ -180,6 +191,7 @@ namespace bitirme_mobile_app.Models
             if (ids == null)
             {
                 await _rateMoviePage.DisplayAlert("Info","Connection error","Ok");
+                _rateMoviePage.finishSelf();
                 return;
             }
             //filtering some movies
@@ -191,16 +203,17 @@ namespace bitirme_mobile_app.Models
                 }
             }
 
-
-            var randomIndexes = Enumerable.Range(1, 200).OrderBy(g => Guid.NewGuid()).Take(40).ToArray();
+            //generates random distinct indexes to get movies that will be rated.
+            var randomIndexes = Enumerable.Range(1, 200).OrderBy(g => Guid.NewGuid()).Take(30).ToArray();
             var idlist = new List<string>();
             foreach(var idx in randomIndexes)
             {
                 idlist.Add(ids[idx]);
             }
             var movies = await new RestService().getMovieInfoFromWeb(idlist);
-            var lvis = new List<MovieRateListViewItem>();
 
+            //filling listview 
+            var lvis = new List<MovieRateListViewItem>();
             foreach (var movie in movies)
             {
                 lvis.Add(new MovieRateListViewItem(this)

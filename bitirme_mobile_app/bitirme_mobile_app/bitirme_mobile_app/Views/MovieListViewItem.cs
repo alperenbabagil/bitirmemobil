@@ -38,5 +38,6 @@ namespace bitirme_mobile_app.Views
             return lvis;
         }
 
+
     }
 }
