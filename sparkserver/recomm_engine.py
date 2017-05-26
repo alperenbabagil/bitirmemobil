@@ -39,6 +39,8 @@ bestLambda = None
 bestNumIter = None
 training = None
 numPartitions = None
+test = None
+numTest = None
 
 
 def get_mvl_ids_from_imdb_ids(moviesDict):
@@ -70,6 +72,11 @@ def getRecommendations(ratingTuples, recommNumber):
 
     #training model according to user ratings with global best parameters
     bestModel = trainModel()
+
+    bestModelRmse = computeRmse(bestModel, test, numTest)
+    print("RMSE value according to the best model is: ")
+    print(bestModelRmse)
+
 
     #preventing rated moves to show as recommendation
     myRatedMovieIds = set([x[1] for x in ratingTuples])
@@ -139,6 +146,7 @@ def init(sparkContext):
     global bestRank,bestLambda,bestNumIter,numPartitions
     global training,ratings
     global myRatings
+    global numTest, test
 
     sc = sparkContext
 
@@ -207,6 +215,13 @@ def init(sparkContext):
             bestRank = rank
             bestLambda = lmbda
             bestNumIter = numIter
+
+    training = ratings.filter(lambda x: x[0] < 8) \
+        .values() \
+        .repartition(numPartitions) \
+        .cache()
+
+
 
     testRmse = computeRmse(bestModel, test, numTest)
 
