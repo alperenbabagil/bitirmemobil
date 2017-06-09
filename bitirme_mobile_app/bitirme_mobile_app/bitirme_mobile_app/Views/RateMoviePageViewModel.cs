@@ -156,6 +156,22 @@ namespace bitirme_mobile_app.Views
             }
         }
 
+        private ICommand _loadMoreCommand;
+
+        public ICommand LoadMoreCommand
+        {
+            get
+            {
+                return _loadMoreCommand;
+            }
+
+            set
+            {
+                _loadMoreCommand = value;
+                notifyProperty("LoadMoreCommand");
+            }
+        }
+
         //public ICommand openRateMoviePageCommand { get; private set; }
 
         public static Command UnrateMovieCommand { get; private set; }
@@ -169,8 +185,20 @@ namespace bitirme_mobile_app.Views
             MoviesToRateListViewRefreshCommand = new Command(getMoviesToRate);
             SendRecommendationRequestCommand = new Command(sendRecommendationRequest);
             UnrateMovieCommand = new Command<MovieRateListViewItem>(unrateMovie);
+            LoadMoreCommand = new Command(loadMoreFunction);
             //MoviesToRateListViewItemClickCommand = new Command<MovieRateListViewItem>(movieToRateItemClick);
             //openRateMoviePageCommand = new Command(openRateMoviePage);
+        }
+
+        private void loadMoreFunction()
+        {
+            if (!IsRefreshing)
+            {
+                IsRefreshing = true;
+                System.Diagnostics.Debug.WriteLine("last");
+                getMoviesToRate();
+            }
+            
         }
 
         private void unrateMovie(MovieRateListViewItem item)
@@ -204,7 +232,7 @@ namespace bitirme_mobile_app.Views
             }
 
             //generates random distinct indexes to get movies that will be rated.
-            var randomIndexes = Enumerable.Range(1, 200).OrderBy(g => Guid.NewGuid()).Take(30).ToArray();
+            var randomIndexes = Enumerable.Range(1, 200).OrderBy(g => Guid.NewGuid()).Take(Constants.MovieRateLimit).ToArray();
             var idlist = new List<string>();
             foreach(var idx in randomIndexes)
             {
@@ -221,7 +249,37 @@ namespace bitirme_mobile_app.Views
                     Movie = movie,
                 });
             }
+            //to prevent rate same movies
+            for(int i=lvis.Count-1;i>-1;i--)
+            {
+                foreach (var oldmovie in MoviesToRate)
+                {
+                    if(lvis.ElementAtOrDefault(i) != null)
+                    {
+                        if (lvis[i].Movie.ImdbId == oldmovie.Movie.ImdbId)
+                        {
+                            lvis.Remove(lvis[i]);
+                        }
+                    }
+                }
+            }
 
+            //to prevent rate same movies
+            for (int i = lvis.Count - 1; i > -1; i--)
+            {
+                foreach (var oldmovie in RatedMovies)
+                {
+                    if (lvis.ElementAtOrDefault(i) != null)
+                    {
+                        if (lvis[i].Movie.ImdbId == oldmovie.Movie.ImdbId)
+                        {
+                            lvis.Remove(lvis[i]);
+                        }
+                    }
+                }
+            }
+
+            //MoviesToRate.Clear();
             MoviesToRate.InsertRange(lvis);
             IsRefreshing = false;
         }

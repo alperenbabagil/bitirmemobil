@@ -21,9 +21,24 @@ namespace bitirme_mobile_app.Views
                 Constants.ip=value;
             }
         }
+
+        public int MovieRateLimit
+        {
+            get
+            {
+                return Constants.MovieRateLimit;
+            }
+            set
+            {
+                Constants.MovieRateLimit = value;
+            }
+        }
+
         public SettingsPageViewModel(SettingsPage page)
         {
 
         }
+
+        
     }
 }

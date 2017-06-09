@@ -19,7 +19,7 @@
   </pages:PopupPage.Animation>
   <!-- Content -->
   <StackLayout HeightRequest="200" Padding="10" BackgroundColor="White" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand">
-    <Label VerticalOptions="CenterAndExpand" Text="You did not get recommendations before" FontSize="20" HorizontalTextAlignment="Center"/>
-    <Button VerticalOptions="CenterAndExpand" x:Name="goToMovieRatePageButton" Text="Go to movie rate page"></Button>
+    <Label VerticalOptions="CenterAndExpand" Text="You did not get a recommendation before" FontSize="20" HorizontalTextAlignment="Center"/>
+    <Button VerticalOptions="CenterAndExpand" x:Name="goToMovieRatePageButton" Text="Go to movIe rate page"></Button>
   </StackLayout>
 </pages:PopupPage>

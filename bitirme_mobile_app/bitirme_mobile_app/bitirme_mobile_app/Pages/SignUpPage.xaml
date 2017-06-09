@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             Title="Sign Up"
+             Title="SIGN UP"
              x:Class="bitirme_mobile_app.Pages.SignUpPage">
   <AbsoluteLayout>
     <StackLayout>
@@ -15,7 +15,7 @@
           <Label Text="Password:"  WidthRequest="80" VerticalOptions="CenterAndExpand"/>
           <Entry x:Name="Password" Text="{Binding Password,Mode=TwoWay}" IsPassword="True" WidthRequest="150" VerticalOptions="CenterAndExpand"></Entry>
         </StackLayout>
-        <Button x:Name="signUpButton" Text="signUp" Command="{Binding sendSignupRequestCommand}"></Button>
+        <Button x:Name="signUpButton" Text="SIGN UP" Command="{Binding sendSignupRequestCommand}"></Button>
       </StackLayout>
 
     </StackLayout>

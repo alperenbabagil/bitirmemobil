@@ -16,7 +16,7 @@ namespace bitirme_mobile_app.Pages {
     public partial class RatingMoviesPage : global::Xamarin.Forms.TabbedPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.ListView MoviesToRateListView;
+        private global::bitirme_mobile_app.Views.InfiniteListView MoviesToRateListView;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.ListView RatedMoviesListView;
@@ -24,7 +24,7 @@ namespace bitirme_mobile_app.Pages {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(RatingMoviesPage));
-            MoviesToRateListView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "MoviesToRateListView");
+            MoviesToRateListView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::bitirme_mobile_app.Views.InfiniteListView>(this, "MoviesToRateListView");
             RatedMoviesListView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "RatedMoviesListView");
         }
     }

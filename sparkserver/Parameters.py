@@ -9,12 +9,12 @@ java_home="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home"
 # home_python="C:\\Users\\alperen\\Desktop\\bitirmeyeni\\spark-2.1.1-bin-hadoop2.7\\python"
 # home_py4j="C:\\Users\\alperen\\Desktop\\bitirmeyeni\\spark-2.1.1-bin-hadoop2.7\\python\\lib\\py4j-0.10.4-src.zip"
 
-app_id="db4e3be5-9a31-4843-ba4b-d513c7bdcd8e"
+app_id="b352c84d-892c-4366-980f-860f18ca5723"
 
 data_path="/Users/bilalemregulsen/Desktop/data1m/"
 checkpoint_path='/Users/bilalemregulsen/Desktop/checkpoint'
 
 
-iteration_array=[10,20]
-ranks_array = [4,8,12]
-lambdas_array=[0.1]
+iteration_array=[10]
+ranks_array = [4]
+lambdas_array=[1.0]

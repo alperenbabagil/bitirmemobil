@@ -98,6 +98,22 @@ namespace bitirme_mobile_app.Views
 
         private ICommand _logOutCommand;
         private ICommand _settingsCommand;
+        private ICommand _loadMoreCommand;
+
+
+        public ICommand LoadMoreCommand
+        {
+            get
+            {
+                return _loadMoreCommand;
+            }
+
+            set
+            {
+                _loadMoreCommand = value;
+                notifyProperty("LoadMoreCommand");
+            }
+        }
 
         private MDPage _mdPage;
 
@@ -125,6 +141,13 @@ namespace bitirme_mobile_app.Views
             Sessions = new RangeEnabledObservableCollection<RecommendationSession>();
             updateList();
             LogOutCommand = new Command(logOutFunction);
+            LoadMoreCommand = new Command(loadMoreFunction);
+            
+        }
+
+        private void loadMoreFunction()
+        {
+            System.Diagnostics.Debug.WriteLine("last");
         }
 
         private async void deleteItemFromMasterPageLv(RecommendationSession session)
@@ -144,6 +167,7 @@ namespace bitirme_mobile_app.Views
         {
             // TODO: will be removed from there
             _mdPage.openSettingsPage();
+            _mdPage.IsPresented = false;
         }
 
 
@@ -153,6 +177,10 @@ namespace bitirme_mobile_app.Views
             Sessions.Clear();
             var sessions = App.RecommendationSessionHolder.getSessions();
             sessions.Reverse();
+            Sessions.InsertRange(sessions);
+            Sessions.InsertRange(sessions);
+            Sessions.InsertRange(sessions);
+            Sessions.InsertRange(sessions);
             Sessions.InsertRange(sessions);
         }
 

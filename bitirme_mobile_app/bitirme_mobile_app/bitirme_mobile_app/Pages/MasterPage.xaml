@@ -22,12 +22,12 @@
     
     <StackLayout Grid.Row="1" Spacing="0">
       <StackLayout Spacing="0">
-        <Label Text="Previous Sessions" Font="25" TextColor="#012530" HorizontalOptions="CenterAndExpand"/>
+        <Label Text="PREVIOUS SESSIONS" Font="25" TextColor="#012530" HorizontalOptions="CenterAndExpand"/>
       </StackLayout>
       <!--<Label Text="Previous Sessions" HorizontalOptions="CenterAndExpand"  Font="18" BackgroundColor="#012530" TextColor="#FFD6A0"></Label>-->
-      <ListView x:Name="RecommendedMoviesListView" SelectedItem="{Binding SelectedRecSession}"  ItemsSource="{Binding Sessions}" AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All"
-       HasUnevenRows="True" CachingStrategy="RecycleElement" SeparatorColor="#012530">              
-        <ListView.ItemTemplate>
+      <views:InfiniteListView x:Name="RecommendedMoviesListView" SelectedItem="{Binding SelectedRecSession}"  ItemsSource="{Binding Sessions}" AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All"
+       HasUnevenRows="True"  SeparatorColor="#012530" LoadMoreCommand="{Binding LoadMoreCommand}">>              
+        <views:InfiniteListView.ItemTemplate>
           <DataTemplate>
             <ViewCell>
               <StackLayout Padding="10">            
@@ -49,12 +49,13 @@
             
             
           </DataTemplate>
-        </ListView.ItemTemplate>
-      </ListView>
+        </views:InfiniteListView.ItemTemplate>
+      </views:InfiniteListView>
 
-      <Button BackgroundColor="#28544B" TextColor="#FFD6A0"  Margin="0, 5, 0, 0"  Text="Settings" VerticalOptions="Fill" Command="{Binding SettingsCommand}"></Button>
-      <Button BackgroundColor="#28544B" TextColor="#FFD6A0"  Margin="0, 5, 0, 0"  Text="Logout" VerticalOptions="Fill" Command="{Binding LogOutCommand}"></Button>
-    </StackLayout>
+      <Button BackgroundColor="#28544B" TextColor="#FFD6A0"  Margin="0, 5, 0, 0"  Text="SETTINGS" VerticalOptions="Fill" Command="{Binding SettingsCommand}"></Button>
+      <Button BackgroundColor="#28544B" TextColor="#FFD6A0"  Margin="0, 5, 0, 0"  Text="LOG OUT" VerticalOptions="Fill" Command="{Binding LogOutCommand}"></Button>
+    
+  </StackLayout>
     
   </Grid>
 </ContentPage>

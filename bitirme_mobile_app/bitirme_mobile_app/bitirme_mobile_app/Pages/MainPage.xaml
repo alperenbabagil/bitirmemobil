@@ -22,7 +22,7 @@
 
     <TabbedPage.Children>
 
-      <ContentPage Title=" Recommended movies">
+      <ContentPage Title=" RECOMMENDED MOVIES">
         <RelativeLayout>
           <ListView x:Name="RecommendedMoviesListView" ItemsSource="{Binding RecommendedMovies}"
                     IsVisible="{Binding IsBusy, Converter={StaticResource inverter}}"
@@ -100,7 +100,7 @@
         </RelativeLayout>
       </ContentPage>
       
-      <ContentPage Title="{Binding RatedMovies.Count, StringFormat='Rated movies ({0})'}">
+      <ContentPage Title="{Binding RatedMovies.Count, StringFormat='RATED MOVIES ({0})'}">
 
         <RelativeLayout>
 

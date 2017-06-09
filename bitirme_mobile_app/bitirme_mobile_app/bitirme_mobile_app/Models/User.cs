@@ -10,6 +10,7 @@ namespace bitirme_mobile_app.Models
     {
         public string Username { get; set; }
         public string Password { get; set; }
+        //TODO: will be removed from here
         public string DeviceId { get; set; }
     }
 }

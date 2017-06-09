@@ -226,7 +226,9 @@ namespace bitirme_mobile_app.Helpers
                 try
                 {
                     client.BaseAddress = new Uri(baseUrl + "/" + path);
-                    if (App.CurrentUser != null) client.DefaultRequestHeaders.Add("userData", Newtonsoft.Json.JsonConvert.SerializeObject(App.CurrentUser));
+                    var user = App.CurrentUser;
+                    user.DeviceId = GeneralHelper.getDeviceId();
+                    if (App.CurrentUser != null) client.DefaultRequestHeaders.Add("userData", Newtonsoft.Json.JsonConvert.SerializeObject(user));
                     StringContent content = null;
                     if (jsonData != null) content = new StringContent(jsonData, Encoding.UTF8, "application/json");
                     HttpResponseMessage response = await client.PostAsync(client.BaseAddress, content);

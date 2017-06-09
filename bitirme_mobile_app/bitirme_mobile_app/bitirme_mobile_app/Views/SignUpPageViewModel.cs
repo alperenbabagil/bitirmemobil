@@ -56,12 +56,12 @@ namespace bitirme_mobile_app.Views
             sendSignupRequestCommand = new Command(sendSignupRequest);
         }
 
-        private async void sendSignupRequest()
+        private  void sendSignupRequest()
         {
             OneSignal.Current.IdsAvailable(IdsAvailable);
         }
 
-        private async void IdsAvailable(string userID, string pushToken)
+        private async void  IdsAvailable(string userID, string pushToken)
         {
 
             User user = new User { Username = Name, Password = Password, DeviceId = userID };

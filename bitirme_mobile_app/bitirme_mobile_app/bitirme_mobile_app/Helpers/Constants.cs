@@ -25,5 +25,26 @@ namespace bitirme_mobile_app.Helpers
             }
         }
 
+        public static int MovieRateLimit
+        {
+            get
+            {
+                if (App.Current.Properties.ContainsKey("MovieRateLimit"))
+                {
+                    return (int) App.Current.Properties["MovieRateLimit"];
+                }
+                else
+                {
+                    App.Current.Properties["MovieRateLimit"] = 10;
+                }
+                return 10;
+            }
+            set
+            {
+                //TODO: Not a best way
+                App.Current.Properties["MovieRateLimit"] = value;
+            }
+        }
+
     }
 }

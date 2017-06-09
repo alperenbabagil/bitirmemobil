@@ -41,6 +41,7 @@ training = None
 numPartitions = None
 test = None
 numTest = None
+id_genre = None
 
 
 def get_mvl_ids_from_imdb_ids(moviesDict):
@@ -60,7 +61,7 @@ def get_imdb_ids_from_mvl_ids(result):
 
 
 def getRecommendations(ratingTuples, recommNumber):
-    global movies,sc,bestModel,ratings,numPartitions,training
+    global movies,sc,bestModel,ratings,numPartitions,training,id_genre
     # ratingTuples eg: [(0,101,5.0),(0,102,5.0)]
 
     myRatingsRDD = sc.parallelize(ratingTuples, 1)
@@ -77,6 +78,27 @@ def getRecommendations(ratingTuples, recommNumber):
     print("RMSE value according to the best model is: ")
     print(bestModelRmse)
 
+    #detecting distinct genre counts
+    genre_count={}
+    for val in ratingTuples:
+        id=str(val[1])
+        if id in id_genre:
+            genres=id_genre[id]
+            for genre in genres:
+                if genre in genre_count:
+                    genre_count[genre] +=1
+                else:
+                    genre_count[genre]=1
+
+    for k in genre_count:
+        if genre_count[k] is not None:
+            f=recommNumber * (genre_count[k]/len(ratingTuples))
+            r=round(f)
+            i=int(r)
+            genre_count[k] = i
+
+
+
 
     #preventing rated moves to show as recommendation
     myRatedMovieIds = set([x[1] for x in ratingTuples])
@@ -85,21 +107,103 @@ def getRecommendations(ratingTuples, recommNumber):
     #predicting movies
     predictions = bestModel.predictAll(candidates.map(lambda x: (0, x))).collect()
 
+    sortedPreds=sorted(predictions, key=lambda x: x[2], reverse=True)
+
+    scoredList=[]
+
+    for i in range(recommNumber*5):
+        point=0;
+        if str(sortedPreds[i][1]) not in id_genre:
+            continue
+        #genres of predicted movie
+        genres=id_genre[str(sortedPreds[i][1])]
+        if genres is None:
+            continue
+        for genre2 in genres:
+            if genre2 in genre_count:
+                point+=genre_count[genre2]
+        scoredList.append((str(sortedPreds[i][1]),point))
+
+    scoredList.sort(key=lambda tup: tup[1],reverse=True)  # sorts in place
+
+    ids=[]
+    for val in scoredList:
+        ids.append(val[0])
+
+
+
+    #ids = sorted(scoredList.values(), reverse=True)
+
+
+    # ids=[]
+    #
+    #
+    # for pred in sortedPreds:
+    #     if str(pred[1]) not in id_genre:
+    #         continue
+    #     #genres of predicted movie
+    #     genres=id_genre[str(pred[1])]
+    #     if genres is None:
+    #         continue
+    #     hasNonZero = False
+    #     for dictKey in genre_count:
+    #         if genre_count[dictKey] is not 0:
+    #             hasNonZero = True
+    #             for genre in genres:
+    #                 if dictKey==genre:
+    #                     #decrementing from all genres of movie
+    #                     for genre2 in genres:
+    #                         if genre2 in genre_count and genre_count[genre2]>0:
+    #                             genre_count[genre2] -= 1
+    #                         if str(pred[1]) not in ids:
+    #                             ids.append(str(pred[1]))
+    #                     #reclist.append(pred[1])
+    #                     continue
+    #
+    #         # if dictKey in id_genre:
+    #         #     if genre_count[genre] is not 0:
+    #         #         genre_count[genre] -=1
+    #         #         hasNonZero=True
+    #         #         ids.append(pred)
+    #         #         continue
+    #     if not hasNonZero:
+    #         break;
+
+
+
+
+
+
+
+
     #sort predictions according to predicted ratings
-    recommendations = sorted(predictions, key=lambda x: x[2], reverse=True)[:recommNumber]
+    #recommendations = sorted(predictions, key=lambda x: x[2], reverse=True)[:recommNumber]
 
     #adding recommended movies to returning list
-    reclist=[]
+
+
     loopnum=recommNumber
-    ln=len(recommendations)
+    ln=len(ids)
     if ln<recommNumber:
         loopnum=ln
-    for i in range(loopnum):
-        reclist.append(str(recommendations[i][1]))
     print("Movies recommended for you:")
-    for i in range(len(recommendations)):
-        print("%2d: %s" % (i + 1, movies[recommendations[i][1]]))
-    return reclist
+    for i in range(loopnum):
+        gen=""
+        if ids[i] in id_genre:
+            gen=id_genre[ids[i]]
+        print("%2d: %s %s" % (i + 1, movies[int(ids[i])],gen))
+
+    print("Rated movies:")
+    index=1
+    for val in ratingTuples:
+        id=str(val[1])
+        gen=""
+        if id in id_genre:
+            gen = id_genre[id]
+        if int(id) in movies:
+            print("%d - %s %s" % (index,movies[int(id)], gen))
+        index+=1
+    return ids[:recommNumber]
 
 def closeEngine():
     global sc
@@ -112,6 +216,10 @@ def parseRating(line):
     fields = line.strip().split("::")
     ret= int(fields[3]) % 10, (int(fields[0]), int(fields[1]), float(fields[2]))
     return int(fields[3]) % 10, (int(fields[0]), int(fields[1]), float(fields[2]))
+
+def parseMovieTitleGenre(line):
+    fields = line.strip().split("::")
+    return int(fields[0]), fields[2]
 
 def parseMovie(line):
     """
@@ -147,6 +255,7 @@ def init(sparkContext):
     global training,ratings
     global myRatings
     global numTest, test
+    global id_genre
 
     sc = sparkContext
 
@@ -158,6 +267,23 @@ def init(sparkContext):
     # movies is an RDD of (movieId, movieTitle)
     movies= dict(sc.textFile(Parameters.data_path+'movies.csv').map(parseMovie).collect())
 
+    #moviesGenres= dict(sc.textFile(Parameters.data_path+'movies.csv').map(parseMovieTitleGenre()).collect())
+
+    # movie genres
+    id_genre = {}
+    file = open(os.path.join(Parameters.data_path, 'movies.csv'), encoding = "ISO-8859-1")
+
+
+    for line in file:
+        genres = []
+        fields = line.split("::")
+        genre=fields[2]
+        if "|" in genre:
+            genre=genre.split("|")
+            genre[-1]=genre[-1].replace("\n","")
+        else:
+            genre=[genre.replace("\n","")]
+        id_genre[fields[0]] = genre
 
     numRatings = ratings.count()
     numUsers = ratings.values().map(lambda r: r[0]).distinct().count()
@@ -247,12 +373,17 @@ def init(sparkContext):
     id_link = {}
     id_link_imdb_to_mvl = {}
 
+
+
     # to convert ids between movielens and imdb
     file = open(os.path.join(Parameters.data_path, 'links.csv'), 'r')
     for line in file:
         ids = line.split(",")
         id_link[ids[0]] = ids[1]
         id_link_imdb_to_mvl[ids[1]] = ids[0]
+
+
+
 
     # Load movies data for later use
     print("Loading Movies data...")

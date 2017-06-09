@@ -84,6 +84,7 @@
     <Compile Include="Views\GoToMovieRatePagePopup.xaml.cs">
       <DependentUpon>GoToMovieRatePagePopup.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\InfiniteListView.cs" />
     <Compile Include="Views\LoginPageViewModel.cs" />
     <Compile Include="Views\MasterPageViewModel.cs" />
     <Compile Include="Views\RateMoviePageViewModel.cs" />

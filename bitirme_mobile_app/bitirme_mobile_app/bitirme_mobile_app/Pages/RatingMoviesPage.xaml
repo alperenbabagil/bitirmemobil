@@ -19,10 +19,10 @@
 
   <TabbedPage.Children>
     
-    <ContentPage Title="Movies to rate">
+    <ContentPage Title="MOVIES TO RATE">
       <StackLayout>
-        <ListView x:Name="MoviesToRateListView" IsRefreshing="{Binding IsRefreshing}" ItemsSource="{Binding MoviesToRate}" IsPullToRefreshEnabled="True"
-                  RefreshCommand="{Binding MoviesToRateListViewRefreshCommand}" SelectedItem="{Binding MoviesToRateLVSelectedItem}" HasUnevenRows="True" CachingStrategy="RecycleElement">
+        <views:InfiniteListView x:Name="MoviesToRateListView" IsRefreshing="{Binding IsRefreshing}" ItemsSource="{Binding MoviesToRate}" IsPullToRefreshEnabled="True"
+                  RefreshCommand="{Binding MoviesToRateListViewRefreshCommand}" SelectedItem="{Binding MoviesToRateLVSelectedItem}" HasUnevenRows="True" LoadMoreCommand="{Binding LoadMoreCommand}" >
           <ListView.ItemTemplate>
             <DataTemplate>
               <ViewCell>
@@ -95,11 +95,11 @@
               </ViewCell>
             </DataTemplate>
           </ListView.ItemTemplate>
-        </ListView>
+        </views:InfiniteListView>
       </StackLayout>
     </ContentPage>
 
-    <ContentPage Title="{Binding RatedMovies.Count, StringFormat='Rated movies ({0})'}">
+    <ContentPage Title="{Binding RatedMovies.Count, StringFormat='RATED MOVIES ({0})'}">
 
       <RelativeLayout>
 

@@ -23,8 +23,8 @@
           <Label Text="Password:"  WidthRequest="80" VerticalOptions="CenterAndExpand"/>
           <Entry x:Name="Password" IsPassword="True" Text="{Binding Password,Mode=TwoWay}" WidthRequest="150" VerticalOptions="CenterAndExpand"></Entry>
         </StackLayout>
-        <Button x:Name="logInButton" Text="Log in" Command="{Binding sendLoginRequestCommand}"></Button>
-        <Button x:Name="signUpButton" Text="Sign up" Command="{Binding openSignupPageCommand}"></Button>
+        <Button x:Name="logInButton" Text="LOG In" Command="{Binding sendLoginRequestCommand}"></Button>
+        <Button x:Name="signUpButton" Text="SIGN UP" Command="{Binding openSignupPageCommand}"></Button>
       </StackLayout>
       
     </StackLayout>

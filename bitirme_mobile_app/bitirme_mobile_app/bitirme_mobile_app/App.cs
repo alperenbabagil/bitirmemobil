@@ -46,7 +46,7 @@ namespace bitirme_mobile_app
 
             try
             {
-                OneSignal.Current.StartInit("db4e3be5-9a31-4843-ba4b-d513c7bdcd8e")
+                OneSignal.Current.StartInit("b352c84d-892c-4366-980f-860f18ca5723")
                     .HandleNotificationReceived(HandleNotificationReceived)
                     .HandleNotificationOpened(HandleNotificationOpened)
                     
@@ -58,6 +58,9 @@ namespace bitirme_mobile_app
             }
 
             
+
+
+
         }
 
         private static void HandleNotificationReceived(OSNotification notification)

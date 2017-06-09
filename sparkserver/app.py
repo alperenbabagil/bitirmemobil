@@ -57,17 +57,47 @@ RecThread = None
 @main.route("/recommendation_request", methods=["POST"])
 def recommendation_request():
     global RecThread
-    user_data = json.loads(request.headers['userData'])
-    dev_id = user_data["DeviceId"]
 
-    auth_res = auth_user(user_data)
+    session_id = 0  #########
+    dev_id = '10acbfd9-20c2-4305-aff8-7290cab21972'  ###########
+    auth_res = True  ###########
+
+    try:
+        user_data = json.loads(request.headers['userData'])
+        auth_res = auth_user(user_data)
+    except Exception as e:
+        print(e)
+
     if auth_res:
         reqJson = request.get_json(silent=True)
-        movies = reqJson["pairs"]
+        movies=None
+        try:
+            dev_id = user_data["DeviceId"]
+            movies = reqJson["pairs"]
+            session_id = reqJson["sessionId"]
+        except Exception as e:
+            print(e)
 
+
+        if movies is None:
+            #comedy
+            movies = {
+                '0109830': 5.0,
+                '0027977': 5.0,
+                '0211915': 5.0,
+                '0088763': 5.0,
+                '0449059': 5.0,
+                '0012349': 5.0,
+                '2278388': 5.0,
+                '0053291': 5.0,
+                '0032553': 5.0,
+                '2562232': 5.0,
+            }
         movies = recomm_engine.get_mvl_ids_from_imdb_ids(movies)
 
-        session_id = reqJson["sessionId"]
+
+
+
         # user_id_to_add=recomm_engine.get_last_user_id()
         user_id_to_add = 0
         tuples = []
@@ -82,6 +112,7 @@ def recommendation_request():
 
 def startRecommendation(user_id, tuples, dev_id, session_id):
     # region live
+
 
     top_ratings = recomm_engine.getRecommendations(tuples, 15)
     imdb_ids = recomm_engine.get_imdb_ids_from_mvl_ids(top_ratings)
